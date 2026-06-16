@@ -3,20 +3,38 @@ info:
   # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: JISHLink workforce management API
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: auth
+    description: Authentication
+  - name: employees
+    description: Employee management
+  - name: workplaces
+    description: Workplace management
+  - name: attendance
+    description: Attendance logs
+  - name: absence
+    description: Absence notes
+  - name: submissions
+    description: Pending submissions
+  - name: notifications
+    description: Notifications
+  - name: dashboard
+    description: Dashboard aggregates
+  - name: intake
+    description: Google Form webhook
+
 paths:
   /healthz:
     get:
       operationId: healthCheck
       tags: [health]
       summary: Health check
-      description: Returns server health status
       responses:
         "200":
           description: Healthy
@@ -24,6 +42,462 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /auth/login:
+    post:
+      operationId: login
+      tags: [auth]
+      summary: Login with username and password
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LoginRequest"
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuthLoginResponse"
+        "401":
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /auth/change-password:
+    post:
+      operationId: changePassword
+      tags: [auth]
+      summary: Change password
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ChangePasswordRequest"
+      responses:
+        "200":
+          description: Password changed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MessageResponse"
+
+  /auth/me:
+    get:
+      operationId: getMe
+      tags: [auth]
+      summary: Get current user profile
+      responses:
+        "200":
+          description: Current user
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Employee"
+
+  /dashboard/admin:
+    get:
+      operationId: getAdminDashboard
+      tags: [dashboard]
+      summary: Admin dashboard stats
+      responses:
+        "200":
+          description: Dashboard data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AdminDashboard"
+
+  /dashboard/recruiter:
+    get:
+      operationId: getRecruiterDashboard
+      tags: [dashboard]
+      summary: Recruiter team overview
+      responses:
+        "200":
+          description: Recruiter dashboard
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RecruiterDashboard"
+
+  /employees:
+    get:
+      operationId: listEmployees
+      tags: [employees]
+      summary: List employees
+      parameters:
+        - name: search
+          in: query
+          schema:
+            type: string
+        - name: status
+          in: query
+          schema:
+            type: string
+        - name: workplace_id
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: List of employees
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Employee"
+    post:
+      operationId: createEmployee
+      tags: [employees]
+      summary: Create a new employee
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateEmployeeRequest"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Employee"
+
+  /employees/{id}:
+    get:
+      operationId: getEmployee
+      tags: [employees]
+      summary: Get employee by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Employee
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Employee"
+    put:
+      operationId: updateEmployee
+      tags: [employees]
+      summary: Update employee
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateEmployeeRequest"
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Employee"
+
+  /workplaces:
+    get:
+      operationId: listWorkplaces
+      tags: [workplaces]
+      summary: List all workplaces
+      responses:
+        "200":
+          description: Workplaces
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Workplace"
+    post:
+      operationId: createWorkplace
+      tags: [workplaces]
+      summary: Create workplace
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateWorkplaceRequest"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Workplace"
+
+  /attendance:
+    post:
+      operationId: logAttendance
+      tags: [attendance]
+      summary: Log attendance (login or signoff)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LogAttendanceRequest"
+      responses:
+        "201":
+          description: Logged
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AttendanceLog"
+
+  /attendance/my:
+    get:
+      operationId: getMyAttendance
+      tags: [attendance]
+      summary: Get my attendance logs
+      parameters:
+        - name: days
+          in: query
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: My attendance logs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/AttendanceLog"
+
+  /attendance/today-status:
+    get:
+      operationId: getTodayStatus
+      tags: [attendance]
+      summary: Get today's login/signoff status for current user
+      responses:
+        "200":
+          description: Today status
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TodayStatus"
+
+  /absence-notes:
+    post:
+      operationId: createAbsenceNote
+      tags: [absence]
+      summary: Create absence note
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateAbsenceNoteRequest"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AbsenceNote"
+
+  /submissions:
+    get:
+      operationId: listSubmissions
+      tags: [submissions]
+      summary: List pending submissions
+      parameters:
+        - name: status
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Submissions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/PendingSubmission"
+
+  /submissions/{id}/approve:
+    post:
+      operationId: approveSubmission
+      tags: [submissions]
+      summary: Approve a submission and create employee
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApproveSubmissionRequest"
+      responses:
+        "200":
+          description: Approved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Employee"
+
+  /submissions/{id}/reject:
+    post:
+      operationId: rejectSubmission
+      tags: [submissions]
+      summary: Reject a submission
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RejectSubmissionRequest"
+      responses:
+        "200":
+          description: Rejected
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MessageResponse"
+
+  /notifications:
+    get:
+      operationId: listNotifications
+      tags: [notifications]
+      summary: List notifications for current user
+      responses:
+        "200":
+          description: Notifications
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Notification"
+
+  /notifications/{id}/read:
+    post:
+      operationId: markNotificationRead
+      tags: [notifications]
+      summary: Mark notification as read
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Marked
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MessageResponse"
+
+  /intake:
+    post:
+      operationId: intakeSubmission
+      tags: [intake]
+      summary: Google Form intake webhook
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/IntakeRequest"
+      responses:
+        "200":
+          description: Received
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MessageResponse"
+
+  /employees/import:
+    post:
+      operationId: importEmployees
+      tags: [employees]
+      summary: Bulk import employees from parsed Excel rows
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ImportEmployeesRequest"
+      responses:
+        "200":
+          description: Import result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ImportResult"
+
+  /employees/{id}/reassign:
+    post:
+      operationId: reassignEmployee
+      tags: [employees]
+      summary: Reassign employee to a different workplace
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReassignRequest"
+      responses:
+        "200":
+          description: Reassigned
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Employee"
+
+  /recruiter-oversight:
+    get:
+      operationId: getRecruiterOversight
+      tags: [dashboard]
+      summary: Admin view of all recruiters with their team stats
+      responses:
+        "200":
+          description: Recruiter oversight data
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/RecruiterStats"
+
 components:
   schemas:
     HealthStatus:
@@ -31,6 +505,662 @@ components:
       properties:
         status:
           type: string
-      required:
-        - status
+      required: [status]
 
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required: [error]
+
+    MessageResponse:
+      type: object
+      properties:
+        message:
+          type: string
+      required: [message]
+
+    LoginRequest:
+      type: object
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+      required: [username, password]
+
+    AuthLoginResponse:
+      type: object
+      properties:
+        token:
+          type: string
+        employee:
+          $ref: "#/components/schemas/Employee"
+        passwordChanged:
+          type: boolean
+      required: [token, employee, passwordChanged]
+
+    ChangePasswordRequest:
+      type: object
+      properties:
+        currentPassword:
+          type: string
+        newPassword:
+          type: string
+      required: [currentPassword, newPassword]
+
+    Employee:
+      type: object
+      properties:
+        id:
+          type: string
+        employee_code:
+          type: string
+        full_name:
+          type: string
+        dob:
+          type: string
+          nullable: true
+        gender:
+          type: string
+          nullable: true
+        aadhar_number:
+          type: string
+          nullable: true
+        pan_number:
+          type: string
+          nullable: true
+        qualification:
+          type: string
+          nullable: true
+        marital_status:
+          type: string
+          nullable: true
+        blood_group:
+          type: string
+          nullable: true
+        contact_number:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        address:
+          type: string
+          nullable: true
+        emergency_contact:
+          type: string
+          nullable: true
+        nominee_name:
+          type: string
+          nullable: true
+        nominee_relation:
+          type: string
+          nullable: true
+        designation:
+          type: string
+          nullable: true
+        workplace_id:
+          type: string
+          nullable: true
+        workplace:
+          $ref: "#/components/schemas/Workplace"
+          nullable: true
+        date_of_joining:
+          type: string
+          nullable: true
+        date_of_leaving:
+          type: string
+          nullable: true
+        employment_status:
+          type: string
+          nullable: true
+        employment_type:
+          type: string
+          nullable: true
+        reporting_manager_id:
+          type: string
+          nullable: true
+        pf_number:
+          type: string
+          nullable: true
+        esi_number:
+          type: string
+          nullable: true
+        uan_number:
+          type: string
+          nullable: true
+        bank_name:
+          type: string
+          nullable: true
+        bank_branch:
+          type: string
+          nullable: true
+        account_number:
+          type: string
+          nullable: true
+        ifsc_code:
+          type: string
+          nullable: true
+        driving_license_number:
+          type: string
+          nullable: true
+        vehicle_details:
+          type: string
+          nullable: true
+        photo_url:
+          type: string
+          nullable: true
+        username:
+          type: string
+          nullable: true
+        role:
+          type: string
+          nullable: true
+        password_changed:
+          type: boolean
+          nullable: true
+        created_at:
+          type: string
+          nullable: true
+      required: [id, employee_code, full_name]
+
+    CreateEmployeeRequest:
+      type: object
+      properties:
+        full_name:
+          type: string
+        employee_code:
+          type: string
+        dob:
+          type: string
+          nullable: true
+        gender:
+          type: string
+          nullable: true
+        aadhar_number:
+          type: string
+          nullable: true
+        pan_number:
+          type: string
+          nullable: true
+        qualification:
+          type: string
+          nullable: true
+        marital_status:
+          type: string
+          nullable: true
+        blood_group:
+          type: string
+          nullable: true
+        contact_number:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        address:
+          type: string
+          nullable: true
+        emergency_contact:
+          type: string
+          nullable: true
+        nominee_name:
+          type: string
+          nullable: true
+        nominee_relation:
+          type: string
+          nullable: true
+        designation:
+          type: string
+          nullable: true
+        workplace_id:
+          type: string
+          nullable: true
+        date_of_joining:
+          type: string
+          nullable: true
+        employment_type:
+          type: string
+          nullable: true
+        reporting_manager_id:
+          type: string
+          nullable: true
+        pf_number:
+          type: string
+          nullable: true
+        esi_number:
+          type: string
+          nullable: true
+        uan_number:
+          type: string
+          nullable: true
+        bank_name:
+          type: string
+          nullable: true
+        bank_branch:
+          type: string
+          nullable: true
+        account_number:
+          type: string
+          nullable: true
+        ifsc_code:
+          type: string
+          nullable: true
+        driving_license_number:
+          type: string
+          nullable: true
+        vehicle_details:
+          type: string
+          nullable: true
+        photo_url:
+          type: string
+          nullable: true
+        username:
+          type: string
+          nullable: true
+        password:
+          type: string
+          nullable: true
+        role:
+          type: string
+          nullable: true
+      required: [full_name, employee_code]
+
+    UpdateEmployeeRequest:
+      type: object
+      properties:
+        full_name:
+          type: string
+          nullable: true
+        dob:
+          type: string
+          nullable: true
+        gender:
+          type: string
+          nullable: true
+        qualification:
+          type: string
+          nullable: true
+        marital_status:
+          type: string
+          nullable: true
+        blood_group:
+          type: string
+          nullable: true
+        contact_number:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        address:
+          type: string
+          nullable: true
+        emergency_contact:
+          type: string
+          nullable: true
+        nominee_name:
+          type: string
+          nullable: true
+        nominee_relation:
+          type: string
+          nullable: true
+        designation:
+          type: string
+          nullable: true
+        workplace_id:
+          type: string
+          nullable: true
+        date_of_joining:
+          type: string
+          nullable: true
+        date_of_leaving:
+          type: string
+          nullable: true
+        employment_status:
+          type: string
+          nullable: true
+        employment_type:
+          type: string
+          nullable: true
+        reporting_manager_id:
+          type: string
+          nullable: true
+        pf_number:
+          type: string
+          nullable: true
+        esi_number:
+          type: string
+          nullable: true
+        uan_number:
+          type: string
+          nullable: true
+        bank_name:
+          type: string
+          nullable: true
+        bank_branch:
+          type: string
+          nullable: true
+        account_number:
+          type: string
+          nullable: true
+        ifsc_code:
+          type: string
+          nullable: true
+        driving_license_number:
+          type: string
+          nullable: true
+        vehicle_details:
+          type: string
+          nullable: true
+        photo_url:
+          type: string
+          nullable: true
+        role:
+          type: string
+          nullable: true
+
+    Workplace:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        client_name:
+          type: string
+          nullable: true
+        address:
+          type: string
+          nullable: true
+        latitude:
+          type: number
+          nullable: true
+        longitude:
+          type: number
+          nullable: true
+      required: [id, name]
+
+    CreateWorkplaceRequest:
+      type: object
+      properties:
+        name:
+          type: string
+        client_name:
+          type: string
+          nullable: true
+        address:
+          type: string
+          nullable: true
+        latitude:
+          type: number
+          nullable: true
+        longitude:
+          type: number
+          nullable: true
+      required: [name]
+
+    AttendanceLog:
+      type: object
+      properties:
+        id:
+          type: string
+        employee_id:
+          type: string
+        type:
+          type: string
+        timestamp:
+          type: string
+        latitude:
+          type: number
+          nullable: true
+        longitude:
+          type: number
+          nullable: true
+        resolved_address:
+          type: string
+          nullable: true
+      required: [id, employee_id, type, timestamp]
+
+    LogAttendanceRequest:
+      type: object
+      properties:
+        type:
+          type: string
+        latitude:
+          type: number
+          nullable: true
+        longitude:
+          type: number
+          nullable: true
+        resolved_address:
+          type: string
+          nullable: true
+      required: [type]
+
+    TodayStatus:
+      type: object
+      properties:
+        logged_in:
+          type: boolean
+        signed_off:
+          type: boolean
+        login_time:
+          type: string
+          nullable: true
+        signoff_time:
+          type: string
+          nullable: true
+        login_address:
+          type: string
+          nullable: true
+      required: [logged_in, signed_off]
+
+    AbsenceNote:
+      type: object
+      properties:
+        id:
+          type: string
+        employee_id:
+          type: string
+        date:
+          type: string
+        recruiter_id:
+          type: string
+        reason:
+          type: string
+        notes:
+          type: string
+          nullable: true
+        created_at:
+          type: string
+      required: [id, employee_id, date, recruiter_id, reason, created_at]
+
+    CreateAbsenceNoteRequest:
+      type: object
+      properties:
+        employee_id:
+          type: string
+        date:
+          type: string
+        reason:
+          type: string
+        notes:
+          type: string
+          nullable: true
+      required: [employee_id, date, reason]
+
+    PendingSubmission:
+      type: object
+      properties:
+        id:
+          type: string
+        source:
+          type: string
+        submitted_data:
+          type: object
+          additionalProperties: true
+        validation_results:
+          type: object
+          additionalProperties: true
+          nullable: true
+        status:
+          type: string
+        admin_remarks:
+          type: string
+          nullable: true
+        submitted_at:
+          type: string
+      required: [id, source, submitted_data, status, submitted_at]
+
+    ApproveSubmissionRequest:
+      type: object
+      properties:
+        workplace_id:
+          type: string
+        reporting_manager_id:
+          type: string
+        username:
+          type: string
+        password:
+          type: string
+        designation:
+          type: string
+          nullable: true
+      required: [workplace_id, reporting_manager_id, username, password]
+
+    RejectSubmissionRequest:
+      type: object
+      properties:
+        remarks:
+          type: string
+      required: [remarks]
+
+    Notification:
+      type: object
+      properties:
+        id:
+          type: string
+        user_id:
+          type: string
+        message:
+          type: string
+        read:
+          type: boolean
+        created_at:
+          type: string
+      required: [id, user_id, message, read, created_at]
+
+    AdminDashboard:
+      type: object
+      properties:
+        total_employees:
+          type: integer
+        active_employees:
+          type: integer
+        pending_approvals:
+          type: integer
+        today_sign_ins:
+          type: integer
+        absent_today:
+          type: integer
+        unread_notifications:
+          type: integer
+      required: [total_employees, active_employees, pending_approvals, today_sign_ins, absent_today, unread_notifications]
+
+    RecruiterDashboard:
+      type: object
+      properties:
+        team_count:
+          type: integer
+        signed_in_today:
+          type: integer
+        not_signed_in:
+          type: integer
+        employees:
+          type: array
+          items:
+            $ref: "#/components/schemas/EmployeeAttendanceStatus"
+      required: [team_count, signed_in_today, not_signed_in, employees]
+
+    EmployeeAttendanceStatus:
+      type: object
+      properties:
+        employee:
+          $ref: "#/components/schemas/Employee"
+        logged_in:
+          type: boolean
+        signed_off:
+          type: boolean
+        login_time:
+          type: string
+          nullable: true
+        signoff_time:
+          type: string
+          nullable: true
+        login_address:
+          type: string
+          nullable: true
+      required: [employee, logged_in, signed_off]
+
+    RecruiterStats:
+      type: object
+      properties:
+        recruiter:
+          $ref: "#/components/schemas/Employee"
+        total_employees:
+          type: integer
+        signed_in_today:
+          type: integer
+        not_signed_in_today:
+          type: integer
+        absence_notes_this_month:
+          type: integer
+        reassignments_this_month:
+          type: integer
+      required: [recruiter, total_employees, signed_in_today, not_signed_in_today, absence_notes_this_month, reassignments_this_month]
+
+    IntakeRequest:
+      type: object
+      properties:
+        source:
+          type: string
+        submittedAt:
+          type: string
+        data:
+          type: object
+          additionalProperties: true
+      required: [source, data]
+
+    ImportEmployeesRequest:
+      type: object
+      properties:
+        rows:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+      required: [rows]
+
+    ImportResult:
+      type: object
+      properties:
+        success_count:
+          type: integer
+        error_count:
+          type: integer
+        errors:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+      required: [success_count, error_count, errors]
+
+    ReassignRequest:
+      type: object
+      properties:
+        workplace_id:
+          type: string
+      required: [workplace_id]

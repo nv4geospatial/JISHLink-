@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "JISHLink"
+version = "1.0.0"
+id = "artifacts/jishlink"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 20038
+
+[services.development]
+run = "pnpm --filter @workspace/jishlink run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/jishlink", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/jishlink", "run", "serve" ]
+
+[services.env]
+PORT = "20038"
+BASE_PATH = "/"

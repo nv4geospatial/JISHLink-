@@ -1,0 +1,2 @@
+- [JISHLink Orval naming](jishlink-orval-naming.md) — `LoginResponse` schema name causes Orval type conflict; must stay `AuthLoginResponse`
+- [JISHLink Expo packages](jishlink-expo-packages.md) — All Expo/RN packages must be in devDependencies; dependencies{} should be empty
