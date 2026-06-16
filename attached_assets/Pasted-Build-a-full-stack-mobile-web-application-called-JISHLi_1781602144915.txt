@@ -1,0 +1,301 @@
+Build a full-stack mobile + web application called "JISHLink" for 
+JISHLink Consulting India Private Limited — a workforce staffing and 
+manpower management system. The app must run on Android, iOS, and as a 
+desktop web app from a single codebase.
+
+TECH STACK (follow exactly):
+- React Native + Expo SDK (latest stable) with Expo Router for 
+  file-based navigation
+- NativeWind for styling (Tailwind CSS syntax in React Native)
+- Supabase for database (Postgres), authentication, and file storage
+- expo-location for GPS capture
+- expo-document-picker and expo-image-picker for file/photo uploads
+- react-native-qrcode-svg for QR code display
+- xlsx (SheetJS) for Excel import/export
+- expo-file-system + expo-sharing for file downloads on mobile
+- Nodemailer (in a lightweight Express server running alongside) OR 
+  Resend SDK for transactional email
+- OpenStreetMap Nominatim API for free reverse geocoding (no API key)
+- No SMS, no OTP, no paid services anywhere
+
+BRAND COLORS (apply via NativeWind / tailwind.config.js):
+  navy: '#002F5D'      — primary buttons, headers, nav bar
+  teal: '#0080A7'      — secondary/active states, link colors
+  gold: '#FFBE58'      — CTA buttons, badges, highlights
+  bronze: '#7B4C16'    — pressed/hover states, borders
+  offwhite: '#F7F7F7'  — screen background
+  white: '#FFFFFF'     — cards and panels
+
+FONTS (via @expo-google-fonts):
+  Poppins (700 bold) — all headings and nav labels
+  Inter (400/500) — all body text, form labels, data values
+
+Logo file is at /assets/images/logo.jpeg — display it on the login 
+screen and in the nav header.
+
+ROLES AND HIERARCHY:
+  Admin → oversees all Recruiters and Employees
+  Recruiter → monitors only their assigned Employees
+  Employee → uses the app daily for login/sign-off
+
+ENVIRONMENT VARIABLES (read all from process.env):
+  SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY,
+  JWT_SECRET, RESEND_API_KEY
+
+DATABASE (create this exact schema in Supabase via migrations):
+
+  workplaces: id (UUID PK), name, client_name, address, latitude, 
+    longitude
+
+  employees: id (UUID PK), employee_code (unique), full_name, dob, 
+    gender, aadhar_number (unique), pan_number (unique), qualification,
+    marital_status, blood_group, contact_number, email, address,
+    emergency_contact, nominee_name, nominee_relation, designation,
+    workplace_id (FK workplaces), date_of_joining, date_of_leaving,
+    employment_status (pending/active/inactive/terminated),
+    employment_type, reporting_manager_id (FK employees — the recruiter),
+    pf_number, esi_number, uan_number, bank_name, bank_branch,
+    account_number, ifsc_code, driving_license_number, vehicle_details,
+    photo_url, aadhar_doc_url, pan_doc_url, bank_doc_url,
+    username (unique), password_hash, created_by, created_at, updated_at
+
+  pending_submissions: id (UUID PK), source (google_form/manual),
+    submitted_data (JSONB), status (submitted/under_review/approved/
+    rejected), admin_remarks, submitted_at
+
+  attendance_logs: id, employee_id (FK), type (login/signoff),
+    timestamp, latitude, longitude, resolved_address
+
+  absence_notes: id, employee_id (FK), date, recruiter_id (FK), 
+    reason, notes, created_at
+
+  audit_logs: id, actor_id, action, target_table, target_id,
+    old_value (JSONB), new_value (JSONB), timestamp
+
+  notifications: id, user_id, message, read (boolean, default false),
+    created_at
+
+FILE STRUCTURE (Expo Router):
+  app/(auth)/login.tsx
+  app/(admin)/_layout.tsx
+  app/(admin)/dashboard.tsx
+  app/(admin)/employees/index.tsx
+  app/(admin)/employees/add.tsx
+  app/(admin)/employees/[id].tsx
+  app/(admin)/import.tsx
+  app/(admin)/review-queue.tsx
+  app/(admin)/qr-settings.tsx
+  app/(admin)/recruiter-oversight.tsx
+  app/(recruiter)/_layout.tsx
+  app/(recruiter)/dashboard.tsx
+  app/(recruiter)/absence-note.tsx
+  app/(recruiter)/reassign.tsx
+  app/(employee)/_layout.tsx
+  app/(employee)/dashboard.tsx
+  app/(employee)/attendance.tsx
+  lib/supabase.ts
+  lib/validation.ts
+  lib/geocode.ts
+  constants/theme.ts
+  server/index.js  (Express — handles /api/intake webhook + email)
+
+FEATURE SPECIFICATIONS:
+
+1. SHARED LOGIN (app/(auth)/login.tsx)
+   - Single screen for all three roles
+   - Username + password fields with show/hide toggle
+   - On login: fetch employee record by username, verify bcrypt hash,
+     determine role (check if they are in a recruiter list or marked 
+     admin), issue JWT with role + employee_id, store in 
+     expo-secure-store
+   - Forced password change on first login (flag: password_changed=false)
+   - Show JISHLink logo prominently. Navy background, gold "Login" button.
+
+2. ADMIN — DASHBOARD (app/(admin)/dashboard.tsx)
+   - Cards showing: Total Employees, Active, Pending Approval, 
+     Today's Sign-Ins, Absent Today
+   - Search bar filtering employees by name, designation, workplace
+   - Filter chips: All / Active / Pending / Inactive
+   - Each employee row shows: name, designation, workplace, status badge
+   - Notification bell in top-right corner with unread count
+
+3. ADMIN — ADD EMPLOYEE (app/(admin)/employees/add.tsx)
+   - Full form with all employee fields organized into sections:
+     Personal Info | Contact | Employment | Statutory | Bank Details |
+     Transport | Documents
+   - Photo upload: tap-to-upload + drag-and-drop on web 
+     (expo-image-picker on mobile, standard file input on web)
+   - Document uploads: expo-document-picker for Aadhar/PAN/bank scans
+   - All uploads go to Supabase Storage bucket "employee-docs"
+   - Save button runs all validation rules before submitting
+   - On save: creates employee with status=active (admin adding directly)
+
+4. ADMIN — EMPLOYEE DETAIL (app/(admin)/employees/[id].tsx)
+   - All fields displayed, editable inline or via modal
+   - Shows attendance history (recent 30 days)
+   - Shows absence notes if any
+   - Export this employee's data as single-row Excel
+
+5. ADMIN — BULK IMPORT (app/(admin)/import.tsx)
+   - Upload .xlsx via expo-document-picker (or file drag-drop on web)
+   - Parse with SheetJS — detect columns
+   - Column mapping UI: dropdown for each detected column to map to 
+     employee field
+   - Preview table showing all rows with red highlighting on invalid cells
+   - Summary: X valid, Y invalid rows
+   - "Import Valid Rows" button → creates employees with status=active
+   - "Download Error Report" → exports invalid rows as separate xlsx
+
+6. ADMIN — EXPORT
+   - "Export All" button on dashboard → downloads all employees as .xlsx
+   - Uses SheetJS to generate; expo-sharing on mobile, direct download 
+     on web
+   - Sensitive columns (aadhar, pan, bank) included only for admin export
+
+7. ADMIN — QR SETTINGS (app/(admin)/qr-settings.tsx)
+   - Text input: "Paste your Google Form URL here"
+   - On save: renders a large QR code using react-native-qrcode-svg
+   - "Download QR" button saves the QR as PNG using expo-file-system
+   - Instructions text below explaining how to share it
+
+8. ADMIN — REVIEW QUEUE (app/(admin)/review-queue.tsx)
+   - Lists all pending_submissions with status=submitted
+   - Each card shows: submission date, submitted name + aadhar + phone, 
+     validation results (green tick or red X for each check)
+   - Tap to expand full details
+   - Two action buttons:
+     a) "Approve" → bottom sheet modal with fields:
+        - Workplace (searchable dropdown from workplaces table)
+        - Reporting Manager/Recruiter (dropdown of recruiter employees)
+        - Username (text input, check uniqueness live)
+        - Password (text input with strength indicator)
+        - Confirm Password
+        → On confirm: creates Employee record (status=active), creates 
+          User record with bcrypt-hashed password, updates 
+          pending_submission status=approved, sends approval email via 
+          Resend/Nodemailer, creates notification record for the new user
+     b) "Send Back" → text input for remarks → updates status=rejected, 
+        sends email with the remarks to the submitted email address
+
+9. ADMIN — RECRUITER OVERSIGHT (app/(admin)/recruiter-oversight.tsx)
+   - One card per recruiter showing:
+     - Recruiter name + photo
+     - Total assigned employees
+     - Today: X signed in, Y not signed in
+     - Absence notes logged this month: count
+     - Workplace reassignments this month: count
+   - Expandable section showing full audit_logs for that recruiter
+
+10. EMPLOYEE PORTAL — DASHBOARD (app/(employee)/dashboard.tsx)
+    - Large card: "Your Workplace" → workplace name, client name, address
+    - Your designation below
+    - Notification bell
+    - Two large buttons side by side:
+      "LOG IN" (gold, navy text) and "SIGN OFF" (navy, white text)
+    - On either button tap:
+      a) Request location permission (expo-location)
+      b) Get current GPS coordinates
+      c) Reverse-geocode via Nominatim 
+         (GET https://nominatim.openstreetmap.org/reverse?lat=X&lon=Y&format=json)
+      d) Save AttendanceLog record
+      e) Show success toast with captured time and address
+    - Button state: if already logged in today, LOG IN is disabled.
+      If already signed off today, both disabled.
+    - Show "Last Sign-In" and "Last Sign-Off" times
+
+11. EMPLOYEE — ATTENDANCE HISTORY (app/(employee)/attendance.tsx)
+    - Calendar or list view of own attendance logs
+    - Each entry: date, type (Login/Signoff), time, address
+
+12. RECRUITER — DASHBOARD (app/(recruiter)/dashboard.tsx)
+    - Header: "My Team — [count] employees"
+    - Each employee card shows:
+      - Name, photo, designation, workplace
+      - Today's status: 
+        "Signed In at 9:05 AM — [address]" (teal badge)
+        "Signed Off at 5:30 PM" (navy badge)
+        "Not Signed In" (red badge)
+    - For "Not Signed In" employees:
+      - "Call" button → opens phone dialer (tel: link)
+      - "Log Absence" button → navigates to absence-note screen
+    - Pull-to-refresh
+
+13. RECRUITER — ABSENCE NOTE (app/(recruiter)/absence-note.tsx)
+    - Pre-filled: employee name, today's date
+    - Reason dropdown: Absent / Late / Left Early / No Show / Other
+    - Notes text area
+    - Submit → saves to absence_notes, writes AuditLog entry
+
+14. RECRUITER — REASSIGN WORKPLACE (app/(recruiter)/reassign.tsx)
+    - Employee picker (from their assigned employees)
+    - Workplace picker (dropdown from workplaces table)
+    - Confirm → updates employee.workplace_id, writes AuditLog with 
+      old and new workplace, creates notification for employee and admin
+
+15. GOOGLE FORM INTAKE API (server/index.js → POST /api/intake)
+    - Accepts JSON: { source, submittedAt, data: { "Full Name": ..., } }
+    - Maps Google Form field titles to employee schema fields
+    - Runs all VALIDATION RULES (see below)
+    - Creates pending_submission record with validation_results in JSONB
+    - Returns 200 OK (Apps Script doesn't retry on error, so always 200)
+
+16. VALIDATION RULES (lib/validation.ts):
+    - Aadhar: exactly 12 digits + Verhoeff checksum algorithm
+    - PAN: matches /^[A-Z]{5}[0-9]{4}[A-Z]{1}$/
+    - IFSC: matches /^[A-Z]{4}0[A-Z0-9]{6}$/
+    - Phone: matches /^[6-9][0-9]{9}$/
+    - Email: standard email regex
+    - DOB: parse date, confirm age >= 18
+    - Bank Account: /^[0-9]{9,18}$/
+    - Duplicate check: query employees table for existing aadhar_number 
+      or pan_number match
+    - Required fields: full_name, dob, gender, aadhar_number, pan_number,
+      contact_number, email, address, designation
+
+17. EMAIL NOTIFICATIONS:
+    Approval email to candidate:
+      Subject: "Welcome to JISHLink — Your account is ready"
+      Body: name, workplace, designation, username, temporary password,
+      instruction to download the JISHLink app and log in
+    Send-back email to candidate:
+      Subject: "JISHLink — Please update your registration details"
+      Body: name, admin's remarks, instruction to resubmit the Google Form
+    All emails sent with from address: "JISHLink HR <admin email>"
+
+18. PERMISSIONS / SECURITY:
+    - All API calls require a valid JWT in Authorization header
+    - Recruiter API responses must strip: aadhar_number, pan_number,
+      account_number, ifsc_code, bank_name, bank_branch, aadhar_doc_url,
+      pan_doc_url, bank_doc_url before returning
+    - Employees can only query their own attendance_logs and profile
+    - Audit every write operation (POST/PUT/DELETE) to audit_logs table
+    - Passwords stored as bcrypt hash (salt rounds: 12)
+
+BUILD ORDER (do each step completely before moving on):
+  Step 1: Supabase schema migration + Supabase client setup (lib/supabase.ts) 
+          + Express server skeleton (server/index.js)
+  Step 2: Auth system — login screen, JWT issue/verify, role routing,
+          forced password change, secure storage
+  Step 3: Admin CRUD — Add Employee form, Employee list, Employee detail
+  Step 4: Excel import (bulk) + Export
+  Step 5: QR Settings screen
+  Step 6: Google Form intake webhook + Validation module
+  Step 7: Admin Review Queue with approve/reject flow + email sending
+  Step 8: Employee dashboard with GPS Login/Sign-off
+  Step 9: Recruiter dashboard — monitoring, absence notes, reassign
+  Step 10: Admin Recruiter Oversight screen
+  Step 11: In-app notification bell (all roles) + notification records
+
+CODE QUALITY:
+  - TypeScript throughout
+  - Comment every function with its purpose
+  - Handle loading states (ActivityIndicator) and error states on every
+    screen
+  - Show toast notifications for success/error (use react-native-toast-message)
+  - All forms validate before submit and show field-level error messages
+  - The app must be fully usable on a 375px mobile screen AND on a 
+    1280px desktop browser from the same code
+
+Start by scaffolding the full project structure, installing all 
+dependencies, setting up NativeWind with the brand colors in 
+tailwind.config.js and constants/theme.ts, then build each step in order.
