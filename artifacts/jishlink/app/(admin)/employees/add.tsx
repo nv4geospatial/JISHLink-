@@ -7,7 +7,7 @@ import { useRouter } from "expo-router";
 import { Feather } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Toast from "react-native-toast-message";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import * as ImagePicker from "expo-image-picker";
 import { apiFetch } from "@/lib/api";
 import { NavHeader } from "@/components/NavHeader";
@@ -84,6 +84,11 @@ export default function AddEmployeeScreen() {
   const [workplaceId, setWorkplaceId] = useState("");
   const [role, setRole] = useState("employee");
   const [loading, setLoading] = useState(false);
+  const [addingWorkplace, setAddingWorkplace] = useState(false);
+  const [newWorkplaceName, setNewWorkplaceName] = useState("");
+  const [savingWorkplace, setSavingWorkplace] = useState(false);
+
+  const qc = useQueryClient();
 
   const { data: workplaces } = useQuery<Workplace[]>({
     queryKey: ["workplaces"],
@@ -145,13 +150,60 @@ export default function AddEmployeeScreen() {
             {(workplaces ?? []).map((w) => (
               <TouchableOpacity
                 key={w.id}
-                onPress={() => setWorkplaceId(w.id)}
+                onPress={() => { setWorkplaceId(w.id); setAddingWorkplace(false); }}
                 style={[styles.pill, { backgroundColor: workplaceId === w.id ? c.navy : c.muted }]}
               >
                 <Text style={[styles.pillText, { color: workplaceId === w.id ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }]}>{w.name}</Text>
               </TouchableOpacity>
             ))}
+            <TouchableOpacity
+              onPress={() => { setAddingWorkplace(true); setWorkplaceId(""); }}
+              style={[styles.pill, { backgroundColor: addingWorkplace ? c.navy : c.muted, borderStyle: "dashed", borderWidth: 1, borderColor: c.navy }]}
+            >
+              <Text style={[styles.pillText, { color: addingWorkplace ? c.white : c.navy, fontFamily: "Inter_500Medium" }]}>+ Add New</Text>
+            </TouchableOpacity>
           </View>
+
+          {addingWorkplace && (
+            <View style={{ marginTop: 12, flexDirection: "row", gap: 8 }}>
+              <TextInput
+                style={[styles.input, { flex: 1, borderColor: c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
+                value={newWorkplaceName}
+                onChangeText={setNewWorkplaceName}
+                placeholder="Enter workplace name"
+                placeholderTextColor={c.mutedForeground}
+                autoCapitalize="words"
+              />
+              <TouchableOpacity
+                onPress={async () => {
+                  if (!newWorkplaceName.trim()) {
+                    Toast.show({ type: "error", text1: "Workplace name is required" });
+                    return;
+                  }
+                  setSavingWorkplace(true);
+                  try {
+                    const created = await apiFetch<Workplace>("/workplaces", {
+                      method: "POST",
+                      body: JSON.stringify({ name: newWorkplaceName.trim() }),
+                    });
+                    Toast.show({ type: "success", text1: "Workplace added!" });
+                    setWorkplaceId(created.id);
+                    setAddingWorkplace(false);
+                    setNewWorkplaceName("");
+                    qc.invalidateQueries({ queryKey: ["workplaces"] });
+                  } catch (e: unknown) {
+                    Toast.show({ type: "error", text1: "Failed to add workplace", text2: e instanceof Error ? e.message : "Error" });
+                  } finally {
+                    setSavingWorkplace(false);
+                  }
+                }}
+                style={[styles.pill, { backgroundColor: c.gold, paddingHorizontal: 16 }]}
+                disabled={savingWorkplace}
+              >
+                {savingWorkplace ? <ActivityIndicator color={c.navy} size="small" /> : <Text style={[styles.pillText, { color: c.navy, fontFamily: "Inter_600SemiBold" }]}>Save</Text>}
+              </TouchableOpacity>
+            </View>
+          )}
         </View>
 
         {/* Role picker */}

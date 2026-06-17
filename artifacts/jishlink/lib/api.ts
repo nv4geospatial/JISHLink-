@@ -31,6 +31,8 @@ export async function clearToken(): Promise<void> {
 }
 
 function getBaseUrl(): string {
+  const apiUrl = process.env["EXPO_PUBLIC_API_URL"];
+  if (apiUrl) return apiUrl;
   const domain = process.env["EXPO_PUBLIC_DOMAIN"];
   if (domain) return `https://${domain}`;
   return "";
@@ -50,7 +52,13 @@ export async function apiFetch<T>(
   if (token) headers["Authorization"] = `Bearer ${token}`;
 
   const res = await fetch(url, { ...options, headers });
-  const data = await res.json();
+  const text = await res.text();
+  let data: unknown;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    throw new Error(`Server returned non-JSON response: ${text.slice(0, 200)}`);
+  }
 
   if (!res.ok) {
     throw new Error((data as { error?: string })?.error ?? `HTTP ${res.status}`);

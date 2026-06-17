@@ -8,12 +8,13 @@ import colors from "@/constants/colors";
 interface NavHeaderProps {
   title: string;
   showBack?: boolean;
+  onBack?: () => void;
   rightIcon?: React.ReactNode;
   onRightPress?: () => void;
   notificationCount?: number;
 }
 
-export function NavHeader({ title, showBack, rightIcon, onRightPress, notificationCount }: NavHeaderProps) {
+export function NavHeader({ title, showBack, onBack, rightIcon, onRightPress, notificationCount }: NavHeaderProps) {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const c = colors.light;
@@ -24,7 +25,7 @@ export function NavHeader({ title, showBack, rightIcon, onRightPress, notificati
     <View style={[styles.header, { backgroundColor: c.navy, paddingTop: topPad + 12 }]}>
       <View style={styles.row}>
         {showBack ? (
-          <TouchableOpacity onPress={() => router.back()} style={styles.iconBtn}>
+          <TouchableOpacity onPress={() => onBack ? onBack() : router.back()} style={styles.iconBtn}>
             <Feather name="chevron-left" size={24} color={c.white} />
           </TouchableOpacity>
         ) : (

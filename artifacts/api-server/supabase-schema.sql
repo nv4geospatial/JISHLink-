@@ -162,7 +162,7 @@ values (
   'ADM0001',
   'System Admin',
   'admin',
-  '$2a$12$GpCpckSNX/bxJCFD5NNpjuJZhCcJPYMwfPQlsq5fMiG.aBKMUzTfG',
+  '$2b$12$cwSkyDS.gMIo9IWAFPc8Ouhrz8W49jnZAFGk.3uDDvD37MvUJwt4S',
   'admin',
   'System Administrator',
   'active',
