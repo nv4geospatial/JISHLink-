@@ -15,7 +15,7 @@ import colors from "@/constants/colors";
 const FIELD_OPTIONS = [
   "full_name", "dob", "gender", "aadhar_number", "pan_number", "contact_number",
   "email", "address", "designation", "qualification", "bank_name", "account_number",
-  "ifsc_code", "username", "password", "role", "workplace_id", "skip",
+  "ifsc_code", "username", "password", "workplace_id", "skip",
 ];
 
 interface Row { [key: string]: unknown; }
@@ -130,21 +130,23 @@ export default function ImportScreen() {
                 <View key={header} style={styles.mapRow}>
                   <Text style={[styles.colName, { color: c.text, fontFamily: "Inter_500Medium" }]}>{header}</Text>
                   <Feather name="arrow-right" size={14} color={c.mutedForeground} />
-                  <View style={{ flex: 1, flexDirection: "row", flexWrap: "wrap", gap: 6 }}>
-                    {FIELD_OPTIONS.map((opt) => (
-                      <TouchableOpacity
-                        key={opt}
-                        onPress={() => setMapping((m) => ({ ...m, [header]: opt }))}
-                        style={[styles.mapPill, { backgroundColor: mapping[header] === opt ? c.navy : c.muted }]}
-                      >
-                        <Text style={[styles.mapPillText, { color: mapping[header] === opt ? c.white : c.mutedForeground }]}>{opt}</Text>
-                      </TouchableOpacity>
-                    ))}
-                  </View>
+                  <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ flex: 1 }}>
+                    <View style={{ flexDirection: "row", gap: 6 }}>
+                      {FIELD_OPTIONS.slice(0, 6).map((opt) => (
+                        <TouchableOpacity
+                          key={opt}
+                          onPress={() => setMapping((m) => ({ ...m, [header]: opt }))}
+                          style={[styles.mapPill, { backgroundColor: mapping[header] === opt ? c.navy : c.muted }]}
+                        >
+                          <Text style={[styles.mapPillText, { color: mapping[header] === opt ? c.white : c.mutedForeground }]}>{opt}</Text>
+                        </TouchableOpacity>
+                      ))}
+                    </View>
+                  </ScrollView>
                 </View>
               ))}
-              </View>
-a
+            </View>
+
             <TouchableOpacity
               onPress={handleImport}
               style={[styles.importBtn, { backgroundColor: c.gold, opacity: loading ? 0.7 : 1 }]}

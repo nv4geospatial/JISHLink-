@@ -55,11 +55,11 @@ export function validateEmployeeData(data: Record<string, unknown>): ValidationR
     }
   }
 
-  // Aadhar validation
+  // Aadhar validation (12 digits only, skip Verhoeff for now)
   if (data["aadhar_number"]) {
     const aadhar = String(data["aadhar_number"]).replace(/\s/g, "");
-    const valid = /^\d{12}$/.test(aadhar) && verhoeff(aadhar);
-    results.push({ field: "aadhar_number_format", valid, message: valid ? undefined : "Invalid Aadhar number" });
+    const valid = /^\d{12}$/.test(aadhar);
+    results.push({ field: "aadhar_number_format", valid, message: valid ? undefined : "Aadhar must be exactly 12 digits" });
   }
 
   // PAN validation

@@ -7,6 +7,7 @@ import { Feather } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import Toast from "react-native-toast-message";
+import { useRouter } from "expo-router";
 import { apiFetch } from "@/lib/api";
 import { NavHeader } from "@/components/NavHeader";
 import { EmptyState } from "@/components/EmptyState";
@@ -24,12 +25,11 @@ interface Workplace { id: string; name: string; }
 interface Employee { id: string; full_name: string; role?: string | null; }
 
 export default function ReviewQueueScreen() {
+  const router = useRouter();
   const insets = useSafeAreaInsets();
   const c = colors.light;
   const qc = useQueryClient();
   const [approveModal, setApproveModal] = useState<Submission | null>(null);
-  const [rejectModal, setRejectModal] = useState<Submission | null>(null);
-  const [remarks, setRemarks] = useState("");
   const [approveForm, setApproveForm] = useState({ workplace_id: "", reporting_manager_id: "", username: "", password: "", designation: "" });
   const [loading, setLoading] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -68,25 +68,18 @@ export default function ReviewQueueScreen() {
     } finally { setLoading(false); }
   };
 
-  const handleReject = async () => {
-    if (!rejectModal || !remarks.trim()) { Toast.show({ type: "error", text1: "Enter remarks" }); return; }
-    setLoading(true);
-    try {
-      await apiFetch(`/submissions/${rejectModal.id}/reject`, { method: "POST", body: JSON.stringify({ remarks }) });
-      Toast.show({ type: "success", text1: "Submission sent back" });
-      qc.invalidateQueries({ queryKey: ["submissions"] });
-      setRejectModal(null);
-      setRemarks("");
-    } catch (e: unknown) {
-      Toast.show({ type: "error", text1: e instanceof Error ? e.message : "Failed" });
-    } finally { setLoading(false); }
-  };
+
 
   const bottomPad = Platform.OS === "web" ? 34 : insets.bottom;
 
   return (
     <View style={[styles.container, { backgroundColor: c.background }]}>
-      <NavHeader title="Review Queue" showBack />
+      <NavHeader title="Review Queue" showBack onBack={() => router.push("/(admin)/dashboard")} />
+      
+      <View style={{ paddingHorizontal: 16, paddingTop: 16 }}>
+        <Text style={{ color: c.navy, fontFamily: "Poppins_700Bold", fontSize: 16 }}>Pending Review</Text>
+      </View>
+
       {isLoading ? <LoadingScreen /> : (
         <FlatList
           data={submissions ?? []}
@@ -143,13 +136,6 @@ export default function ReviewQueueScreen() {
                   >
                     <Feather name="check" size={14} color={c.white} />
                     <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Approve</Text>
-                  </TouchableOpacity>
-                  <TouchableOpacity
-                    onPress={() => setRejectModal(item)}
-                    style={[styles.rejectBtn, { borderColor: c.destructive }]}
-                  >
-                    <Feather name="x" size={14} color={c.destructive} />
-                    <Text style={[styles.actionText, { color: c.destructive, fontFamily: "Inter_600SemiBold" }]}>Send Back</Text>
                   </TouchableOpacity>
                 </View>
               </View>
@@ -226,38 +212,15 @@ export default function ReviewQueueScreen() {
         </View>
       </Modal>
 
-      {/* Reject Modal */}
-      <Modal visible={!!rejectModal} transparent animationType="slide">
-        <View style={styles.overlay}>
-          <View style={[styles.modal, { backgroundColor: c.white }]}>
-            <Text style={[styles.modalTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>Send Back Submission</Text>
-            <Text style={[styles.label, { color: c.mutedForeground, fontFamily: "Inter_500Medium", marginBottom: 8 }]}>Remarks for applicant *</Text>
-            <TextInput
-              style={[styles.textarea, { borderColor: c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
-              value={remarks}
-              onChangeText={setRemarks}
-              placeholder="Explain what needs to be corrected..."
-              placeholderTextColor={c.mutedForeground}
-              multiline
-              numberOfLines={4}
-            />
-            <View style={{ flexDirection: "row", gap: 10, marginTop: 16 }}>
-              <TouchableOpacity onPress={() => { setRejectModal(null); setRemarks(""); }} style={[styles.cancelBtn, { borderColor: c.border }]}>
-                <Text style={[styles.cancelText, { color: c.mutedForeground, fontFamily: "Inter_500Medium" }]}>Cancel</Text>
-              </TouchableOpacity>
-              <TouchableOpacity onPress={handleReject} style={[styles.saveBtn, { backgroundColor: c.destructive }]} disabled={loading}>
-                {loading ? <ActivityIndicator color={c.white} /> : <Text style={[styles.saveBtnText, { color: c.white, fontFamily: "Poppins_700Bold" }]}>Send Back</Text>}
-              </TouchableOpacity>
-            </View>
-          </View>
-        </View>
-      </Modal>
+
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
+  tab: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 20 },
+  tabText: { fontSize: 13 },
   card: { borderRadius: 10, padding: 14, marginBottom: 10, shadowColor: "#000", shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.06, shadowRadius: 4, elevation: 2 },
   cardHeader: { flexDirection: "row", alignItems: "flex-start", gap: 8 },
   name: { fontSize: 15 },

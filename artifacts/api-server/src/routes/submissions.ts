@@ -32,6 +32,11 @@ router.post("/:id/approve", requireRole("admin"), async (req: AuthRequest, res) 
 
   if (!submission) { res.status(404).json({ error: "Submission not found" }); return; }
 
+  if (!workplace_id || !reporting_manager_id || !username || !password) {
+    res.status(400).json({ error: "Missing required fields: workplace_id, reporting_manager_id, username, password" });
+    return;
+  }
+
   const submittedData = submission.submitted_data as Record<string, unknown>;
   const password_hash = await bcrypt.hash(password, 12);
 
@@ -42,12 +47,27 @@ router.post("/:id/approve", requireRole("admin"), async (req: AuthRequest, res) 
   const { count } = await supabase.from("employees").select("*", { count: "exact", head: true });
   const employee_code = `EMP${String((count ?? 0) + 1).padStart(4, "0")}`;
 
+  // Clean submittedData — only keep valid employee columns
+  const allowedFields = [
+    "full_name", "dob", "gender", "aadhar_number", "pan_number",
+    "contact_number", "email", "address", "designation", "qualification",
+    "bank_name", "account_number", "ifsc_code", "driving_license",
+    "vehicle_details", "blood_group", "marital_status", "emergency_contact",
+    "nominee_name", "nominee_relation", "pf_number", "esi_number", "uan_number"
+  ];
+  const cleanData: Record<string, unknown> = {};
+  for (const key of allowedFields) {
+    if (submittedData[key] !== undefined && submittedData[key] !== null && submittedData[key] !== "") {
+      cleanData[key] = submittedData[key];
+    }
+  }
+
   const { data: employee, error } = await supabase
     .from("employees")
     .insert({
-      ...submittedData,
+      ...cleanData,
       employee_code,
-      designation: designation ?? submittedData["designation"],
+      designation: designation ?? cleanData["designation"] ?? submittedData["designation"],
       workplace_id,
       reporting_manager_id,
       username,
@@ -89,85 +109,6 @@ router.post("/:id/approve", requireRole("admin"), async (req: AuthRequest, res) 
   res.json(employee);
 });
 
-/** POST /api/submissions/:id/reject */
-router.post("/:id/reject", requireRole("admin"), async (req: AuthRequest, res) => {
-  const { remarks } = req.body as { remarks: string };
 
-  const { data: submission } = await supabase
-    .from("pending_submissions")
-    .select("*")
-    .eq("id", req.params["id"])
-    .single();
-
-  if (!submission) { res.status(404).json({ error: "Not found" }); return; }
-
-  await supabase
-    .from("pending_submissions")
-    .update({ status: "rejected", admin_remarks: remarks })
-    .eq("id", req.params["id"]);
-
-  const submittedData = submission.submitted_data as Record<string, unknown>;
-  if (submittedData["email"]) {
-    try {
-      await sendRejectionEmail({
-        to: String(submittedData["email"]),
-        name: String(submittedData["full_name"] ?? "Applicant"),
-        remarks,
-      });
-    } catch (e) {
-      req.log.warn({ err: e }, "Failed to send rejection email");
-    }
-  }
-
-  res.json({ message: "Submission rejected" });
-});
-
-/** POST /api/intake — Google Form webhook */
-router.post("/intake-public", async (req, res) => {
-  const { source, submittedAt, data: formData } = req.body as {
-    source: string; submittedAt?: string; data: Record<string, unknown>;
-  };
-
-  // Map Google Form field titles to schema fields
-  const mapped: Record<string, unknown> = {
-    full_name: formData["Full Name"] ?? formData["full_name"],
-    dob: formData["Date of Birth"] ?? formData["dob"],
-    gender: formData["Gender"] ?? formData["gender"],
-    aadhar_number: formData["Aadhar Number"] ?? formData["aadhar_number"],
-    pan_number: formData["PAN Number"] ?? formData["pan_number"],
-    contact_number: formData["Contact Number"] ?? formData["contact_number"],
-    email: formData["Email"] ?? formData["email"],
-    address: formData["Address"] ?? formData["address"],
-    designation: formData["Designation"] ?? formData["designation"],
-    qualification: formData["Qualification"] ?? formData["qualification"],
-    bank_name: formData["Bank Name"] ?? formData["bank_name"],
-    account_number: formData["Account Number"] ?? formData["account_number"],
-    ifsc_code: formData["IFSC Code"] ?? formData["ifsc_code"],
-    ...formData,
-  };
-
-  const validation_results = validateEmployeeData(mapped);
-
-  // Duplicate check
-  const hasDuplicateAadhar = mapped["aadhar_number"]
-    ? (await supabase.from("employees").select("id").eq("aadhar_number", mapped["aadhar_number"]).single()).data
-    : null;
-  const hasDuplicatePan = mapped["pan_number"]
-    ? (await supabase.from("employees").select("id").eq("pan_number", mapped["pan_number"]).single()).data
-    : null;
-
-  if (hasDuplicateAadhar) validation_results.push({ field: "aadhar_number_duplicate", valid: false, message: "Aadhar already registered" });
-  if (hasDuplicatePan) validation_results.push({ field: "pan_number_duplicate", valid: false, message: "PAN already registered" });
-
-  await supabase.from("pending_submissions").insert({
-    source: source ?? "google_form",
-    submitted_data: mapped,
-    validation_results,
-    status: "submitted",
-    submitted_at: submittedAt ?? new Date().toISOString(),
-  });
-
-  res.json({ message: "Received" });
-});
 
 export { router as submissionsRouter };

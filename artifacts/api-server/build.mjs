@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { build as esbuild } from "esbuild";
 import esbuildPluginPino from "esbuild-plugin-pino";
 import { rm } from "node:fs/promises";
+import * as fs from "node:fs";
 
 // Plugins (e.g. 'esbuild-plugin-pino') may use `require` to resolve dependencies
 globalThis.require = createRequire(import.meta.url);
@@ -22,11 +23,6 @@ async function buildAll() {
     outdir: distDir,
     outExtension: { ".js": ".mjs" },
     logLevel: "info",
-    // Some packages may not be bundleable, so we externalize them, we can add more here as needed.
-    // Some of the packages below may not be imported or installed, but we're adding them in case they are in the future.
-    // Examples of unbundleable packages:
-    // - uses native modules and loads them dynamically (e.g. sharp)
-    // - use path traversal to read files (e.g. @google-cloud/secret-manager loads sibling .proto files)
     external: [
       "*.node",
       "sharp",
@@ -103,10 +99,8 @@ async function buildAll() {
     ],
     sourcemap: "linked",
     plugins: [
-      // pino relies on workers to handle logging, instead of externalizing it we use a plugin to handle it
       esbuildPluginPino({ transports: ["pino-pretty"] })
     ],
-    // Make sure packages that are cjs only (e.g. express) but are bundled continue to work in our esm output file
     banner: {
       js: `import { createRequire as __bannerCrReq } from 'node:module';
 import __bannerPath from 'node:path';
@@ -118,6 +112,24 @@ globalThis.__dirname = __bannerPath.dirname(globalThis.__filename);
     `,
     },
   });
+
+  // ── Copy Python OCR service to dist so it works in production ───────────
+  const srcLib = path.resolve(artifactDir, "src/lib");
+  const distLib = path.resolve(artifactDir, "dist/lib");
+  
+  if (fs.existsSync(srcLib)) {
+    fs.mkdirSync(distLib, { recursive: true });
+    
+    const pySrc = path.join(srcLib, "ocr_service.py");
+    const pyDist = path.join(distLib, "ocr_service.py");
+    
+    if (fs.existsSync(pySrc)) {
+      fs.copyFileSync(pySrc, pyDist);
+      console.log("[BUILD] Copied ocr_service.py to dist/lib/");
+    } else {
+      console.warn("[BUILD] ocr_service.py not found in src/lib/");
+    }
+  }
 }
 
 buildAll().catch((err) => {

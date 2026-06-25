@@ -62,5 +62,7 @@
     "zod": "catalog:",
     "zod-validation-error": "^3.4.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "expo-file-system": "~19.0.23"
+  }
 }

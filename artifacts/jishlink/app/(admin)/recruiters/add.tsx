@@ -4,7 +4,6 @@ import {
   ScrollView, ActivityIndicator, Platform,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { Feather } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Toast from "react-native-toast-message";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
@@ -31,7 +30,7 @@ const SECTIONS: { title: string; fields: FieldConfig[] }[] = [
   {
     title: "Personal Info",
     fields: [
-      { key: "custom_id", label: "Employee ID", placeholder: "e.g. EMP001 (optional, auto-generated if empty)" },
+      { key: "custom_id", label: "Recruiter ID", placeholder: "e.g. REC001 (optional, auto-generated if empty)" },
       { key: "full_name", label: "Full Name", required: true, placeholder: "Enter full name" },
       { key: "dob", label: "Date of Birth", type: "date", placeholder: "YYYY-MM-DD" },
       { key: "gender", label: "Gender", type: "gender" },
@@ -47,14 +46,12 @@ const SECTIONS: { title: string; fields: FieldConfig[] }[] = [
       { key: "email", label: "Email", type: "email", placeholder: "example@email.com" },
       { key: "address", label: "Address", placeholder: "Full address" },
       { key: "emergency_contact", label: "Emergency Contact", type: "phone", placeholder: "10 digits" },
-      { key: "nominee_name", label: "Nominee Name", placeholder: "Nominee full name" },
-      { key: "nominee_relation", label: "Nominee Relation", placeholder: "e.g. Father, Spouse" },
     ],
   },
   {
     title: "Employment",
     fields: [
-      { key: "designation", label: "Designation", placeholder: "e.g. Delivery Executive" },
+      { key: "designation", label: "Designation", placeholder: "e.g. Senior Recruiter" },
       { key: "employment_type", label: "Employment Type", placeholder: "Full-time / Part-time / Contract" },
       { key: "date_of_joining", label: "Date of Joining", type: "date", placeholder: "YYYY-MM-DD" },
       { key: "username", label: "Username", required: true, placeholder: "Unique username" },
@@ -116,19 +113,17 @@ function validateField(field: FieldConfig, value: string): string | null {
   return null;
 }
 
-export default function AddEmployeeScreen() {
+export default function AddRecruiterScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const c = colors.light;
   const [form, setForm] = useState<Record<string, string>>({});
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [workplaceId, setWorkplaceId] = useState("");
-  const [role, setRole] = useState("employee");
   const [loading, setLoading] = useState(false);
   const [addingWorkplace, setAddingWorkplace] = useState(false);
   const [newWorkplaceName, setNewWorkplaceName] = useState("");
   const [savingWorkplace, setSavingWorkplace] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   const qc = useQueryClient();
 
@@ -139,7 +134,6 @@ export default function AddEmployeeScreen() {
 
   const set = (key: string, val: string) => {
     setForm((f) => ({ ...f, [key]: val }));
-    // Clear error when user types
     if (errors[key]) setErrors((e) => { const ne = { ...e }; delete ne[key]; return ne; });
   };
 
@@ -170,12 +164,11 @@ export default function AddEmployeeScreen() {
         method: "POST",
         body: JSON.stringify({
           ...form,
+          role: "recruiter",
           workplace_id: workplaceId || undefined,
-          role,
-          recruiter_name: role === "employee" ? (form["recruiter_name"] || undefined) : undefined,
         }),
       });
-      Toast.show({ type: "success", text1: "Employee created!" });
+      Toast.show({ type: "success", text1: "Recruiter created!" });
       router.back();
     } catch (e: unknown) {
       Toast.show({ type: "error", text1: "Failed", text2: e instanceof Error ? e.message : "Error" });
@@ -199,16 +192,10 @@ export default function AddEmployeeScreen() {
             {GENDER_OPTIONS.map((option) => (
               <TouchableOpacity
                 key={option}
-                onPress={() => { set(field.key, option); setOpenDropdown(null); }}
-                style={[
-                  styles.pill,
-                  { backgroundColor: value === option ? c.navy : c.muted }
-                ]}
+                onPress={() => set(field.key, option)}
+                style={[styles.pill, { backgroundColor: value === option ? c.navy : c.muted }]}
               >
-                <Text style={[
-                  styles.pillText,
-                  { color: value === option ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }
-                ]}>{option}</Text>
+                <Text style={[styles.pillText, { color: value === option ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }]}>{option}</Text>
               </TouchableOpacity>
             ))}
           </View>
@@ -227,16 +214,10 @@ export default function AddEmployeeScreen() {
             {BLOOD_GROUP_OPTIONS.map((option) => (
               <TouchableOpacity
                 key={option}
-                onPress={() => { set(field.key, option); setOpenDropdown(null); }}
-                style={[
-                  styles.pill,
-                  { backgroundColor: value === option ? c.navy : c.muted }
-                ]}
+                onPress={() => set(field.key, option)}
+                style={[styles.pill, { backgroundColor: value === option ? c.navy : c.muted }]}
               >
-                <Text style={[
-                  styles.pillText,
-                  { color: value === option ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }
-                ]}>{option}</Text>
+                <Text style={[styles.pillText, { color: value === option ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }]}>{option}</Text>
               </TouchableOpacity>
             ))}
           </View>
@@ -255,16 +236,10 @@ export default function AddEmployeeScreen() {
             {MARITAL_STATUS_OPTIONS.map((option) => (
               <TouchableOpacity
                 key={option}
-                onPress={() => { set(field.key, option); setOpenDropdown(null); }}
-                style={[
-                  styles.pill,
-                  { backgroundColor: value === option ? c.navy : c.muted }
-                ]}
+                onPress={() => set(field.key, option)}
+                style={[styles.pill, { backgroundColor: value === option ? c.navy : c.muted }]}
               >
-                <Text style={[
-                  styles.pillText,
-                  { color: value === option ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }
-                ]}>{option}</Text>
+                <Text style={[styles.pillText, { color: value === option ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }]}>{option}</Text>
               </TouchableOpacity>
             ))}
           </View>
@@ -280,10 +255,7 @@ export default function AddEmployeeScreen() {
             {field.label} {isRequired && <Text style={{ color: c.destructive }}>*</Text>}
           </Text>
           <TextInput
-            style={[
-              styles.input,
-              { borderColor: error ? c.destructive : c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }
-            ]}
+            style={[styles.input, { borderColor: error ? c.destructive : c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
             value={value}
             onChangeText={(v) => set(field.key, v)}
             placeholder={field.placeholder}
@@ -304,10 +276,7 @@ export default function AddEmployeeScreen() {
           {field.label} {isRequired && <Text style={{ color: c.destructive }}>*</Text>}
         </Text>
         <TextInput
-          style={[
-            styles.input,
-            { borderColor: error ? c.destructive : c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }
-          ]}
+          style={[styles.input, { borderColor: error ? c.destructive : c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
           value={value}
           onChangeText={(v) => set(field.key, v)}
           placeholder={field.placeholder || field.label}
@@ -329,7 +298,7 @@ export default function AddEmployeeScreen() {
 
   return (
     <View style={[styles.container, { backgroundColor: c.background }]}>
-      <NavHeader title="Add Employee" showBack />
+      <NavHeader title="Add Recruiter" showBack />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: bottomPad + 80 }} keyboardShouldPersistTaps="handled">
         {SECTIONS.map((section) => (
           <View key={section.title} style={[styles.section, { backgroundColor: c.white }]}>
@@ -400,40 +369,6 @@ export default function AddEmployeeScreen() {
             </View>
           )}
         </View>
-
-        {/* Role picker */}
-        <View style={[styles.section, { backgroundColor: c.white }]}>
-          <Text style={[styles.sectionTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>Role</Text>
-          <View style={styles.pillRow}>
-            {["employee", "recruiter", "admin"].map((r) => (
-              <TouchableOpacity
-                key={r}
-                onPress={() => setRole(r)}
-                style={[styles.pill, { backgroundColor: role === r ? c.navy : c.muted }]}
-              >
-                <Text style={[styles.pillText, { color: role === r ? c.white : c.mutedForeground, fontFamily: "Inter_500Medium" }]}>{r}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
-        </View>
-
-        {/* Recruiter Name - only for employee role */}
-        {role === "employee" && (
-          <View style={[styles.section, { backgroundColor: c.white }]}>
-            <Text style={[styles.sectionTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>Recruiter Name</Text>
-            <View style={styles.fieldGroup}>
-              <Text style={[styles.label, { color: c.mutedForeground, fontFamily: "Inter_500Medium" }]}>Assigned Recruiter</Text>
-              <TextInput
-                style={[styles.input, { borderColor: c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
-                value={form["recruiter_name"] ?? ""}
-                onChangeText={(v) => set("recruiter_name", v)}
-                placeholder="Enter recruiter name"
-                placeholderTextColor={c.mutedForeground}
-                autoCapitalize="words"
-              />
-            </View>
-          </View>
-        )}
       </ScrollView>
 
       <View style={[styles.bottomBar, { backgroundColor: c.white, paddingBottom: bottomPad + 8 }]}>
@@ -441,7 +376,7 @@ export default function AddEmployeeScreen() {
           <Text style={[styles.cancelText, { color: c.mutedForeground, fontFamily: "Inter_500Medium" }]}>Cancel</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={handleSave} style={[styles.saveBtn, { backgroundColor: c.gold }]} disabled={loading}>
-          {loading ? <ActivityIndicator color={c.navy} /> : <Text style={[styles.saveBtnText, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>Save Employee</Text>}
+          {loading ? <ActivityIndicator color={c.navy} /> : <Text style={[styles.saveBtnText, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>Save Recruiter</Text>}
         </TouchableOpacity>
       </View>
     </View>

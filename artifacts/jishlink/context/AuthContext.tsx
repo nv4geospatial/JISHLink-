@@ -18,6 +18,8 @@ export interface Employee {
   email?: string | null;
   contact_number?: string | null;
   workplace_id?: string | null;
+  reporting_manager_id?: string | null;
+  recruiter_name?: string | null;
   workplace?: { id: string; name: string; client_name?: string | null; address?: string | null } | null;
   password_changed?: boolean | null;
   employment_status?: string | null;

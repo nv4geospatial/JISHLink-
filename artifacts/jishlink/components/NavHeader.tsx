@@ -7,14 +7,18 @@ import colors from "@/constants/colors";
 
 interface NavHeaderProps {
   title: string;
+  subtitle?: string;
+  id?: string | null;
   showBack?: boolean;
   onBack?: () => void;
   rightIcon?: React.ReactNode;
   onRightPress?: () => void;
   notificationCount?: number;
+  rightIcon2?: React.ReactNode;
+  onRightPress2?: () => void;
 }
 
-export function NavHeader({ title, showBack, onBack, rightIcon, onRightPress, notificationCount }: NavHeaderProps) {
+export function NavHeader({ title, subtitle, id, showBack, onBack, rightIcon, onRightPress, notificationCount, rightIcon2, onRightPress2 }: NavHeaderProps) {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const c = colors.light;
@@ -32,22 +36,39 @@ export function NavHeader({ title, showBack, onBack, rightIcon, onRightPress, no
           <Image source={require("@/assets/images/logo-icon.jpeg")} style={styles.logoSmall} resizeMode="contain" />
         )}
 
-        <Text style={[styles.title, { color: c.white, fontFamily: "Poppins_700Bold" }]} numberOfLines={1}>
-          {title}
-        </Text>
+        <View style={{ flex: 1, marginHorizontal: 8 }}>
+          <Text style={[styles.title, { color: c.white, fontFamily: "Poppins_700Bold" }]} numberOfLines={1}>
+            {title}
+          </Text>
+          {id ? (
+            <Text style={[styles.idText, { color: c.gold, fontFamily: "Inter_600SemiBold" }]} numberOfLines={1}>
+              ID: {id}
+            </Text>
+          ) : null}
+          {subtitle ? (
+            <Text style={[styles.subtitle, { color: "#FFFFFFAA", fontFamily: "Inter_400Regular" }]} numberOfLines={1}>
+              {subtitle}
+            </Text>
+          ) : null}
+        </View>
 
-        {rightIcon ? (
-          <TouchableOpacity onPress={onRightPress} style={styles.iconBtn}>
-            {rightIcon}
-            {notificationCount ? (
-              <View style={[styles.badge, { backgroundColor: c.gold }]}>
-                <Text style={[styles.badgeText, { color: c.navy }]}>{notificationCount > 9 ? "9+" : notificationCount}</Text>
-              </View>
-            ) : null}
-          </TouchableOpacity>
-        ) : (
-          <View style={styles.iconBtn} />
-        )}
+        <View style={{ flexDirection: "row", alignItems: "center", gap: 4 }}>
+          {rightIcon ? (
+            <TouchableOpacity onPress={onRightPress} style={styles.iconBtn}>
+              {rightIcon}
+              {notificationCount ? (
+                <View style={[styles.badge, { backgroundColor: c.gold }]}>
+                  <Text style={[styles.badgeText, { color: c.navy }]}>{notificationCount > 9 ? "9+" : notificationCount}</Text>
+                </View>
+              ) : null}
+            </TouchableOpacity>
+          ) : null}
+          {rightIcon2 ? (
+            <TouchableOpacity onPress={onRightPress2} style={styles.iconBtn}>
+              {rightIcon2}
+            </TouchableOpacity>
+          ) : null}
+        </View>
       </View>
     </View>
   );
@@ -79,4 +100,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 3,
   },
   badgeText: { fontSize: 9, fontFamily: "Inter_700Bold" },
+  subtitle: { fontSize: 11, marginTop: 2 },
+  idText: { fontSize: 12, marginTop: 1 },
 });

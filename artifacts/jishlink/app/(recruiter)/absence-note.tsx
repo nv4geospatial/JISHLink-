@@ -35,7 +35,8 @@ export default function AbsenceNoteScreen() {
         body: JSON.stringify({ employee_id: employeeId, date: today, reason, notes: notes || undefined }),
       });
       Toast.show({ type: "success", text1: "Absence note saved" });
-      qc.invalidateQueries({ queryKey: ["recruiter-dashboard"] });
+      await qc.invalidateQueries({ queryKey: ["recruiter-dashboard"] });
+      await qc.refetchQueries({ queryKey: ["recruiter-dashboard"] });
       router.back();
     } catch (e: unknown) {
       Toast.show({ type: "error", text1: e instanceof Error ? e.message : "Failed" });

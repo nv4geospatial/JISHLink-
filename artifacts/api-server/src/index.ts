@@ -1,6 +1,7 @@
 import app from "./app";
 import { logger } from "./lib/logger";
 import 'dotenv/config';
+import { ocrRouter, startPythonOCRService, stopPythonOCRService } from "./routes/ocr.js";
 
 const rawPort = process.env["PORT"];
 
@@ -15,6 +16,13 @@ const port = Number(rawPort);
 if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
+
+// Start the Python OCR microservice before accepting requests
+startPythonOCRService();
+
+// Graceful shutdown — kill Python service when Node exits
+process.on("SIGTERM", () => { stopPythonOCRService(); process.exit(0); });
+process.on("SIGINT",  () => { stopPythonOCRService(); process.exit(0); });
 
 app.listen(port, (err) => {
   if (err) {

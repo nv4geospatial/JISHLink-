@@ -46,9 +46,28 @@ export default function EmployeeDashboard() {
     queryFn: () => apiFetch("/attendance/today-status"),
   });
 
-  const { data: notifications } = useQuery<Notification[]>({
+  const { data: notifications, refetch: refetchNotif } = useQuery<Notification[]>({
     queryKey: ["notifications"],
     queryFn: () => apiFetch("/notifications"),
+    refetchInterval: 30000, // Refresh every 30 seconds
+  });
+
+  
+  const { data: recruiter } = useQuery<{ full_name: string } | null>({
+    queryKey: ["my-recruiter"],
+    queryFn: async () => {
+      const userData = user as any;
+      // Use recruiter_name directly from employee record
+      if (userData?.recruiter_name) {
+        return { full_name: userData.recruiter_name };
+      }
+      // Fallback: fetch by reporting_manager_id
+      if (user?.reporting_manager_id) {
+        return apiFetch<{ full_name: string }>(`/employees/${user.reporting_manager_id}`);
+      }
+      return null;
+    },
+    enabled: !!(user?.reporting_manager_id || (user as any)?.recruiter_name),
   });
 
   const unread = (notifications ?? []).filter((n) => !n.read).length;
@@ -72,7 +91,7 @@ export default function EmployeeDashboard() {
           address = await reverseGeocode(lat, lon);
         } catch { /* location not available on web */ }
       } else {
-        const [perm] = await Location.requestForegroundPermissionsAsync();
+        const perm = await Location.requestForegroundPermissionsAsync();
         if (perm.granted) {
           const loc = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.High });
           lat = loc.coords.latitude; lon = loc.coords.longitude;
@@ -112,7 +131,8 @@ export default function EmployeeDashboard() {
   return (
     <View style={[styles.container, { backgroundColor: c.background }]}>
       <NavHeader
-        title="My Dashboard"
+        title="JISHLink"
+        subtitle={user ? `${user.full_name} · ${user.workplace?.name ?? "Employee"}` : "My Dashboard"}
         rightIcon={<Feather name="bell" size={22} color={c.white} />}
         notificationCount={unread}
         onRightPress={() => router.push("/(employee)/notifications")}
@@ -126,6 +146,11 @@ export default function EmployeeDashboard() {
           <Text style={[styles.designation, { color: "#FFFFFF99", fontFamily: "Inter_400Regular" }]}>
             {user?.designation ?? "Employee"}
           </Text>
+          {recruiter && (
+            <Text style={[styles.recruiterText, { color: "#FFFFFF77", fontFamily: "Inter_400Regular" }]}>
+              <Feather name="user-check" size={12} color="#FFFFFF77" /> Recruiter: {recruiter.full_name}
+            </Text>
+          )}
         </View>
 
         {/* Workplace card */}
@@ -208,6 +233,22 @@ export default function EmployeeDashboard() {
           </TouchableOpacity>
         </View>
 
+        {/* Notifications Preview */}
+        {unread > 0 && (
+          <TouchableOpacity
+            onPress={() => router.push("/(employee)/notifications")}
+            style={[styles.notifPreview, { backgroundColor: c.white }]}
+          >
+            <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
+              <Feather name="bell" size={18} color={c.warning} />
+              <Text style={[styles.notifPreviewText, { color: c.text, fontFamily: "Inter_600SemiBold" }]}>
+                {unread} unread notification{unread > 1 ? "s" : ""}
+              </Text>
+            </View>
+            <Feather name="chevron-right" size={16} color={c.mutedForeground} />
+          </TouchableOpacity>
+        )}
+
         {/* Quick links */}
         <View style={styles.quickLinks}>
           <TouchableOpacity
@@ -237,6 +278,7 @@ const styles = StyleSheet.create({
   greetCard: { borderRadius: 12, padding: 20, marginBottom: 12 },
   greeting: { fontSize: 22 },
   designation: { fontSize: 14, marginTop: 4 },
+  recruiterText: { fontSize: 12, marginTop: 6 },
   workplaceCard: { borderRadius: 12, padding: 16, marginBottom: 12, shadowColor: "#000", shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.06, shadowRadius: 4, elevation: 2 },
   workplaceHeader: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 10 },
   workplaceTitle: { fontSize: 14 },
@@ -254,4 +296,6 @@ const styles = StyleSheet.create({
   quickLinks: { gap: 8 },
   quickLink: { flexDirection: "row", alignItems: "center", gap: 12, padding: 16, borderRadius: 10, shadowColor: "#000", shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.04, shadowRadius: 4, elevation: 1 },
   quickLinkText: { flex: 1, fontSize: 15 },
+  notifPreview: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", padding: 14, borderRadius: 10, marginBottom: 12, shadowColor: "#000", shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.06, shadowRadius: 4, elevation: 2 },
+  notifPreviewText: { fontSize: 14 },
 });

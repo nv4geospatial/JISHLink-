@@ -6,6 +6,7 @@ export interface AuthRequest extends Request {
     employee_id: string;
     role: string;
     username: string;
+    workplace_id?: string;
   };
 }
 
@@ -29,7 +30,7 @@ export function requireAuth(
 }
 
 export function requireRole(...roles: string[]) {
-  return (req: AuthRequest, res: Response, next: NextFunction) => {
+  return (req: AuthRequest, res: Response, next: NextFunction): void => {
     if (!req.user || !roles.includes(req.user.role)) {
       res.status(403).json({ error: "Forbidden" });
       return;

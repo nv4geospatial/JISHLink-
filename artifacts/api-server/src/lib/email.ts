@@ -34,6 +34,7 @@ export async function sendRejectionEmail(opts: {
   to: string;
   name: string;
   remarks: string;
+  resubmitLink?: string;
 }): Promise<void> {
   await resend.emails.send({
     from: FROM,
@@ -44,7 +45,9 @@ export async function sendRejectionEmail(opts: {
       <p>We have reviewed your registration submission. Unfortunately, we need some additional information or corrections before we can proceed.</p>
       <p><strong>Remarks from the admin:</strong></p>
       <blockquote>${opts.remarks}</blockquote>
-      <p>Please resubmit the Google Form with the corrected information.</p>
+      <p><strong>Please click the link below to edit and resubmit your application:</strong></p>
+      <p><a href="${opts.resubmitLink ?? "#"}" style="background:#003366;color:#fff;padding:12px 24px;text-decoration:none;border-radius:6px;display:inline-block;">Edit & Resubmit</a></p>
+      <p>Or you can fill the form again: <a href="YOUR_GOOGLE_FORM_URL">JISHLink Registration Form</a></p>
       <p>Best regards,<br/>JISHLink Consulting India Private Limited</p>
     `,
   });

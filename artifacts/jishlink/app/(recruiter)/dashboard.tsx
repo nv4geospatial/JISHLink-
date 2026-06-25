@@ -3,10 +3,10 @@ import {
   View, Text, StyleSheet, FlatList, TouchableOpacity,
   RefreshControl, Platform, Linking,
 } from "react-native";
-import { useRouter } from "expo-router";
+import { useRouter, useFocusEffect } from "expo-router";
 import { Feather } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { apiFetch } from "@/lib/api";
 import { useAuth } from "@/context/AuthContext";
 import { NavHeader } from "@/components/NavHeader";
@@ -16,20 +16,29 @@ import { LoadingScreen } from "@/components/LoadingScreen";
 import colors from "@/constants/colors";
 
 interface EmployeeStatus {
-  employee: { id: string; full_name: string; designation?: string | null; contact_number?: string | null; workplace?: { name: string } | null };
+  employee: { 
+    id: string; full_name: string; designation?: string | null; 
+    contact_number?: string | null; workplace?: { name: string } | null;
+    shift_start_time?: string | null; shift_end_time?: string | null;
+    shift_days?: string | null;
+  };
   logged_in: boolean; signed_off: boolean;
   login_time?: string | null; signoff_time?: string | null; login_address?: string | null;
+  shift_status?: string; shift_overdue?: boolean; has_shift_today?: boolean;
+  has_absence_note?: boolean;
+  has_call_log?: boolean;
 }
 
 interface RecruiterDashboard {
   team_count: number; signed_in_today: number; not_signed_in: number;
+  shift_overdue_count: number;
   employees: EmployeeStatus[];
 }
 
 interface Notification { id: string; read: boolean; }
 
 export default function RecruiterDashboard() {
-  const { logout } = useAuth();
+  const { user, logout } = useAuth();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const c = colors.light;
@@ -38,20 +47,31 @@ export default function RecruiterDashboard() {
   const { data, isLoading, refetch } = useQuery<RecruiterDashboard>({
     queryKey: ["recruiter-dashboard"],
     queryFn: () => apiFetch("/dashboard/recruiter"),
+    refetchInterval: 30000, // Auto refresh every 30 seconds
   });
 
-  const { data: notifications } = useQuery<Notification[]>({
+  // Refresh when screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      refetch();
+    }, [refetch])
+  );
+  const qc = useQueryClient();
+
+  const { data: notifications, refetch: refetchNotif } = useQuery<Notification[]>({
     queryKey: ["notifications"],
     queryFn: () => apiFetch("/notifications"),
+    refetchInterval: 30000, // Refresh every 30 seconds
   });
 
   const unread = (notifications ?? []).filter((n) => !n.read).length;
 
   const onRefresh = useCallback(async () => {
     setRefreshing(true);
-    await refetch();
+    await qc.invalidateQueries({ queryKey: ["recruiter-dashboard"] });
+    await qc.refetchQueries({ queryKey: ["recruiter-dashboard"], type: "active" });
     setRefreshing(false);
-  }, []);
+  }, [qc]);
 
   const getStatus = (emp: EmployeeStatus): string => {
     if (emp.signed_off) return "signed_off";
@@ -64,10 +84,16 @@ export default function RecruiterDashboard() {
   return (
     <View style={[styles.container, { backgroundColor: c.background }]}>
       <NavHeader
-        title="My Team"
+        title="JISHLink"
+        subtitle={user ? `${user.full_name} · ${user.workplace?.name ?? "Recruiter"}` : "My Team"}
         rightIcon={<Feather name="bell" size={22} color={c.white} />}
         notificationCount={unread}
         onRightPress={() => router.push("/(recruiter)/notifications")}
+        rightIcon2={<Feather name="log-out" size={22} color={c.white} />}
+        onRightPress2={async () => {
+          await logout();
+          router.replace("/(auth)/login");
+        }}
       />
 
       <FlatList
@@ -92,14 +118,51 @@ export default function RecruiterDashboard() {
             </View>
 
             <View style={styles.actionRow}>
-              <TouchableOpacity onPress={() => router.push("/(recruiter)/reassign")} style={[styles.actionBtn, { backgroundColor: c.teal }]}>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/employees/add" as any)} style={[styles.actionBtn, { backgroundColor: c.gold }]}>
+                <Feather name="user-plus" size={16} color={c.navy} />
+                <Text style={[styles.actionText, { color: c.navy, fontFamily: "Inter_600SemiBold" }]}>Add Employee</Text>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/employees" as any)} style={[styles.actionBtn, { backgroundColor: c.teal }]}>
+                <Feather name="users" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>All Employees</Text>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.actionRow}>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/shifts" as any)} style={[styles.actionBtn, { backgroundColor: c.navy }]}>
+                <Feather name="clock" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Manage Shifts</Text>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/reassign")} style={[styles.actionBtn, { backgroundColor: c.navy }]}>
                 <Feather name="shuffle" size={16} color={c.white} />
                 <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Reassign</Text>
               </TouchableOpacity>
-              <TouchableOpacity onPress={logout} style={[styles.actionBtn, { backgroundColor: c.muted }]}>
-                <Feather name="log-out" size={16} color={c.destructive} />
-                <Text style={[styles.actionText, { color: c.destructive, fontFamily: "Inter_600SemiBold" }]}>Logout</Text>
+            </View>
+            <View style={styles.actionRow}>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/attendance" as any)} style={[styles.actionBtn, { backgroundColor: c.teal }]}>
+                <Feather name="calendar" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Attendance</Text>
               </TouchableOpacity>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/leaves" as any)} style={[styles.actionBtn, { backgroundColor: c.teal }]}>
+                <Feather name="file-text" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Leaves</Text>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.actionRow}>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/import" as any)} style={[styles.actionBtn, { backgroundColor: c.navy }]}>
+                <Feather name="upload" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Import</Text>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/export" as any)} style={[styles.actionBtn, { backgroundColor: c.navy }]}>
+                <Feather name="download" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Export</Text>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.actionRow}>
+              <TouchableOpacity onPress={() => router.push("/(recruiter)/qr-settings" as any)} style={[styles.actionBtn, { backgroundColor: c.teal }]}>
+                <Feather name="grid" size={16} color={c.white} />
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>QR</Text>
+              </TouchableOpacity>
+              <View style={[styles.actionBtn, { backgroundColor: "transparent" }]} />
             </View>
 
             <Text style={[styles.listTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>
@@ -112,8 +175,15 @@ export default function RecruiterDashboard() {
         renderItem={({ item }) => {
           const status = getStatus(item);
           const emp = item.employee;
+          const shiftDisplay = emp.shift_start_time && emp.shift_end_time 
+            ? `${emp.shift_start_time} - ${emp.shift_end_time}` 
+            : null;
+          
           return (
-            <View style={[styles.card, { backgroundColor: c.white }]}>
+            <TouchableOpacity 
+              style={[styles.card, { backgroundColor: c.white }]}
+              onPress={() => router.push(`/(recruiter)/employees/${emp.id}` as any)}
+            >
               <View style={styles.cardHeader}>
                 <View style={[styles.avatar, { backgroundColor: c.muted }]}>
                   <Text style={[styles.avatarText, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>
@@ -125,30 +195,57 @@ export default function RecruiterDashboard() {
                   <Text style={[styles.empSub, { color: c.mutedForeground, fontFamily: "Inter_400Regular" }]}>
                     {emp.designation ?? "—"} · {emp.workplace?.name ?? "—"}
                   </Text>
+                  {shiftDisplay && (
+                    <Text style={[styles.shiftText, { color: c.teal, fontFamily: "Inter_500Medium" }]}>
+                      <Feather name="clock" size={12} color={c.teal} /> Shift: {shiftDisplay}
+                    </Text>
+                  )}
                 </View>
                 <StatusBadge status={status} />
               </View>
+
+              {/* Shift Overdue Alert */}
+              {item.shift_overdue && !item.logged_in && item.has_shift_today && (
+                <View style={[styles.overdueBanner, { backgroundColor: "#FEF3C7" }]}>
+                  <Feather name="alert-triangle" size={14} color={c.warning} />
+                  <Text style={[styles.overdueText, { color: c.warning, fontFamily: "Inter_600SemiBold" }]}>
+                    Shift started {emp.shift_start_time}! Not logged in yet.
+                  </Text>
+                </View>
+              )}
 
               {(item.login_time || item.signoff_time) && (
                 <View style={[styles.timeRow, { borderTopColor: c.border }]}>
                   {item.login_time && (
                     <Text style={[styles.timeText, { color: c.mutedForeground, fontFamily: "Inter_400Regular" }]}>
-                      In: {new Date(item.login_time).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                      <Feather name="log-in" size={12} color={c.success} /> In: {new Date(item.login_time).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} {item.login_address ? `· ${item.login_address}` : ""}
                     </Text>
                   )}
                   {item.signoff_time && (
                     <Text style={[styles.timeText, { color: c.mutedForeground, fontFamily: "Inter_400Regular" }]}>
-                      Out: {new Date(item.signoff_time).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                      <Feather name="log-out" size={12} color={c.destructive} /> Out: {new Date(item.signoff_time).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                     </Text>
                   )}
                 </View>
               )}
 
-              {status === "absent" && (
+              {status === "absent" && !item.has_absence_note && (
                 <View style={styles.absentActions}>
                   {emp.contact_number && (
                     <TouchableOpacity
-                      onPress={() => Linking.openURL(`tel:${emp.contact_number}`)}
+                      onPress={async () => {
+                        // Log the call
+                        try {
+                          await apiFetch("/call-log", {
+                            method: "POST",
+                            body: JSON.stringify({ employee_id: emp.id }),
+                          });
+                        } catch (e) {
+                          console.log("Call log error:", e);
+                        }
+                        // Open phone dialer
+                        Linking.openURL(`tel:${emp.contact_number}`);
+                      }}
                       style={[styles.absentBtn, { backgroundColor: c.teal }]}
                     >
                       <Feather name="phone" size={14} color={c.white} />
@@ -164,7 +261,25 @@ export default function RecruiterDashboard() {
                   </TouchableOpacity>
                 </View>
               )}
-            </View>
+
+              {item.has_absence_note && (
+                <View style={[styles.absenceBanner, { backgroundColor: "#FEF3C7" }]}>
+                  <Feather name="check-circle" size={14} color={c.warning} />
+                  <Text style={[styles.absenceText, { color: c.warning, fontFamily: "Inter_600SemiBold" }]}>
+                    Absence Marked
+                  </Text>
+                </View>
+              )}
+
+              {item.has_call_log && !item.has_absence_note && (
+                <View style={[styles.callBanner, { backgroundColor: "#DBEAFE" }]}>
+                  <Feather name="phone" size={14} color={c.teal} />
+                  <Text style={[styles.callText, { color: c.teal, fontFamily: "Inter_600SemiBold" }]}>
+                    Called Employee
+                  </Text>
+                </View>
+              )}
+            </TouchableOpacity>
           );
         }}
         showsVerticalScrollIndicator={false}
@@ -195,4 +310,11 @@ const styles = StyleSheet.create({
   absentActions: { flexDirection: "row", gap: 10, marginTop: 10 },
   absentBtn: { flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, paddingVertical: 9, borderRadius: 8 },
   absentBtnText: { fontSize: 13 },
+  shiftText: { fontSize: 11, marginTop: 2 },
+  overdueBanner: { flexDirection: "row", alignItems: "center", gap: 6, padding: 8, borderRadius: 6, marginTop: 8, marginBottom: 4 },
+  overdueText: { fontSize: 12, flex: 1 },
+  absenceBanner: { flexDirection: "row", alignItems: "center", gap: 6, padding: 8, borderRadius: 6, marginTop: 8 },
+  absenceText: { fontSize: 12, flex: 1 },
+  callBanner: { flexDirection: "row", alignItems: "center", gap: 6, padding: 8, borderRadius: 6, marginTop: 8 },
+  callText: { fontSize: 12, flex: 1 },
 });

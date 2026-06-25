@@ -35,6 +35,7 @@ router.post("/login", async (req, res) => {
     employee_id: employee.id,
     role: employee.role ?? "employee",
     username: employee.username,
+    workplace_id: employee.workplace_id,
   });
 
   // Sanitize sensitive fields based on role
@@ -95,6 +96,7 @@ function sanitizeEmployee(emp: Record<string, unknown>, role: string) {
   void aadhar_number; void pan_number; void account_number; void ifsc_code;
   void bank_name; void bank_branch; void aadhar_doc_url; void pan_doc_url; void bank_doc_url;
   void password_hash;
+  // Ensure reporting_manager and recruiter_name are preserved
   return safe;
 }
 

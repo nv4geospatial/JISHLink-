@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Platform,
+  View, Text, StyleSheet, ScrollView, TouchableOpacity, Platform, Alert,
 } from "react-native";
-import { useLocalSearchParams, useRouter, useFocusEffect } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
 import { Feather } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
@@ -26,10 +26,7 @@ interface Employee {
   driving_license_number?: string | null; vehicle_details?: string | null;
   username?: string | null; role?: string | null;
   custom_id?: string | null;
-}
-
-interface AttendanceLog {
-  id: string; type: string; timestamp: string; resolved_address?: string | null;
+  shift_start_time?: string | null; shift_end_time?: string | null; shift_days?: string | null;
 }
 
 function InfoRow({ label, value }: { label: string; value?: string | null }) {
@@ -43,42 +40,32 @@ function InfoRow({ label, value }: { label: string; value?: string | null }) {
   );
 }
 
-export default function EmployeeDetailScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+export default function RecruiterEmployeeDetailScreen() {
+  const params = useLocalSearchParams();
+  const id = params.id as string;
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const c = colors.light;
   const qc = useQueryClient();
-  const [showDeactivateConfirm, setShowDeactivateConfirm] = useState(false);
 
-  const { data: employee, isLoading, refetch } = useQuery<Employee>({
-    queryKey: ["employee", id],
+  const { data: employee, isLoading } = useQuery<Employee>({
+    queryKey: ["recruiter-employee", id],
     queryFn: () => apiFetch(`/employees/${id}`),
   });
 
-  // Refetch when screen comes into focus
-  useFocusEffect(() => {
-    refetch();
-  });
+  const [showDeactivateConfirm, setShowDeactivateConfirm] = React.useState(false);
 
-  const handleToggleStatus = async () => {
+  const handleDelete = async () => {
     if (!employee || !id) {
       Toast.show({ type: "error", text1: "Error", text2: "Employee ID not found" });
       return;
     }
-    const isActive = employee.employment_status === "active";
     try {
-      if (isActive) {
-        await apiFetch(`/employees/${id}`, { method: "DELETE" });
-        Toast.show({ type: "success", text1: "Employee deactivated!" });
-      } else {
-        await apiFetch(`/employees/${id}/activate`, { method: "POST" });
-        Toast.show({ type: "success", text1: "Employee activated!" });
-      }
-      qc.invalidateQueries({ queryKey: ["employees"] });
-      qc.invalidateQueries({ queryKey: ["employee", id] });
-      qc.invalidateQueries({ queryKey: ["admin-dashboard"] });
-      setShowDeactivateConfirm(false);
+      await apiFetch(`/employees/${id}`, { method: "DELETE" });
+      Toast.show({ type: "success", text1: "Employee deactivated" });
+      qc.invalidateQueries({ queryKey: ["recruiter-employees"] });
+      qc.invalidateQueries({ queryKey: ["recruiter-dashboard"] });
+      router.back();
     } catch (e: unknown) {
       let errorMsg = "Error";
       if (e instanceof Error) {
@@ -88,7 +75,7 @@ export default function EmployeeDetailScreen() {
           if (parsed.error) errorMsg = parsed.error;
         } catch { /* not JSON */ }
       }
-      Toast.show({ type: "error", text1: `Failed to ${isActive ? "deactivate" : "activate"}`, text2: errorMsg });
+      Toast.show({ type: "error", text1: "Failed to deactivate", text2: errorMsg });
     }
   };
 
@@ -110,10 +97,14 @@ export default function EmployeeDetailScreen() {
       ["Address", employee.address],
     ]},
     { title: "Employment", rows: [
-      ["Employee ID", employee.custom_id ?? employee.employee_code], ["Designation", employee.designation],
-      ["Status", employee.employment_status], ["Type", employee.employment_type],
-      ["Joined", employee.date_of_joining], ["Workplace", employee.workplace?.name],
-      ["Role", employee.role], ["Username", employee.username],
+      ["Designation", employee.designation], ["Status", employee.employment_status],
+      ["Type", employee.employment_type], ["Joined", employee.date_of_joining],
+      ["Workplace", employee.workplace?.name], ["Role", employee.role],
+      ["Username", employee.username],
+    ]},
+    { title: "Shift", rows: [
+      ["Start Time", employee.shift_start_time], ["End Time", employee.shift_end_time],
+      ["Working Days", employee.shift_days],
     ]},
     { title: "Statutory", rows: [
       ["Aadhar", employee.aadhar_number], ["PAN", employee.pan_number],
@@ -145,14 +136,26 @@ export default function EmployeeDetailScreen() {
             <Text style={[styles.heroSub, { color: c.gold, fontFamily: "Inter_400Regular" }]}>
               {employee.designation ?? "—"} · {employee.workplace?.name ?? "No workplace"}
             </Text>
+            {employee.shift_start_time && employee.shift_end_time && (
+              <Text style={[styles.shiftInfo, { color: c.white, fontFamily: "Inter_500Medium" }]}>
+                <Feather name="clock" size={12} color={c.gold} /> Shift: {employee.shift_start_time} - {employee.shift_end_time} ({employee.shift_days})
+              </Text>
+            )}
           </View>
           <StatusBadge status={employee.employment_status ?? "pending"} />
         </View>
 
+        {SECTIONS.map((section) => (
+          <View key={section.title} style={[styles.section, { backgroundColor: c.white }]}>
+            <Text style={[styles.sectionTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>{section.title}</Text>
+            {section.rows.map(([label, val]) => <InfoRow key={label} label={label ?? ""} value={val} />)}
+          </View>
+        ))}
+
         {/* Actions */}
         <View style={styles.actionsContainer}>
           <TouchableOpacity
-            onPress={() => router.push({ pathname: "/(admin)/employees/edit", params: { id: employee.id } } as any)}
+            onPress={() => router.push({ pathname: "/(recruiter)/employees/edit", params: { id: employee.id } } as any)}
             style={[styles.actionBtn, { backgroundColor: c.teal }]}
           >
             <Feather name="edit-2" size={16} color={c.white} />
@@ -160,23 +163,21 @@ export default function EmployeeDetailScreen() {
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() => setShowDeactivateConfirm(true)}
-            style={[styles.actionBtn, { backgroundColor: employee.employment_status === "active" ? c.destructive : c.success }]}
+            style={[styles.actionBtn, { backgroundColor: c.destructive }]}
           >
-            <Feather name={employee.employment_status === "active" ? "trash-2" : "check-circle"} size={16} color={c.white} />
-            <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>
-              {employee.employment_status === "active" ? "Deactivate" : "Activate"}
-            </Text>
+            <Feather name="trash-2" size={16} color={c.white} />
+            <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Deactivate</Text>
           </TouchableOpacity>
         </View>
 
-        {/* Activate/Deactivate confirmation */}
+        {/* Deactivate confirmation */}
         {showDeactivateConfirm && (
-          <View style={[styles.section, { backgroundColor: c.white, marginBottom: 12 }]}>
+          <View style={[styles.section, { backgroundColor: c.white, marginTop: 12 }]}>
             <Text style={[styles.sectionTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>
-              {employee.employment_status === "active" ? "Confirm Deactivation" : "Confirm Activation"}
+              Confirm Deactivation
             </Text>
             <Text style={{ color: c.text, fontFamily: "Inter_400Regular", fontSize: 14, marginBottom: 12 }}>
-              Are you sure you want to {employee.employment_status === "active" ? "deactivate" : "activate"} {employee.full_name}?
+              Are you sure you want to deactivate {employee.full_name}?
             </Text>
             <View style={{ flexDirection: "row", gap: 12 }}>
               <TouchableOpacity
@@ -186,23 +187,14 @@ export default function EmployeeDetailScreen() {
                 <Text style={[styles.actionText, { color: c.mutedForeground, fontFamily: "Inter_600SemiBold" }]}>Cancel</Text>
               </TouchableOpacity>
               <TouchableOpacity
-                onPress={handleToggleStatus}
-                style={[styles.actionBtn, { flex: 1, backgroundColor: employee.employment_status === "active" ? c.destructive : c.success }]}
+                onPress={handleDelete}
+                style={[styles.actionBtn, { flex: 1, backgroundColor: c.destructive }]}
               >
-                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>
-                  {employee.employment_status === "active" ? "Deactivate" : "Activate"}
-                </Text>
+                <Text style={[styles.actionText, { color: c.white, fontFamily: "Inter_600SemiBold" }]}>Deactivate</Text>
               </TouchableOpacity>
             </View>
           </View>
         )}
-
-        {SECTIONS.map((section) => (
-          <View key={section.title} style={[styles.section, { backgroundColor: c.white }]}>
-            <Text style={[styles.sectionTitle, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>{section.title}</Text>
-            {section.rows.map(([label, val]) => <InfoRow key={label} label={label ?? ""} value={val} />)}
-          </View>
-        ))}
       </ScrollView>
     </View>
   );
@@ -215,12 +207,13 @@ const styles = StyleSheet.create({
   avatarText: { fontSize: 22 },
   heroName: { fontSize: 17 },
   heroSub: { fontSize: 13, marginTop: 2 },
+  shiftInfo: { fontSize: 12, marginTop: 4 },
   section: { borderRadius: 10, padding: 16, marginBottom: 12, shadowColor: "#000", shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.06, shadowRadius: 4, elevation: 2 },
   sectionTitle: { fontSize: 14, marginBottom: 10 },
   infoRow: { flexDirection: "row", justifyContent: "space-between", paddingVertical: 6, borderBottomWidth: 1, borderBottomColor: "#F3F4F6" },
   infoLabel: { fontSize: 13, flex: 1 },
   infoValue: { fontSize: 13, flex: 2, textAlign: "right" },
-  actionsContainer: { flexDirection: "row", gap: 12, marginBottom: 12 },
+  actionsContainer: { flexDirection: "row", gap: 12, marginTop: 8 },
   actionBtn: { flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, paddingVertical: 12, borderRadius: 8 },
   actionText: { fontSize: 14 },
 });

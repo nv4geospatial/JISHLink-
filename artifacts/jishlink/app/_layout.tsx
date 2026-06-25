@@ -33,6 +33,10 @@ function RootLayoutNav() {
   useEffect(() => {
     if (isLoading) return;
     const inAuthGroup = segments[0] === "(auth)";
+    const inAdminGroup = segments[0] === "(admin)";
+    const inRecruiterGroup = segments[0] === "(recruiter)";
+    const inEmployeeGroup = segments[0] === "(employee)";
+
     if (!user && !inAuthGroup) {
       router.replace("/(auth)/login");
     } else if (user && inAuthGroup) {
@@ -40,6 +44,18 @@ function RootLayoutNav() {
       if (role === "admin") router.replace("/(admin)/dashboard");
       else if (role === "recruiter") router.replace("/(recruiter)/dashboard");
       else router.replace("/(employee)/dashboard");
+    } else if (user && !inAuthGroup) {
+      const role = user.role ?? "employee";
+      const isInCorrectGroup =
+        (role === "admin" && inAdminGroup) ||
+        (role === "recruiter" && inRecruiterGroup) ||
+        (role === "employee" && inEmployeeGroup);
+
+      if (!isInCorrectGroup) {
+        if (role === "admin") router.replace("/(admin)/dashboard");
+        else if (role === "recruiter") router.replace("/(recruiter)/dashboard");
+        else router.replace("/(employee)/dashboard");
+      }
     }
   }, [user, isLoading, segments]);
 
