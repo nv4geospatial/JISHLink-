@@ -125,20 +125,21 @@ router.get('/health', async (_req: Request, res: Response) => {
     if (isHealthy) {
       return res.json({ success: true, ocr_service: { status: 'ok' } });
     }
-    return res.status(503).json({ 
-      success: false, 
-      error: 'OCR service unavailable',
-      fallback: 'Direct script execution available'
+    // OCR service offline, but API server is healthy
+    return res.json({ 
+      success: true, 
+      ocr_service: { status: 'offline', note: 'Scanner temporarily unavailable' },
+      api: { status: 'ok' }
     });
   } catch (error) {
-    return res.status(503).json({ 
-      success: false, 
-      error: 'OCR service unavailable',
-      fallback: 'Direct script execution available'
+    // OCR service offline, but API server is healthy
+    return res.json({ 
+      success: true, 
+      ocr_service: { status: 'offline', note: 'Scanner temporarily unavailable' },
+      api: { status: 'ok' }
     });
   }
 });
-
 /**
  * GET /api/ocr/history
  * Get user's OCR extraction history
