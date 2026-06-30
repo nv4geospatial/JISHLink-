@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0359",
+  "data": {
+    "name": "Patrick Morar",
+    "nominee": "W/O: Bhavya",
+    "address_lines": [
+      "290, Dixit Street",
+      "Haryana - 799040"
+    ],
+    "pincode": "799040",
+    "mobile": "9875681172",
+    "aadhaar": "3768 1511 8567",
+    "dob": "1974",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

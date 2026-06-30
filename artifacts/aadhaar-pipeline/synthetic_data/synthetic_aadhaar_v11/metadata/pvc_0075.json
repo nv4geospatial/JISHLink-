@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0075",
+  "data": {
+    "name": "Jeet Wali",
+    "nominee": "S/O: Christopher",
+    "address_lines": [
+      "H.No. 42, Mahal Ganj",
+      "Amritsar, Hubli\u2013Dharwad",
+      "Haryana - 147431"
+    ],
+    "pincode": "147431",
+    "mobile": "9224909482",
+    "aadhaar": "4035 2635 6022",
+    "dob": "29/03/1941",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      168,
+      379
+    ],
+    "back_pincode": [
+      120,
+      415,
+      164,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

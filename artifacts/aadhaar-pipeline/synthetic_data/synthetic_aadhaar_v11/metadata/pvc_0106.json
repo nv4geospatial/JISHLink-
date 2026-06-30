@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0106",
+  "data": {
+    "name": "Sachi Gade",
+    "nominee": "D/O: Oni",
+    "address_lines": [
+      "81/001, Minhas Circle",
+      "Karnataka - 711046"
+    ],
+    "pincode": "711046",
+    "mobile": "9186573049",
+    "aadhaar": "9582 6328 0944",
+    "dob": "15/04/1948",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      124,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

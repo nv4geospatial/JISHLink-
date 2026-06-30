@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0327",
+  "data": {
+    "name": "Champak Walia",
+    "nominee": "C/O: Pratyush",
+    "address_lines": [
+      "H.No. 293, Zachariah Street",
+      "Bettiah, Dindigul",
+      "West Bengal - 469535"
+    ],
+    "pincode": "469535",
+    "mobile": "7777493723",
+    "aadhaar": "9431 9165 4308",
+    "dob": "06/02/2012",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      152,
+      378
+    ],
+    "back_pincode": [
+      143,
+      414,
+      187,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

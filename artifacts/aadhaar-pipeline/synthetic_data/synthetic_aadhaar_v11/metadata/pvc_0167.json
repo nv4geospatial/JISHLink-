@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0167",
+  "data": {
+    "name": "Aarini Sur",
+    "nominee": "S/O: Jonathan",
+    "address_lines": [
+      "58/971, Venkataraman Road",
+      "Berhampore, Nagercoil",
+      "Odisha - 175706"
+    ],
+    "pincode": "175706",
+    "mobile": "7396942296",
+    "aadhaar": "XXXX XXXX 5372",
+    "dob": "02/11/1995",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      154,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

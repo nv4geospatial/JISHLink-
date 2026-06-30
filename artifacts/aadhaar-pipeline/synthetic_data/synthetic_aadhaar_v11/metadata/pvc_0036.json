@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0036",
+  "data": {
+    "name": "Dev Kannan",
+    "nominee": "D/O: Geetika",
+    "address_lines": [
+      "39/38, Sangha Marg",
+      "Vijayanagaram, Khammam",
+      "Gujarat - 441501"
+    ],
+    "pincode": "441501",
+    "mobile": "9739122962",
+    "aadhaar": "6434 7452 4555",
+    "dob": "03/09/1949",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

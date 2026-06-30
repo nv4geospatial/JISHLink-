@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0040",
+  "data": {
+    "name": "Yagnesh Buch",
+    "nominee": "W/O: Ekantika",
+    "address_lines": [
+      "039, Narasimhan Chowk",
+      "Sagar, Saharanpur",
+      "Haryana - 478776"
+    ],
+    "pincode": "478776",
+    "mobile": "9330653508",
+    "aadhaar": "XXXX XXXX 4490",
+    "dob": "12/09/1950",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      153,
+      376
+    ],
+    "back_pincode": [
+      120,
+      412,
+      164,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

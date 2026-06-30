@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0049",
+  "data": {
+    "name": "Henry Dyal",
+    "nominee": "S/O: Nitesh",
+    "address_lines": [
+      "15, Naik Road",
+      "Kerala - 490748"
+    ],
+    "pincode": "490748",
+    "mobile": "7729712082",
+    "aadhaar": "XXXX XXXX 4945",
+    "dob": "20/04/1949",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0485",
+  "data": {
+    "name": "Ekalinga Karan",
+    "nominee": "D/O: Vasudha",
+    "address_lines": [
+      "30, Pant",
+      "Arrah, Kalyan-Dombivli",
+      "Haryana - 733556"
+    ],
+    "pincode": "733556",
+    "mobile": "9260643932",
+    "aadhaar": "2180 3966 2038",
+    "dob": "17/10/1941",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      152,
+      376
+    ],
+    "back_pincode": [
+      120,
+      412,
+      164,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

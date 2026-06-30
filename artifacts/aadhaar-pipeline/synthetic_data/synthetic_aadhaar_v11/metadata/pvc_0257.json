@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0257",
+  "data": {
+    "name": "Henry Parmer",
+    "nominee": "C/O: Aayush",
+    "address_lines": [
+      "12/542, Grewal Chowk",
+      "Bidar, Thanjavur",
+      "Kerala - 168507"
+    ],
+    "pincode": "168507",
+    "mobile": "9377768271",
+    "aadhaar": "XXXX XXXX 6782",
+    "dob": "25/08/1997",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      378
+    ],
+    "back_pincode": [
+      110,
+      414,
+      154,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

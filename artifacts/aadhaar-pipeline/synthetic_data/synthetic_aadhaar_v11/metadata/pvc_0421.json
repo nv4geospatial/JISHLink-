@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0421",
+  "data": {
+    "name": "Lajita Barad",
+    "nominee": "C/O: Yagnesh",
+    "address_lines": [
+      "H.No. 317, Nazareth Marg",
+      "Fatehpur, Tinsukia",
+      "Karnataka - 363522"
+    ],
+    "pincode": "363522",
+    "mobile": "7674960654",
+    "aadhaar": "3753 0768 1024",
+    "dob": "02/11/1958",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      379
+    ],
+    "back_pincode": [
+      130,
+      415,
+      174,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      139,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

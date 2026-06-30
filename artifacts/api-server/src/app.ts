@@ -4,7 +4,7 @@ import pinoHttp from "pino-http";
 import router from "./routes/index.js";
 import { logger } from "./lib/logger.js";
 import { shiftsRouter } from "./routes/shifts.js";
-import { ocrRouter } from "./routes/ocr.js";
+import { ocrRouter } from "./routes/ocr";
 
 const app: Express = express();
 

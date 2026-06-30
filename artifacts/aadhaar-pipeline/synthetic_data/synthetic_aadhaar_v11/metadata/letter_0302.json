@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0302",
+  "data": {
+    "name": "Viraj Chana",
+    "nominee": "S/O: Faqid",
+    "address_lines": [
+      "H.No. 75, Balay Chowk",
+      "Kumbakonam, Tiruvottiyur",
+      "Andhra Pradesh - 520515"
+    ],
+    "pincode": "520515",
+    "mobile": "8260257262",
+    "aadhaar": "1529 1086 7713",
+    "dob": "1965",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

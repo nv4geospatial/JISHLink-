@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0143",
+  "data": {
+    "name": "Chanakya Ahuja",
+    "nominee": "C/O: Samuel",
+    "address_lines": [
+      "875, Subramanian Nagar",
+      "Rajasthan - 217984"
+    ],
+    "pincode": "217984",
+    "mobile": "9731289471",
+    "aadhaar": "9119 1485 6467",
+    "dob": "07/08/1990",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

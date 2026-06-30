@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0206",
+  "data": {
+    "name": "Vedant Bhat",
+    "nominee": "W/O: Lavanya",
+    "address_lines": [
+      "H.No. 11, Sawhney Circle",
+      "Panvel, Ghaziabad",
+      "Karnataka - 238785"
+    ],
+    "pincode": "238785",
+    "mobile": "9470403591",
+    "aadhaar": "6133 7184 4490",
+    "dob": "1949",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      152,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      174,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

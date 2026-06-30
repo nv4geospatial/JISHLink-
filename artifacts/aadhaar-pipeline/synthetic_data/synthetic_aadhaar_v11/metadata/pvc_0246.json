@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0246",
+  "data": {
+    "name": "Pranav Bakshi",
+    "nominee": "S/O: Qadim",
+    "address_lines": [
+      "52, Hayre Nagar",
+      "Sri Ganganagar, Kakinada",
+      "Andhra Pradesh - 367933"
+    ],
+    "pincode": "367933",
+    "mobile": "7967402943",
+    "aadhaar": "9497 6987 3137",
+    "dob": "02/02/1974",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      378
+    ],
+    "back_pincode": [
+      162,
+      414,
+      206,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

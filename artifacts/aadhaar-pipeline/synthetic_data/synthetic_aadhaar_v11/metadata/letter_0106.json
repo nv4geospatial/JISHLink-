@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0106",
+  "data": {
+    "name": "Shivani Shukla",
+    "nominee": "W/O: Eesha",
+    "address_lines": [
+      "H.No. 22, Kar Path",
+      "Bhiwani, Amravati",
+      "Andhra Pradesh - 662986"
+    ],
+    "pincode": "662986",
+    "mobile": "7217434526",
+    "aadhaar": "3529 0965 6101",
+    "dob": "16/10/1966",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

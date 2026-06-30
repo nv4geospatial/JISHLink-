@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0424",
+  "data": {
+    "name": "Harsh Ganguly",
+    "nominee": "S/O: Bachittar",
+    "address_lines": [
+      "H.No. 367, Mahajan Road",
+      "Madhya Pradesh - 543464"
+    ],
+    "pincode": "543464",
+    "mobile": "7189755462",
+    "aadhaar": "2146 1476 8342",
+    "dob": "21/12/1997",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

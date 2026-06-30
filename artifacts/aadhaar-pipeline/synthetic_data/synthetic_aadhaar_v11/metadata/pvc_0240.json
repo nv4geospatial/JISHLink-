@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0240",
+  "data": {
+    "name": "Upma Bhavsar",
+    "nominee": "C/O: Aarnav",
+    "address_lines": [
+      "H.No. 10, Sidhu",
+      "Maheshtala, Bareilly",
+      "Rajasthan - 486469"
+    ],
+    "pincode": "486469",
+    "mobile": "8768840667",
+    "aadhaar": "1579 5546 2347",
+    "dob": "02/09/1985",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      174,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

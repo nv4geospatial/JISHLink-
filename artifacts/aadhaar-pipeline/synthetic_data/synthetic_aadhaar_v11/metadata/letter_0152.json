@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0152",
+  "data": {
+    "name": "Advik Manne",
+    "nominee": "C/O: Samuel",
+    "address_lines": [
+      "62/244, Tailor Road",
+      "Guwahati, Aurangabad",
+      "Tamil Nadu - 250181"
+    ],
+    "pincode": "250181",
+    "mobile": "7936381727",
+    "aadhaar": "1752 5007 4329",
+    "dob": "02/08/1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

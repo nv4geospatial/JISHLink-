@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0242",
+  "data": {
+    "name": "Samaksh Brahmbhatt",
+    "nominee": "S/O: Faraj",
+    "address_lines": [
+      "12/89, Narayanan Marg",
+      "Thrissur, Mangalore",
+      "Tamil Nadu - 213436"
+    ],
+    "pincode": "213436",
+    "mobile": "8190661379",
+    "aadhaar": "3806 7130 7351",
+    "dob": "29/03/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      130,
+      379
+    ],
+    "back_pincode": [
+      137,
+      415,
+      181,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

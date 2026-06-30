@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0067",
+  "data": {
+    "name": "Suhani Chand",
+    "nominee": "W/O: Aishani",
+    "address_lines": [
+      "H.No. 839, Kaul Ganj",
+      "Maharashtra - 436814"
+    ],
+    "pincode": "436814",
+    "mobile": "9417440983",
+    "aadhaar": "4796 2757 0596",
+    "dob": "18/06/1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

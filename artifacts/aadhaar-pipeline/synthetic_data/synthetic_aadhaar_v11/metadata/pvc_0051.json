@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0051",
+  "data": {
+    "name": "Omisha Vohra",
+    "nominee": "D/O: Mitali",
+    "address_lines": [
+      "728, Seshadri Zila",
+      "Tamil Nadu - 516036"
+    ],
+    "pincode": "516036",
+    "mobile": "8619524460",
+    "aadhaar": "5396 7379 4871",
+    "dob": "04/08/1983",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      137,
+      397,
+      181,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0291",
+  "data": {
+    "name": "Jagdish Hegde",
+    "nominee": "D/O: Yahvi",
+    "address_lines": [
+      "06/158, Madan Zila",
+      "Loni, Panihati",
+      "Kerala - 537970"
+    ],
+    "pincode": "537970",
+    "mobile": "7184761083",
+    "aadhaar": "5153 2594 7950",
+    "dob": "17/07/1982",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      110,
+      412,
+      154,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

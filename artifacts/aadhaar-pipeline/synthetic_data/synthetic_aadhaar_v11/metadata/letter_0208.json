@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0208",
+  "data": {
+    "name": "Lila Goyal",
+    "nominee": "W/O: Sai",
+    "address_lines": [
+      "43, Bhatia Road",
+      "West Bengal - 750324"
+    ],
+    "pincode": "750324",
+    "mobile": "7806832877",
+    "aadhaar": "XXXX XXXX 4565",
+    "dob": "24/12/1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0439",
+  "data": {
+    "name": "Vedika Bahri",
+    "nominee": "D/O: Chakrika",
+    "address_lines": [
+      "23, Tella Zila",
+      "Uttar Pradesh - 704413"
+    ],
+    "pincode": "704413",
+    "mobile": "9941068017",
+    "aadhaar": "XXXX XXXX 8050",
+    "dob": "25/05/2011",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

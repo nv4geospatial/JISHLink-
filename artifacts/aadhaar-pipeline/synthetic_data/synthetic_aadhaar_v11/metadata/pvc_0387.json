@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0387",
+  "data": {
+    "name": "Triya Nair",
+    "nominee": "D/O: Vedika",
+    "address_lines": [
+      "H.No. 256, Ratta Street",
+      "Jamnagar, Kharagpur",
+      "Bihar - 542730"
+    ],
+    "pincode": "542730",
+    "mobile": "9210003340",
+    "aadhaar": "4447 1893 9530",
+    "dob": "14/04/1968",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

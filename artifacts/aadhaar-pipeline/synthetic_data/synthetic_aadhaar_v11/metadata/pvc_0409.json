@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0409",
+  "data": {
+    "name": "Kashish Borra",
+    "nominee": "W/O: Turvi",
+    "address_lines": [
+      "H.No. 73, Balasubramanian Zila",
+      "Uttar Pradesh - 691880"
+    ],
+    "pincode": "691880",
+    "mobile": "8222859966",
+    "aadhaar": "XXXX XXXX 6600",
+    "dob": "24/05/2007",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      149,
+      397,
+      193,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

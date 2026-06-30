@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0427",
+  "data": {
+    "name": "Yagnesh Devan",
+    "nominee": "C/O: Darpan",
+    "address_lines": [
+      "37/858, Sridhar Road",
+      "Maharashtra - 631302"
+    ],
+    "pincode": "631302",
+    "mobile": "8266177088",
+    "aadhaar": "6097 2360 2446",
+    "dob": "27/07/1945",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      379
+    ],
+    "back_pincode": [
+      142,
+      400,
+      186,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

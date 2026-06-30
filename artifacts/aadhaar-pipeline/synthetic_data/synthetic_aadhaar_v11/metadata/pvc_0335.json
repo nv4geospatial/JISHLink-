@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0335",
+  "data": {
+    "name": "Jacob Khare",
+    "nominee": "D/O: Ucchal",
+    "address_lines": [
+      "60, Golla Ganj",
+      "Maharashtra - 473053"
+    ],
+    "pincode": "473053",
+    "mobile": "7319086451",
+    "aadhaar": "7565 8963 5957",
+    "dob": "30/04/1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      142,
+      397,
+      186,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

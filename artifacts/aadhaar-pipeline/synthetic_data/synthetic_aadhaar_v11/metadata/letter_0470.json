@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0470",
+  "data": {
+    "name": "Harinakshi Sidhu",
+    "nominee": "S/O: Dominic",
+    "address_lines": [
+      "934, Subramanian Zila",
+      "Pali, Karimnagar",
+      "Telangana - 346525"
+    ],
+    "pincode": "346525",
+    "mobile": "8222662806",
+    "aadhaar": "0704 4964 1049",
+    "dob": "1950",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

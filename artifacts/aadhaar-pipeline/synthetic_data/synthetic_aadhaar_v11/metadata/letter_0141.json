@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0141",
+  "data": {
+    "name": "Timothy Dhingra",
+    "nominee": "S/O: Abhiram",
+    "address_lines": [
+      "536, Korpal",
+      "Begusarai, Sagar",
+      "Kerala - 258471"
+    ],
+    "pincode": "258471",
+    "mobile": "7192027526",
+    "aadhaar": "5869 3806 8687",
+    "dob": "1978",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

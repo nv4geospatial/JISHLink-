@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0466",
+  "data": {
+    "name": "Azaan Nath",
+    "nominee": "D/O: Dhriti",
+    "address_lines": [
+      "63, Kohli Road",
+      "Morbi, Tenali",
+      "West Bengal - 384745"
+    ],
+    "pincode": "384745",
+    "mobile": "9897252384",
+    "aadhaar": "4302 1781 6780",
+    "dob": "23/11/1986",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

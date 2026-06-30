@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0153",
+  "data": {
+    "name": "Oliver Saran",
+    "nominee": "C/O: Lakshit",
+    "address_lines": [
+      "H.No. 37, Hayre",
+      "Uttar Pradesh - 501936"
+    ],
+    "pincode": "501936",
+    "mobile": "7884539206",
+    "aadhaar": "XXXX XXXX 3542",
+    "dob": "16/04/1975",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

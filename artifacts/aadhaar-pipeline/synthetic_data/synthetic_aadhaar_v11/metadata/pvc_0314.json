@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0314",
+  "data": {
+    "name": "Yashoda Choudhury",
+    "nominee": "S/O: Vedant",
+    "address_lines": [
+      "H.No. 554, Saraf Zila",
+      "Chennai, Bidar",
+      "Gujarat - 619760"
+    ],
+    "pincode": "619760",
+    "mobile": "7252566629",
+    "aadhaar": "1158 7184 5235",
+    "dob": "20/05/2012",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

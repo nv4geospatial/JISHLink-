@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0368",
+  "data": {
+    "name": "Omisha Sharma",
+    "nominee": "W/O: Vamakshi",
+    "address_lines": [
+      "833, Halder Ganj",
+      "Bharatpur, Anantapur",
+      "Madhya Pradesh - 272841"
+    ],
+    "pincode": "272841",
+    "mobile": "8252217266",
+    "aadhaar": "2155 9967 2562",
+    "dob": "09/09/1983",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      158,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      208,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

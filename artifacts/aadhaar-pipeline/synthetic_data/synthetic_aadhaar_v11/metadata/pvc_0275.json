@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0275",
+  "data": {
+    "name": "Vamakshi Arora",
+    "nominee": "S/O: Onveer",
+    "address_lines": [
+      "73, Garde Circle",
+      "Imphal, Raiganj",
+      "Madhya Pradesh - 606030"
+    ],
+    "pincode": "606030",
+    "mobile": "9788820983",
+    "aadhaar": "2354 6951 0030",
+    "dob": "22/08/1991",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      208,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

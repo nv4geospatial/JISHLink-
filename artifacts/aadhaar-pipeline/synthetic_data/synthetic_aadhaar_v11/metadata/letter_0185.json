@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0185",
+  "data": {
+    "name": "Oni Kapur",
+    "nominee": "C/O: Naveen",
+    "address_lines": [
+      "51/80, Kapoor Street",
+      "West Bengal - 370328"
+    ],
+    "pincode": "370328",
+    "mobile": "9947635936",
+    "aadhaar": "0981 8063 5651",
+    "dob": "15/08/2001",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

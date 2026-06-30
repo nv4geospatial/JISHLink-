@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0089",
+  "data": {
+    "name": "Hema Sanghvi",
+    "nominee": "S/O: Aayush",
+    "address_lines": [
+      "H.No. 639, Vaidya Street",
+      "Nangloi Jat, Ichalkaranji",
+      "West Bengal - 780950"
+    ],
+    "pincode": "780950",
+    "mobile": "8582036062",
+    "aadhaar": "6504 7158 0290",
+    "dob": "1954",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      378
+    ],
+    "back_pincode": [
+      143,
+      414,
+      187,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0117",
+  "data": {
+    "name": "Avi Som",
+    "nominee": "S/O: Kevin",
+    "address_lines": [
+      "309, Halder Zila",
+      "Uttar Pradesh - 199807"
+    ],
+    "pincode": "199807",
+    "mobile": "7242485313",
+    "aadhaar": "9387 0051 6271",
+    "dob": "1941",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

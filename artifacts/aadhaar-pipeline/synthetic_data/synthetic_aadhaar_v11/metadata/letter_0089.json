@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0089",
+  "data": {
+    "name": "Saumya Kaur",
+    "nominee": "D/O: Nilima",
+    "address_lines": [
+      "88, Edwin Marg",
+      "Jharkhand - 785280"
+    ],
+    "pincode": "785280",
+    "mobile": "7676876906",
+    "aadhaar": "6823 0047 8686",
+    "dob": "30/07/2002",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

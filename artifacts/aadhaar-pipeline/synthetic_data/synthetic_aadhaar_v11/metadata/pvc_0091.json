@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0091",
+  "data": {
+    "name": "Anusha Handa",
+    "nominee": "S/O: Elijah",
+    "address_lines": [
+      "68, Kashyap Road",
+      "Maharashtra - 354763"
+    ],
+    "pincode": "354763",
+    "mobile": "7265362816",
+    "aadhaar": "9311 0059 1297",
+    "dob": "1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      379
+    ],
+    "back_pincode": [
+      142,
+      400,
+      186,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

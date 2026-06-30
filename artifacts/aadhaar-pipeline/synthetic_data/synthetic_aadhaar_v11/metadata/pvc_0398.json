@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0398",
+  "data": {
+    "name": "Jyoti Dhar",
+    "nominee": "D/O: Riya",
+    "address_lines": [
+      "04/59, Baral",
+      "North Dumdum, Mangalore",
+      "Odisha - 541100"
+    ],
+    "pincode": "541100",
+    "mobile": "8201332643",
+    "aadhaar": "3276 1794 8024",
+    "dob": "15/08/2007",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      129,
+      378
+    ],
+    "back_pincode": [
+      115,
+      414,
+      159,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

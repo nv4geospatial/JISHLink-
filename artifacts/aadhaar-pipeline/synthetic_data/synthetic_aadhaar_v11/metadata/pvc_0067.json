@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0067",
+  "data": {
+    "name": "Netra Konda",
+    "nominee": "W/O: Dhriti",
+    "address_lines": [
+      "61/764, Pillai Chowk",
+      "Unnao, Kavali",
+      "Andhra Pradesh - 343861"
+    ],
+    "pincode": "343861",
+    "mobile": "9537165399",
+    "aadhaar": "XXXX XXXX 9119",
+    "dob": "17/05/1941",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

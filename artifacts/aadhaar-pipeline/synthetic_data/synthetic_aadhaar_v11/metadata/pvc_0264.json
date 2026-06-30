@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0264",
+  "data": {
+    "name": "Victor Devi",
+    "nominee": "W/O: Ijaya",
+    "address_lines": [
+      "26, Mane Street",
+      "Barasat, Tiruchirappalli",
+      "Jharkhand - 627811"
+    ],
+    "pincode": "627811",
+    "mobile": "9955645476",
+    "aadhaar": "8600 8017 9867",
+    "dob": "19/02/1964",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      132,
+      379
+    ],
+    "back_pincode": [
+      133,
+      415,
+      177,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

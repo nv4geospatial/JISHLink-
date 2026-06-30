@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0491",
+  "data": {
+    "name": "Hardik Ganguly",
+    "nominee": "S/O: Luke",
+    "address_lines": [
+      "H.No. 62, Nanda Nagar",
+      "Madhya Pradesh - 264569"
+    ],
+    "pincode": "264569",
+    "mobile": "7778127557",
+    "aadhaar": "3041 6624 1118",
+    "dob": "14/04/1954",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

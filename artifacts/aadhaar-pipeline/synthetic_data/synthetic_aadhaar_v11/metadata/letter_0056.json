@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0056",
+  "data": {
+    "name": "Mohammed Borde",
+    "nominee": "W/O: Libni",
+    "address_lines": [
+      "H.No. 78, Biswas Nagar",
+      "Jodhpur, Deoghar",
+      "Uttar Pradesh - 720148"
+    ],
+    "pincode": "720148",
+    "mobile": "7433297890",
+    "aadhaar": "7700 5411 9986",
+    "dob": "02/05/1958",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

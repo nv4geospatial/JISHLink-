@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0327",
+  "data": {
+    "name": "Indira Pant",
+    "nominee": "D/O: Kamya",
+    "address_lines": [
+      "43/25, Devan Marg",
+      "Karnataka - 577555"
+    ],
+    "pincode": "577555",
+    "mobile": "7700250339",
+    "aadhaar": "XXXX XXXX 4082",
+    "dob": "1947",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

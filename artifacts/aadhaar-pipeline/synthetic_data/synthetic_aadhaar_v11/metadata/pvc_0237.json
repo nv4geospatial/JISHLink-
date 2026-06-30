@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0237",
+  "data": {
+    "name": "Agastya Edwin",
+    "nominee": "C/O: Darsh",
+    "address_lines": [
+      "72, Sur Circle",
+      "Davanagere, Raipur",
+      "Kerala - 169224"
+    ],
+    "pincode": "169224",
+    "mobile": "9101327225",
+    "aadhaar": "XXXX XXXX 1371",
+    "dob": "1951",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      110,
+      412,
+      155,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

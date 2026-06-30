@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0365",
+  "data": {
+    "name": "Dalbir Ram",
+    "nominee": "C/O: Darpan",
+    "address_lines": [
+      "64/96, Khanna Chowk",
+      "Vadodara, Jaipur",
+      "Odisha - 419942"
+    ],
+    "pincode": "419942",
+    "mobile": "9354435136",
+    "aadhaar": "9974 1856 3027",
+    "dob": "23/05/1992",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      379
+    ],
+    "back_pincode": [
+      115,
+      415,
+      159,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

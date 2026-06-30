@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0310",
+  "data": {
+    "name": "Sai Pant",
+    "nominee": "C/O: Faraj",
+    "address_lines": [
+      "H.No. 089, Datta Nagar",
+      "Siliguri, Aizawl",
+      "Uttar Pradesh - 525373"
+    ],
+    "pincode": "525373",
+    "mobile": "9386770868",
+    "aadhaar": "5769 4757 6945",
+    "dob": "15/07/1981",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      131,
+      379
+    ],
+    "back_pincode": [
+      149,
+      415,
+      193,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

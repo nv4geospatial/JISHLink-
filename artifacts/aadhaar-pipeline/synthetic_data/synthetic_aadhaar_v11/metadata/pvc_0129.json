@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0129",
+  "data": {
+    "name": "Azad Rai",
+    "nominee": "W/O: Radhika",
+    "address_lines": [
+      "64/421, Biswas Street",
+      "Kakinada, Rajpur Sonarpur",
+      "Andhra Pradesh - 635946"
+    ],
+    "pincode": "635946",
+    "mobile": "8154753357",
+    "aadhaar": "6791 7665 1221",
+    "dob": "23/04/1961",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

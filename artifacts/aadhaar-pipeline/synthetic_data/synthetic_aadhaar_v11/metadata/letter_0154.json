@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0154",
+  "data": {
+    "name": "Krishna Modi",
+    "nominee": "W/O: Siya",
+    "address_lines": [
+      "92/459, Srinivas Ganj",
+      "Ozhukarai, Thanjavur",
+      "Haryana - 554730"
+    ],
+    "pincode": "554730",
+    "mobile": "7468006578",
+    "aadhaar": "7532 6033 2309",
+    "dob": "1964",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

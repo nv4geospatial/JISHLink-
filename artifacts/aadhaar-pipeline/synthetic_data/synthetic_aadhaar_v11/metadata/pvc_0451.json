@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0451",
+  "data": {
+    "name": "Dakshesh Ramesh",
+    "nominee": "C/O: Ekansh",
+    "address_lines": [
+      "959, Shere Road",
+      "Odisha - 398886"
+    ],
+    "pincode": "398886",
+    "mobile": "9348677875",
+    "aadhaar": "XXXX XXXX 3892",
+    "dob": "1959",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      115,
+      397,
+      159,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

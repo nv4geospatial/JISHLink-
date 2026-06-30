@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0239",
+  "data": {
+    "name": "Kamya Venkataraman",
+    "nominee": "C/O: Jeremiah",
+    "address_lines": [
+      "870, Saha Path",
+      "Surendranagar Dudhrej, Bathinda",
+      "Jharkhand - 546901"
+    ],
+    "pincode": "546901",
+    "mobile": "8345029226",
+    "aadhaar": "XXXX XXXX 2034",
+    "dob": "1954",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      153,
+      376
+    ],
+    "back_pincode": [
+      133,
+      412,
+      177,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

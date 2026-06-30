@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0244",
+  "data": {
+    "name": "Rachita Subramanian",
+    "nominee": "S/O: Gaurang",
+    "address_lines": [
+      "66/93, Rao Road",
+      "Warangal, Munger",
+      "Telangana - 100884"
+    ],
+    "pincode": "100884",
+    "mobile": "8217787669",
+    "aadhaar": "4036 9656 6668",
+    "dob": "22/09/2013",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

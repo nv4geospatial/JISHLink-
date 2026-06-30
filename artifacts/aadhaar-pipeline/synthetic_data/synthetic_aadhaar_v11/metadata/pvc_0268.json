@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0268",
+  "data": {
+    "name": "Suhani Saran",
+    "nominee": "D/O: Vedika",
+    "address_lines": [
+      "H.No. 954, Nazareth Marg",
+      "Bihar - 613052"
+    ],
+    "pincode": "613052",
+    "mobile": "9678635128",
+    "aadhaar": "6217 5080 1963",
+    "dob": "17/10/1991",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

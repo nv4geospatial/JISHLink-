@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0464",
+  "data": {
+    "name": "Nidhi Behl",
+    "nominee": "D/O: Lavanya",
+    "address_lines": [
+      "21, Tiwari Circle",
+      "Miryalaguda, Muzaffarnagar",
+      "Maharashtra - 614366"
+    ],
+    "pincode": "614366",
+    "mobile": "8854226243",
+    "aadhaar": "5337 1708 6494",
+    "dob": "30/01/1968",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      150,
+      378
+    ],
+    "back_pincode": [
+      142,
+      414,
+      186,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

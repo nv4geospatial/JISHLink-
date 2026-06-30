@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0484",
+  "data": {
+    "name": "Naveen Vig",
+    "nominee": "W/O: Wakeeta",
+    "address_lines": [
+      "63/23, Sule",
+      "Madhya Pradesh - 573842"
+    ],
+    "pincode": "573842",
+    "mobile": "9521336947",
+    "aadhaar": "5391 6077 0040",
+    "dob": "11/04/1999",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      152,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      208,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

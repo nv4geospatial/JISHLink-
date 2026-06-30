@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0198",
+  "data": {
+    "name": "Nirja Sunder",
+    "nominee": "D/O: Chaaya",
+    "address_lines": [
+      "H.No. 520, Sarraf Ganj",
+      "Haryana - 283630"
+    ],
+    "pincode": "283630",
+    "mobile": "7937878293",
+    "aadhaar": "3426 6980 6908",
+    "dob": "19/11/1989",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      378
+    ],
+    "back_pincode": [
+      120,
+      399,
+      164,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

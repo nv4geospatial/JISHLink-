@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0101",
+  "data": {
+    "name": "Aishani Deol",
+    "nominee": "D/O: Nandini",
+    "address_lines": [
+      "408, Cherian",
+      "Hyderabad, Muzaffarnagar",
+      "West Bengal - 777213"
+    ],
+    "pincode": "777213",
+    "mobile": "9749701221",
+    "aadhaar": "1403 8843 6604",
+    "dob": "30/05/1995",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

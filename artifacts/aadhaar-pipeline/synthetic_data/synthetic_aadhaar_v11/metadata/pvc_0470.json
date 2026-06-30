@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0470",
+  "data": {
+    "name": "Ekbal Mane",
+    "nominee": "D/O: Bhavini",
+    "address_lines": [
+      "40/652, Sethi Chowk",
+      "Sangli-Miraj & Kupwad, Mehsana",
+      "West Bengal - 541743"
+    ],
+    "pincode": "541743",
+    "mobile": "8401303803",
+    "aadhaar": "4359 6245 8701",
+    "dob": "04/10/1967",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

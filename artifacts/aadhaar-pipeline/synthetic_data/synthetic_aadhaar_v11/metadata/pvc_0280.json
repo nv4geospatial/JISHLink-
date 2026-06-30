@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0280",
+  "data": {
+    "name": "Gaurika Shetty",
+    "nominee": "C/O: Gabriel",
+    "address_lines": [
+      "093, Thakur Street",
+      "Karnataka - 610297"
+    ],
+    "pincode": "610297",
+    "mobile": "7820442333",
+    "aadhaar": "XXXX XXXX 8824",
+    "dob": "29/05/2016",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

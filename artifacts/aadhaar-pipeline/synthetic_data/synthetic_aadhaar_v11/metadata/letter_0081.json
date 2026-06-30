@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0081",
+  "data": {
+    "name": "Faraj Uppal",
+    "nominee": "C/O: Dakshesh",
+    "address_lines": [
+      "H.No. 243, Dua Street",
+      "Jharkhand - 513697"
+    ],
+    "pincode": "513697",
+    "mobile": "7411871167",
+    "aadhaar": "0415 7473 3848",
+    "dob": "08/04/1998",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

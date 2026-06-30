@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0187",
+  "data": {
+    "name": "Shivani Purohit",
+    "nominee": "W/O: Irya",
+    "address_lines": [
+      "268, Chadha Ganj",
+      "Pallavaram, Baranagar",
+      "Gujarat - 456443"
+    ],
+    "pincode": "456443",
+    "mobile": "8305806298",
+    "aadhaar": "0176 4644 8988",
+    "dob": "24/09/1984",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      127,
+      378
+    ],
+    "back_pincode": [
+      116,
+      414,
+      160,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

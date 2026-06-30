@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0093",
+  "data": {
+    "name": "Qabil Baria",
+    "nominee": "S/O: Aadi",
+    "address_lines": [
+      "H.No. 91, Goyal Marg",
+      "West Bengal - 284393"
+    ],
+    "pincode": "284393",
+    "mobile": "9717867634",
+    "aadhaar": "3113 2532 6949",
+    "dob": "31/08/1959",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      376
+    ],
+    "back_pincode": [
+      143,
+      397,
+      187,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0309",
+  "data": {
+    "name": "Sudiksha Acharya",
+    "nominee": "S/O: Zehaan",
+    "address_lines": [
+      "35/18, Gupta Marg",
+      "Madhya Pradesh - 774909"
+    ],
+    "pincode": "774909",
+    "mobile": "7898649166",
+    "aadhaar": "1896 1642 3610",
+    "dob": "27/04/1980",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

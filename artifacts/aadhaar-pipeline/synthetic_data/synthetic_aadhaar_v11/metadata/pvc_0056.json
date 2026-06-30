@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0056",
+  "data": {
+    "name": "Aarush Nagy",
+    "nominee": "D/O: Radha",
+    "address_lines": [
+      "91, Sangha Path",
+      "Karnataka - 315829"
+    ],
+    "pincode": "315829",
+    "mobile": "8916671494",
+    "aadhaar": "5018 4819 7374",
+    "dob": "12/11/2011",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

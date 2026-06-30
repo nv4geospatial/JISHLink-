@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0318",
+  "data": {
+    "name": "Atharv Narula",
+    "nominee": "C/O: Akshay",
+    "address_lines": [
+      "69/82, Chaudhry Street",
+      "Tamil Nadu - 358087"
+    ],
+    "pincode": "358087",
+    "mobile": "8760748777",
+    "aadhaar": "5332 2273 9389",
+    "dob": "1941",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      378
+    ],
+    "back_pincode": [
+      137,
+      399,
+      181,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

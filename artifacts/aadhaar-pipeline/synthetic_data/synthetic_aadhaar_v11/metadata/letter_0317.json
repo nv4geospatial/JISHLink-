@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0317",
+  "data": {
+    "name": "George Ratta",
+    "nominee": "C/O: Ikbal",
+    "address_lines": [
+      "91/940, Raj",
+      "Uttar Pradesh - 557420"
+    ],
+    "pincode": "557420",
+    "mobile": "9306374574",
+    "aadhaar": "7573 8395 9724",
+    "dob": "1946",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

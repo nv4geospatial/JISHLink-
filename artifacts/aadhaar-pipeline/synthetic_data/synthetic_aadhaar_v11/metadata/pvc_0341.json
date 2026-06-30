@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0341",
+  "data": {
+    "name": "Umang Savant",
+    "nominee": "D/O: Krisha",
+    "address_lines": [
+      "373, Arora Street",
+      "Indore, Rajahmundry",
+      "Gujarat - 709978"
+    ],
+    "pincode": "709978",
+    "mobile": "8283209692",
+    "aadhaar": "3034 2028 4719",
+    "dob": "18/01/1963",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0014",
+  "data": {
+    "name": "Dakshesh Bedi",
+    "nominee": "W/O: Yashasvi",
+    "address_lines": [
+      "13/61, Koshy",
+      "Howrah, Gaya",
+      "Jharkhand - 420015"
+    ],
+    "pincode": "420015",
+    "mobile": "7339362341",
+    "aadhaar": "0365 4145 8685",
+    "dob": "28/06/1984",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

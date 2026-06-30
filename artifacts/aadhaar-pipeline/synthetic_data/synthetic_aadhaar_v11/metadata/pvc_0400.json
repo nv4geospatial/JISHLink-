@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0400",
+  "data": {
+    "name": "Hemal Boase",
+    "nominee": "C/O: Yatin",
+    "address_lines": [
+      "62/813, Dutt Chowk",
+      "Bongaigaon, Loni",
+      "Uttar Pradesh - 371390"
+    ],
+    "pincode": "371390",
+    "mobile": "7570644657",
+    "aadhaar": "8191 9074 9921",
+    "dob": "1949",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      132,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

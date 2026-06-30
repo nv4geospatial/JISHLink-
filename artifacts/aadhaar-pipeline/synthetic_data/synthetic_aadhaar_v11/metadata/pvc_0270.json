@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0270",
+  "data": {
+    "name": "Frado Warrior",
+    "nominee": "W/O: Edhitha",
+    "address_lines": [
+      "93/897, Bose Nagar",
+      "Chinsurah, Hapur",
+      "Madhya Pradesh - 374362"
+    ],
+    "pincode": "374362",
+    "mobile": "9325771414",
+    "aadhaar": "8517 9937 8105",
+    "dob": "24/04/1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      208,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

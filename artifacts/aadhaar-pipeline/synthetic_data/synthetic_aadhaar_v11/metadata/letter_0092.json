@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0092",
+  "data": {
+    "name": "Hardik Nayak",
+    "nominee": "C/O: Elijah",
+    "address_lines": [
+      "77/901, Kunda Nagar",
+      "Bihar - 528090"
+    ],
+    "pincode": "528090",
+    "mobile": "7910048118",
+    "aadhaar": "8733 4270 8668",
+    "dob": "1956",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

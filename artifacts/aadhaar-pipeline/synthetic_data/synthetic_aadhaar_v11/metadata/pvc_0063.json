@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0063",
+  "data": {
+    "name": "Krisha Bhargava",
+    "nominee": "S/O: Ojas",
+    "address_lines": [
+      "64, Bains Street",
+      "Bhagalpur, Faridabad",
+      "Andhra Pradesh - 408189"
+    ],
+    "pincode": "408189",
+    "mobile": "7447716573",
+    "aadhaar": "3703 8240 7333",
+    "dob": "19/02/1982",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      379
+    ],
+    "back_pincode": [
+      162,
+      415,
+      206,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

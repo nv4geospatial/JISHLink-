@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0161",
+  "data": {
+    "name": "Yadavi Sankar",
+    "nominee": "D/O: Avni",
+    "address_lines": [
+      "63/436, Majumdar Street",
+      "Uluberia, Dhanbad",
+      "Andhra Pradesh - 200639"
+    ],
+    "pincode": "200639",
+    "mobile": "7736605966",
+    "aadhaar": "2778 8519 0534",
+    "dob": "27/09/1980",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      129,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0043",
+  "data": {
+    "name": "Zayyan Sridhar",
+    "nominee": "S/O: Dakshesh",
+    "address_lines": [
+      "294, Kothari Zila",
+      "Karnataka - 345180"
+    ],
+    "pincode": "345180",
+    "mobile": "9452194058",
+    "aadhaar": "XXXX XXXX 0047",
+    "dob": "1949",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

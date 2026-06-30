@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0484",
+  "data": {
+    "name": "Simon Shah",
+    "nominee": "C/O: Warjas",
+    "address_lines": [
+      "H.No. 159, Baria Road",
+      "Gujarat - 566432"
+    ],
+    "pincode": "566432",
+    "mobile": "8416691105",
+    "aadhaar": "1176 7412 4151",
+    "dob": "22/03/1980",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

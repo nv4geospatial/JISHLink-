@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0424",
+  "data": {
+    "name": "Faraj Issac",
+    "nominee": "W/O: Watika",
+    "address_lines": [
+      "H.No. 23, Tak Path",
+      "Munger, Gandhinagar",
+      "Madhya Pradesh - 264144"
+    ],
+    "pincode": "264144",
+    "mobile": "9903220734",
+    "aadhaar": "XXXX XXXX 4813",
+    "dob": "1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      209,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

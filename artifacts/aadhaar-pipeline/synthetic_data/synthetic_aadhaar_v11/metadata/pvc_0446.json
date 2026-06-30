@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0446",
+  "data": {
+    "name": "Sanaya Samra",
+    "nominee": "C/O: Chaitanya",
+    "address_lines": [
+      "H.No. 47, Ganguly Street",
+      "Bihar - 768688"
+    ],
+    "pincode": "768688",
+    "mobile": "9236203942",
+    "aadhaar": "5422 1883 4581",
+    "dob": "23/02/1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      159,
+      378
+    ],
+    "back_pincode": [
+      105,
+      399,
+      149,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

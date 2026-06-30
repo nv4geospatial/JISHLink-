@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0245",
+  "data": {
+    "name": "Chaitaly Sethi",
+    "nominee": "D/O: Ekantika",
+    "address_lines": [
+      "394, Deo Path",
+      "Motihari, Begusarai",
+      "Jharkhand - 402483"
+    ],
+    "pincode": "402483",
+    "mobile": "7112458366",
+    "aadhaar": "1027 6212 6796",
+    "dob": "27/01/2015",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

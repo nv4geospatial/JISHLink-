@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0088",
+  "data": {
+    "name": "Mugdha Thaker",
+    "nominee": "C/O: Robert",
+    "address_lines": [
+      "580, Ben Ganj",
+      "Bhubaneswar, Jaipur",
+      "Maharashtra - 256747"
+    ],
+    "pincode": "256747",
+    "mobile": "9311668682",
+    "aadhaar": "5415 9709 9625",
+    "dob": "17/01/1992",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

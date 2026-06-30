@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0332",
+  "data": {
+    "name": "Vyanjana Som",
+    "nominee": "D/O: Gautami",
+    "address_lines": [
+      "33, Bhatti Ganj",
+      "Patna, Kanpur",
+      "Andhra Pradesh - 161775"
+    ],
+    "pincode": "161775",
+    "mobile": "7129174843",
+    "aadhaar": "0461 5265 4610",
+    "dob": "13/12/1953",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

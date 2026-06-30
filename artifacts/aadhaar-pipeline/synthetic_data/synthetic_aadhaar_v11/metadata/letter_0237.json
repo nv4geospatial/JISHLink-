@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0237",
+  "data": {
+    "name": "Dipta Arora",
+    "nominee": "S/O: Isaac",
+    "address_lines": [
+      "56, Bhagat Street",
+      "Kadapa, Bhiwani",
+      "Madhya Pradesh - 104309"
+    ],
+    "pincode": "104309",
+    "mobile": "9738111425",
+    "aadhaar": "1570 1840 9435",
+    "dob": "1941",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

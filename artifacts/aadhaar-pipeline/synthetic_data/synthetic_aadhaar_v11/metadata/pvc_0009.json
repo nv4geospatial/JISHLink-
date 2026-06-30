@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0009",
+  "data": {
+    "name": "Hemal Manne",
+    "nominee": "C/O: Qarin",
+    "address_lines": [
+      "80/65, Iyer Ganj",
+      "Kadapa, Howrah",
+      "Karnataka - 746564"
+    ],
+    "pincode": "746564",
+    "mobile": "9567043846",
+    "aadhaar": "6734 5957 6403",
+    "dob": "05/03/1989",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      175,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

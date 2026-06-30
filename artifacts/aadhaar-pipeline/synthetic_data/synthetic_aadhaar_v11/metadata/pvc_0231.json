@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0231",
+  "data": {
+    "name": "Anamika Chad",
+    "nominee": "D/O: Bina",
+    "address_lines": [
+      "H.No. 963, Muni",
+      "Bihar - 237015"
+    ],
+    "pincode": "237015",
+    "mobile": "9908258062",
+    "aadhaar": "1256 0832 0048",
+    "dob": "19/02/2000",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      130,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

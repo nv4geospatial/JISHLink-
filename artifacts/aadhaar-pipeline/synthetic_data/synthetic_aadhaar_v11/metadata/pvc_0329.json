@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0329",
+  "data": {
+    "name": "Zayan Muni",
+    "nominee": "C/O: Hemang",
+    "address_lines": [
+      "23, Dutta Marg",
+      "Allahabad, Kolhapur",
+      "Karnataka - 721895"
+    ],
+    "pincode": "721895",
+    "mobile": "7550745634",
+    "aadhaar": "3656 0450 0635",
+    "dob": "05/08/1989",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      379
+    ],
+    "back_pincode": [
+      130,
+      415,
+      174,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      139,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

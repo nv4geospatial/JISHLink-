@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0132",
+  "data": {
+    "name": "Tara Divan",
+    "nominee": "W/O: Nitara",
+    "address_lines": [
+      "79/103, Salvi Ganj",
+      "Firozabad, Hospet",
+      "Andhra Pradesh - 556333"
+    ],
+    "pincode": "556333",
+    "mobile": "8579066243",
+    "aadhaar": "3311 6772 6960",
+    "dob": "03/06/1993",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

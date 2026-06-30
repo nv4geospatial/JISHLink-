@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0095",
+  "data": {
+    "name": "Ekansh Vora",
+    "nominee": "C/O: Zehaan",
+    "address_lines": [
+      "H.No. 40, Bir Path",
+      "Bihar - 409531"
+    ],
+    "pincode": "409531",
+    "mobile": "7507849850",
+    "aadhaar": "XXXX XXXX 7252",
+    "dob": "12/09/1966",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

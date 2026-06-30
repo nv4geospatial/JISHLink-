@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0224",
+  "data": {
+    "name": "Wahab Palla",
+    "nominee": "C/O: Wyatt",
+    "address_lines": [
+      "69, Srivastava Path",
+      "Dewas, Jalna",
+      "Andhra Pradesh - 504567"
+    ],
+    "pincode": "504567",
+    "mobile": "9626809313",
+    "aadhaar": "2736 7746 2025",
+    "dob": "11/12/1962",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      162,
+      414,
+      206,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

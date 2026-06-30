@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0285",
+  "data": {
+    "name": "Balveer Patla",
+    "nominee": "S/O: Ryan",
+    "address_lines": [
+      "H.No. 91, Peri Street",
+      "Haldia, Vasai-Virar",
+      "Andhra Pradesh - 628671"
+    ],
+    "pincode": "628671",
+    "mobile": "9863834710",
+    "aadhaar": "5432 9876 9893",
+    "dob": "15/11/1971",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      131,
+      378
+    ],
+    "back_pincode": [
+      162,
+      414,
+      206,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

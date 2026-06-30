@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0465",
+  "data": {
+    "name": "Mugdha Saini",
+    "nominee": "D/O: Netra",
+    "address_lines": [
+      "H.No. 666, Sachdeva Street",
+      "Ujjain, Amritsar",
+      "Odisha - 191328"
+    ],
+    "pincode": "191328",
+    "mobile": "8424792824",
+    "aadhaar": "9014 5996 7069",
+    "dob": "14/06/1976",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0181",
+  "data": {
+    "name": "Wridesh Garde",
+    "nominee": "C/O: Harish",
+    "address_lines": [
+      "75/46, Chhabra Marg",
+      "Nangloi Jat, Ramagundam",
+      "Karnataka - 203033"
+    ],
+    "pincode": "203033",
+    "mobile": "9795299064",
+    "aadhaar": "5090 2556 1844",
+    "dob": "1975",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      174,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

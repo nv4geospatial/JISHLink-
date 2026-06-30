@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0011",
+  "data": {
+    "name": "Guneet Bhat",
+    "nominee": "S/O: Saksham",
+    "address_lines": [
+      "72/62, Shere Road",
+      "Moradabad, Nellore",
+      "Madhya Pradesh - 681542"
+    ],
+    "pincode": "681542",
+    "mobile": "7244193987",
+    "aadhaar": "4118 2449 3534",
+    "dob": "1959",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

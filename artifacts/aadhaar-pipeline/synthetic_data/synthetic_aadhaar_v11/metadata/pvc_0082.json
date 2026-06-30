@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0082",
+  "data": {
+    "name": "Yoshita Pandit",
+    "nominee": "D/O: Udyati",
+    "address_lines": [
+      "38/144, Memon Chowk",
+      "Tirunelveli, Gorakhpur",
+      "Odisha - 400798"
+    ],
+    "pincode": "400798",
+    "mobile": "8376178153",
+    "aadhaar": "XXXX XXXX 6836",
+    "dob": "12/08/1960",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      378
+    ],
+    "back_pincode": [
+      115,
+      414,
+      159,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

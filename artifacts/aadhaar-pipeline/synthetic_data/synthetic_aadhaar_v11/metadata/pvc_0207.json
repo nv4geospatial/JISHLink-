@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0207",
+  "data": {
+    "name": "Faras Khalsa",
+    "nominee": "C/O: Harsh",
+    "address_lines": [
+      "64/205, Parsa",
+      "Aurangabad, Vijayanagaram",
+      "Madhya Pradesh - 388769"
+    ],
+    "pincode": "388769",
+    "mobile": "7585050672",
+    "aadhaar": "3416 7812 7782",
+    "dob": "1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      208,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

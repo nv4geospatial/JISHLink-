@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0044",
+  "data": {
+    "name": "Vasana Buch",
+    "nominee": "D/O: Sneha",
+    "address_lines": [
+      "706, Chacko Marg",
+      "Madhya Pradesh - 311499"
+    ],
+    "pincode": "311499",
+    "mobile": "8350159135",
+    "aadhaar": "3502 7160 7360",
+    "dob": "02/03/1998",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      208,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

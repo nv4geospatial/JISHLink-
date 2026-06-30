@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0437",
+  "data": {
+    "name": "Devansh Jani",
+    "nominee": "C/O: Samuel",
+    "address_lines": [
+      "31, Handa Street",
+      "Maharashtra - 131394"
+    ],
+    "pincode": "131394",
+    "mobile": "8561050563",
+    "aadhaar": "2531 3552 5105",
+    "dob": "07/08/1942",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

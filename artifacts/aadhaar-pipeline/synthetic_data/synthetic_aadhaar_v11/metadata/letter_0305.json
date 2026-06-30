@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0305",
+  "data": {
+    "name": "Chanchal Issac",
+    "nominee": "S/O: Pranit",
+    "address_lines": [
+      "H.No. 02, Dar Road",
+      "Bihar - 708684"
+    ],
+    "pincode": "708684",
+    "mobile": "9629182734",
+    "aadhaar": "5721 5862 4150",
+    "dob": "29/07/1970",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

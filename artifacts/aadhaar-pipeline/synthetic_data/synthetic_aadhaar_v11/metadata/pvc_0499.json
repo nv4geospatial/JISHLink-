@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0499",
+  "data": {
+    "name": "Dhruv Sha",
+    "nominee": "D/O: Nidra",
+    "address_lines": [
+      "H.No. 27, Sarma Ganj",
+      "Kollam, Morena",
+      "Uttar Pradesh - 271906"
+    ],
+    "pincode": "271906",
+    "mobile": "8624918996",
+    "aadhaar": "3332 9732 3964",
+    "dob": "04/04/2009",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

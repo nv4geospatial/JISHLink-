@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0245",
+  "data": {
+    "name": "Edhitha Wali",
+    "nominee": "S/O: Balveer",
+    "address_lines": [
+      "77/41, Saran Circle",
+      "Kerala - 171105"
+    ],
+    "pincode": "171105",
+    "mobile": "8731912405",
+    "aadhaar": "7714 0049 3881",
+    "dob": "19/01/1990",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

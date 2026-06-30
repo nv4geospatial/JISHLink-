@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0140",
+  "data": {
+    "name": "Samar Chander",
+    "nominee": "C/O: Chakradhar",
+    "address_lines": [
+      "H.No. 981, Raja",
+      "Kerala - 308355"
+    ],
+    "pincode": "308355",
+    "mobile": "8932227284",
+    "aadhaar": "2792 4632 0374",
+    "dob": "01/06/1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      167,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

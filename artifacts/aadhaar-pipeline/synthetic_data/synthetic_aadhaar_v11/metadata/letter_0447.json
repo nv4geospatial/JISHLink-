@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0447",
+  "data": {
+    "name": "Krishna Kapur",
+    "nominee": "W/O: Alka",
+    "address_lines": [
+      "H.No. 696, Lad",
+      "Bihar - 350210"
+    ],
+    "pincode": "350210",
+    "mobile": "7278934197",
+    "aadhaar": "2572 0765 0241",
+    "dob": "02/11/1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

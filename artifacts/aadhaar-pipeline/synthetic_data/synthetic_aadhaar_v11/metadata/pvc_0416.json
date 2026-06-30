@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0416",
+  "data": {
+    "name": "Aayush Kumar",
+    "nominee": "D/O: Jhalak",
+    "address_lines": [
+      "63/95, Cherian Marg",
+      "Bhiwandi, Dindigul",
+      "Gujarat - 167919"
+    ],
+    "pincode": "167919",
+    "mobile": "9960465290",
+    "aadhaar": "XXXX XXXX 1102",
+    "dob": "27/08/1957",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

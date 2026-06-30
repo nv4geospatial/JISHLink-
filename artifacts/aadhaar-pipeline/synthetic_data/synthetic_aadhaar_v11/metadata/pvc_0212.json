@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0212",
+  "data": {
+    "name": "Victor Dass",
+    "nominee": "W/O: Tanvi",
+    "address_lines": [
+      "H.No. 668, Talwar Street",
+      "Bihar - 779865"
+    ],
+    "pincode": "779865",
+    "mobile": "9462625117",
+    "aadhaar": "9881 1457 8870",
+    "dob": "28/07/1988",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

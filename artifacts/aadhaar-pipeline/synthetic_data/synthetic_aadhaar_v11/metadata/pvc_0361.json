@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0361",
+  "data": {
+    "name": "Upasna Srinivas",
+    "nominee": "W/O: Dayita",
+    "address_lines": [
+      "695, Dhar Chowk",
+      "Munger, Gwalior",
+      "West Bengal - 441993"
+    ],
+    "pincode": "441993",
+    "mobile": "9567244461",
+    "aadhaar": "0742 9907 4729",
+    "dob": "01/02/1974",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      378
+    ],
+    "back_pincode": [
+      143,
+      414,
+      187,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

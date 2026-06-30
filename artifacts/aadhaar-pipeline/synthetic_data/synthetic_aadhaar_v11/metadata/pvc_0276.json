@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0276",
+  "data": {
+    "name": "Aadhya Rau",
+    "nominee": "C/O: Amol",
+    "address_lines": [
+      "85/445, Sibal Chowk",
+      "Jharkhand - 558788"
+    ],
+    "pincode": "558788",
+    "mobile": "7839842062",
+    "aadhaar": "0666 6411 0654",
+    "dob": "27/09/1942",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      133,
+      397,
+      177,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

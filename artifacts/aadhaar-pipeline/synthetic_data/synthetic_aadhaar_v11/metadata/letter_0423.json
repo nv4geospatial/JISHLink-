@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0423",
+  "data": {
+    "name": "Priya Gulati",
+    "nominee": "W/O: Vyanjana",
+    "address_lines": [
+      "81, Dhar Zila",
+      "Karnataka - 733727"
+    ],
+    "pincode": "733727",
+    "mobile": "9611336760",
+    "aadhaar": "1470 8272 3590",
+    "dob": "01/07/1970",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

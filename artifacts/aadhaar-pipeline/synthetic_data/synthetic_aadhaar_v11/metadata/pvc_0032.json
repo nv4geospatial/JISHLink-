@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0032",
+  "data": {
+    "name": "Mohini Hayer",
+    "nominee": "D/O: Anjali",
+    "address_lines": [
+      "71, Kibe Zila",
+      "Andhra Pradesh - 142187"
+    ],
+    "pincode": "142187",
+    "mobile": "8198096189",
+    "aadhaar": "3128 4033 3997",
+    "dob": "22/09/1994",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      379
+    ],
+    "back_pincode": [
+      162,
+      400,
+      206,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

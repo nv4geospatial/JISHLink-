@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0134",
+  "data": {
+    "name": "Amol Khosla",
+    "nominee": "W/O: Bhavna",
+    "address_lines": [
+      "73, Kalla Circle",
+      "Karnataka - 284084"
+    ],
+    "pincode": "284084",
+    "mobile": "7349777425",
+    "aadhaar": "9308 7059 3252",
+    "dob": "28/10/1997",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

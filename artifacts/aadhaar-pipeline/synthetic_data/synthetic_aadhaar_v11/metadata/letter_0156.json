@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0156",
+  "data": {
+    "name": "Pranit Bala",
+    "nominee": "S/O: Vihaan",
+    "address_lines": [
+      "72/434, Sampath Street",
+      "Bahraich, Coimbatore",
+      "Maharashtra - 396439"
+    ],
+    "pincode": "396439",
+    "mobile": "8313295228",
+    "aadhaar": "9348 3564 2087",
+    "dob": "17/06/2000",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 import app from "./app";
 import { logger } from "./lib/logger";
 import 'dotenv/config';
-import { ocrRouter, startPythonOCRService, stopPythonOCRService } from "./routes/ocr.js";
+import { ocrRouter } from "./routes/ocr";
 
 const rawPort = process.env["PORT"];
 
@@ -17,14 +17,10 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-// Start the Python OCR microservice before accepting requests
-startPythonOCRService();
-
-// Graceful shutdown — kill Python service when Node exits
-process.on("SIGTERM", () => { stopPythonOCRService(); process.exit(0); });
-process.on("SIGINT",  () => { stopPythonOCRService(); process.exit(0); });
-
-app.listen(port, (err) => {
+// Production: Python OCR service runs separately as a systemd service / Docker container / PM2 process
+// Development: Start manually with: cd artifacts/aadhaar-pipeline && venv\Scripts\Activate.ps1 && python run_server.py --port 8002
+// Node.js connects to it via HTTP on OCR_SERVICE_URL (default: http://localhost:8002)
+app.listen(port, "0.0.0.0", (err) => {
   if (err) {
     logger.error({ err }, "Error listening on port");
     process.exit(1);

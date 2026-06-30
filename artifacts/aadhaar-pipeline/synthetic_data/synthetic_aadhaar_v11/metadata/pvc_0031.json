@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0031",
+  "data": {
+    "name": "Henry Thaman",
+    "nominee": "D/O: Tara",
+    "address_lines": [
+      "01, Raj Chowk",
+      "Nizamabad, Guna",
+      "Tamil Nadu - 312368"
+    ],
+    "pincode": "312368",
+    "mobile": "8772594060",
+    "aadhaar": "1581 4888 1079",
+    "dob": "1966",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      129,
+      376
+    ],
+    "back_pincode": [
+      137,
+      412,
+      181,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

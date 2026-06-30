@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0288",
+  "data": {
+    "name": "Nathan Mody",
+    "nominee": "W/O: Urvi",
+    "address_lines": [
+      "43, Kakar Nagar",
+      "Warangal, Narasaraopet",
+      "Tamil Nadu - 285468"
+    ],
+    "pincode": "285468",
+    "mobile": "8956624381",
+    "aadhaar": "4628 0550 7740",
+    "dob": "25/10/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      376
+    ],
+    "back_pincode": [
+      137,
+      412,
+      181,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

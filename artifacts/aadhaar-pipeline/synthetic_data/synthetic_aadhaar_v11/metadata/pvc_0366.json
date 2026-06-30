@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0366",
+  "data": {
+    "name": "Zashil Pai",
+    "nominee": "C/O: Utkarsh",
+    "address_lines": [
+      "242, Kurian Marg",
+      "Jamnagar, Jorhat",
+      "Maharashtra - 522887"
+    ],
+    "pincode": "522887",
+    "mobile": "9482135011",
+    "aadhaar": "3056 4184 9378",
+    "dob": "09/07/2007",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

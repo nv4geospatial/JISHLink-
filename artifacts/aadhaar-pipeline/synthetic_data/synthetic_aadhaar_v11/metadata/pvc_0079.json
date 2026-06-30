@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0079",
+  "data": {
+    "name": "Yadavi Mangat",
+    "nominee": "W/O: Upadhriti",
+    "address_lines": [
+      "H.No. 11, Khatri Zila",
+      "Haryana - 362985"
+    ],
+    "pincode": "362985",
+    "mobile": "8315445536",
+    "aadhaar": "XXXX XXXX 2357",
+    "dob": "20/04/2012",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      156,
+      379
+    ],
+    "back_pincode": [
+      120,
+      400,
+      164,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

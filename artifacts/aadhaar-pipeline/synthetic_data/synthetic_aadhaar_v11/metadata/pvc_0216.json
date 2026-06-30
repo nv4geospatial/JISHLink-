@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0216",
+  "data": {
+    "name": "Abhimanyu Pingle",
+    "nominee": "W/O: Sachi",
+    "address_lines": [
+      "H.No. 75, Vasa Nagar",
+      "Belgaum, Jalandhar",
+      "Jharkhand - 510397"
+    ],
+    "pincode": "510397",
+    "mobile": "7686458547",
+    "aadhaar": "9156 2415 2857",
+    "dob": "08/09/2008",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      133,
+      412,
+      177,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

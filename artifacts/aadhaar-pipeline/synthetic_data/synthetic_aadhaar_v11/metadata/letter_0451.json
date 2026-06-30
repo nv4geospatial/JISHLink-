@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0451",
+  "data": {
+    "name": "Charles Natarajan",
+    "nominee": "W/O: Vrishti",
+    "address_lines": [
+      "H.No. 65, Barman Street",
+      "Kolkata, Dibrugarh",
+      "Uttar Pradesh - 215543"
+    ],
+    "pincode": "215543",
+    "mobile": "9257980803",
+    "aadhaar": "XXXX XXXX 7414",
+    "dob": "10/08/1984",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0270",
+  "data": {
+    "name": "Urishilla Subramaniam",
+    "nominee": "S/O: Frederick",
+    "address_lines": [
+      "84/25, Biswas Chowk",
+      "Madhya Pradesh - 272769"
+    ],
+    "pincode": "272769",
+    "mobile": "7632928920",
+    "aadhaar": "2380 4682 7567",
+    "dob": "1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

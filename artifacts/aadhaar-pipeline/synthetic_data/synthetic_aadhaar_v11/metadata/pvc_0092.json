@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0092",
+  "data": {
+    "name": "Pooja Srinivas",
+    "nominee": "D/O: Yashodhara",
+    "address_lines": [
+      "H.No. 56, Nagarajan Ganj",
+      "Avadi, Agartala",
+      "Telangana - 196158"
+    ],
+    "pincode": "196158",
+    "mobile": "7564897319",
+    "aadhaar": "3301 6583 7379",
+    "dob": "09/07/2008",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      169,
+      376
+    ],
+    "back_pincode": [
+      132,
+      412,
+      176,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

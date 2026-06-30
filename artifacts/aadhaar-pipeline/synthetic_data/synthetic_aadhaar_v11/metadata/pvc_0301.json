@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0301",
+  "data": {
+    "name": "Anusha Bahl",
+    "nominee": "S/O: Harrison",
+    "address_lines": [
+      "H.No. 66, Iyengar Path",
+      "Haryana - 456169"
+    ],
+    "pincode": "456169",
+    "mobile": "9922043724",
+    "aadhaar": "9318 6928 9728",
+    "dob": "06/02/2001",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      376
+    ],
+    "back_pincode": [
+      120,
+      397,
+      164,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

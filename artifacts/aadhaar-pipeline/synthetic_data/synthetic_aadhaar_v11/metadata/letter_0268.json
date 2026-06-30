@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0268",
+  "data": {
+    "name": "Ganga Comar",
+    "nominee": "W/O: Wakeeta",
+    "address_lines": [
+      "029, Dyal",
+      "Gudivada, Bulandshahr",
+      "Maharashtra - 154067"
+    ],
+    "pincode": "154067",
+    "mobile": "8764789481",
+    "aadhaar": "XXXX XXXX 2538",
+    "dob": "24/09/1950",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

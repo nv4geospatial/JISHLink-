@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0430",
+  "data": {
+    "name": "Lipika Bobal",
+    "nominee": "S/O: Elijah",
+    "address_lines": [
+      "19/23, Pathak Marg",
+      "Sasaram, Jabalpur",
+      "Odisha - 566951"
+    ],
+    "pincode": "566951",
+    "mobile": "9322129722",
+    "aadhaar": "2713 5386 7625",
+    "dob": "02/10/2011",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      379
+    ],
+    "back_pincode": [
+      115,
+      415,
+      159,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

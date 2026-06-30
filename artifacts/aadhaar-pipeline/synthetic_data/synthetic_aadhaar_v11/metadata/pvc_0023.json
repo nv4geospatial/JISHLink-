@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0023",
+  "data": {
+    "name": "Shivani Balan",
+    "nominee": "W/O: Ekiya",
+    "address_lines": [
+      "666, Mistry Circle",
+      "Bangalore, Raichur",
+      "Gujarat - 626704"
+    ],
+    "pincode": "626704",
+    "mobile": "7533755155",
+    "aadhaar": "7747 2264 0857",
+    "dob": "10/04/1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      378
+    ],
+    "back_pincode": [
+      116,
+      414,
+      161,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

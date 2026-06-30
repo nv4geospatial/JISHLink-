@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0410",
+  "data": {
+    "name": "Vamakshi Ghosh",
+    "nominee": "D/O: Dayita",
+    "address_lines": [
+      "97/123, Rao Zila",
+      "Haryana - 310243"
+    ],
+    "pincode": "310243",
+    "mobile": "9773393647",
+    "aadhaar": "6151 2048 5076",
+    "dob": "09/01/1992",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      378
+    ],
+    "back_pincode": [
+      120,
+      399,
+      164,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0363",
+  "data": {
+    "name": "Daksh Raman",
+    "nominee": "W/O: Ganga",
+    "address_lines": [
+      "70/713, Wadhwa",
+      "Kamarhati, Jammu",
+      "Rajasthan - 316277"
+    ],
+    "pincode": "316277",
+    "mobile": "9968042162",
+    "aadhaar": "8164 9804 4509",
+    "dob": "14/05/1962",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      379
+    ],
+    "back_pincode": [
+      130,
+      415,
+      174,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

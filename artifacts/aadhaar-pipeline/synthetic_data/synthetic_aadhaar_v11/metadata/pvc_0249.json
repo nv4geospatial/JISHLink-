@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0249",
+  "data": {
+    "name": "Karan Butala",
+    "nominee": "S/O: Shaurya",
+    "address_lines": [
+      "H.No. 843, Badal",
+      "Pimpri-Chinchwad, Ghaziabad",
+      "Tamil Nadu - 346636"
+    ],
+    "pincode": "346636",
+    "mobile": "9713710527",
+    "aadhaar": "8989 7211 7088",
+    "dob": "10/10/1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      378
+    ],
+    "back_pincode": [
+      137,
+      414,
+      181,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

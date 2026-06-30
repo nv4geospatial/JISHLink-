@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0012",
+  "data": {
+    "name": "Ishita Balan",
+    "nominee": "C/O: Dakshesh",
+    "address_lines": [
+      "H.No. 033, Ghosh Road",
+      "Haryana - 443001"
+    ],
+    "pincode": "443001",
+    "mobile": "9884231079",
+    "aadhaar": "6968 1579 0392",
+    "dob": "1957",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      157,
+      376
+    ],
+    "back_pincode": [
+      120,
+      397,
+      164,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

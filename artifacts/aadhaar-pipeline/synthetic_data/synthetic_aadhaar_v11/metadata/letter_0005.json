@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0005",
+  "data": {
+    "name": "Advay Contractor",
+    "nominee": "S/O: Kiaan",
+    "address_lines": [
+      "04, Gokhale Circle",
+      "West Bengal - 359947"
+    ],
+    "pincode": "359947",
+    "mobile": "7731691672",
+    "aadhaar": "8393 0103 1051",
+    "dob": "1979",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

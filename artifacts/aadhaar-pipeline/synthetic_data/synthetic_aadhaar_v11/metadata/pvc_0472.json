@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0472",
+  "data": {
+    "name": "Jacob Divan",
+    "nominee": "W/O: Vanya",
+    "address_lines": [
+      "37/66, Mittal Zila",
+      "Srinagar, Thoothukudi",
+      "Tamil Nadu - 144070"
+    ],
+    "pincode": "144070",
+    "mobile": "9920444286",
+    "aadhaar": "6481 8754 0364",
+    "dob": "27/09/2011",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      378
+    ],
+    "back_pincode": [
+      137,
+      414,
+      181,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

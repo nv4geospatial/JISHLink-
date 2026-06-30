@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0193",
+  "data": {
+    "name": "Umang Palla",
+    "nominee": "W/O: Waida",
+    "address_lines": [
+      "96/08, Ben Chowk",
+      "Jaipur, Indore",
+      "Gujarat - 236369"
+    ],
+    "pincode": "236369",
+    "mobile": "9146013521",
+    "aadhaar": "5053 7666 0811",
+    "dob": "30/11/1969",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

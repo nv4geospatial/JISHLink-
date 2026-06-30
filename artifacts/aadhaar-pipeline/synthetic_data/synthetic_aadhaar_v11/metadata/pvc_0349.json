@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0349",
+  "data": {
+    "name": "Darsh Bhargava",
+    "nominee": "S/O: Rachit",
+    "address_lines": [
+      "H.No. 564, Prasad Nagar",
+      "Gulbarga, Dehri",
+      "Maharashtra - 538683"
+    ],
+    "pincode": "538683",
+    "mobile": "8682759363",
+    "aadhaar": "XXXX XXXX 2941",
+    "dob": "20/10/2005",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0080",
+  "data": {
+    "name": "Noah Bhandari",
+    "nominee": "D/O: Mekhala",
+    "address_lines": [
+      "81/60, Gupta",
+      "Khandwa, Nangloi Jat",
+      "Gujarat - 250327"
+    ],
+    "pincode": "250327",
+    "mobile": "7219578115",
+    "aadhaar": "1688 0925 5021",
+    "dob": "20/09/2009",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

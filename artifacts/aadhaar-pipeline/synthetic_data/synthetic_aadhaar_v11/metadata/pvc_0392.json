@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0392",
+  "data": {
+    "name": "Eta Kaur",
+    "nominee": "W/O: Vyanjana",
+    "address_lines": [
+      "H.No. 93, Khalsa",
+      "Gangtok, Jammu",
+      "Odisha - 203589"
+    ],
+    "pincode": "203589",
+    "mobile": "7906007366",
+    "aadhaar": "4870 9872 6496",
+    "dob": "22/04/2002",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      156,
+      379
+    ],
+    "back_pincode": [
+      115,
+      415,
+      159,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

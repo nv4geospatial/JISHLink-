@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0037",
+  "data": {
+    "name": "Tanay Cherian",
+    "nominee": "D/O: Ojasvi",
+    "address_lines": [
+      "731, Pillay Road",
+      "Kerala - 579083"
+    ],
+    "pincode": "579083",
+    "mobile": "9317124660",
+    "aadhaar": "3445 0566 5883",
+    "dob": "31/10/1943",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      379
+    ],
+    "back_pincode": [
+      110,
+      400,
+      154,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

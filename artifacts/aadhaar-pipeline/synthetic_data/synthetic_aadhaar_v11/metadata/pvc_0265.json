@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0265",
+  "data": {
+    "name": "Vasana Banerjee",
+    "nominee": "C/O: Kalpit",
+    "address_lines": [
+      "15, Ravel Zila",
+      "Mangalore, Sikar",
+      "Haryana - 114281"
+    ],
+    "pincode": "114281",
+    "mobile": "8244858524",
+    "aadhaar": "6426 1212 0384",
+    "dob": "24/07/2001",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      379
+    ],
+    "back_pincode": [
+      120,
+      415,
+      164,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      139,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

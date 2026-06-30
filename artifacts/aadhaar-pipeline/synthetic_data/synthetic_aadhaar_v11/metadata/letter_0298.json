@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0298",
+  "data": {
+    "name": "Aadi Virk",
+    "nominee": "S/O: Ekansh",
+    "address_lines": [
+      "77/406, Kashyap Road",
+      "Baranagar, Deoghar",
+      "Haryana - 776748"
+    ],
+    "pincode": "776748",
+    "mobile": "9811056998",
+    "aadhaar": "XXXX XXXX 8376",
+    "dob": "17/01/2001",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

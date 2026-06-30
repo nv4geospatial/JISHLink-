@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0221",
+  "data": {
+    "name": "Jackson Pandya",
+    "nominee": "W/O: Janya",
+    "address_lines": [
+      "81/506, Verma Zila",
+      "Sangli-Miraj & Kupwad, Bally",
+      "Bihar - 521730"
+    ],
+    "pincode": "521730",
+    "mobile": "8698510766",
+    "aadhaar": "6605 9867 8744",
+    "dob": "1964",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      378
+    ],
+    "back_pincode": [
+      105,
+      414,
+      149,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

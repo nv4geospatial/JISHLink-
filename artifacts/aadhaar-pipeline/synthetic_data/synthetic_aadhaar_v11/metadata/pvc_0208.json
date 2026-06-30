@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0208",
+  "data": {
+    "name": "Nikita Prasad",
+    "nominee": "D/O: Nandini",
+    "address_lines": [
+      "01/93, Vaidya Path",
+      "Arrah, Ramagundam",
+      "Gujarat - 373781"
+    ],
+    "pincode": "373781",
+    "mobile": "8284275160",
+    "aadhaar": "9857 9736 3831",
+    "dob": "22/11/1994",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

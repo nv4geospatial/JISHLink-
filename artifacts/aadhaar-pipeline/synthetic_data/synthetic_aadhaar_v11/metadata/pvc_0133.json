@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0133",
+  "data": {
+    "name": "Ojas Purohit",
+    "nominee": "W/O: Priya",
+    "address_lines": [
+      "H.No. 448, Tata Zila",
+      "Gangtok, Uluberia",
+      "Karnataka - 121722"
+    ],
+    "pincode": "121722",
+    "mobile": "8574797329",
+    "aadhaar": "9352 1962 6335",
+    "dob": "23/10/1989",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      174,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

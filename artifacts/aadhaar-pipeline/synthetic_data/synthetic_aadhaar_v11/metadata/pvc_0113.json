@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0113",
+  "data": {
+    "name": "Kiaan Choudhary",
+    "nominee": "D/O: Priya",
+    "address_lines": [
+      "330, Dalal Street",
+      "Durg, Asansol",
+      "Rajasthan - 708396"
+    ],
+    "pincode": "708396",
+    "mobile": "8923896371",
+    "aadhaar": "4278 6561 9425",
+    "dob": "10/08/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      132,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      174,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

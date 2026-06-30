@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0255",
+  "data": {
+    "name": "Lekha Dugal",
+    "nominee": "C/O: Henry",
+    "address_lines": [
+      "88/418, Kuruvilla Ganj",
+      "Andhra Pradesh - 731182"
+    ],
+    "pincode": "731182",
+    "mobile": "7769197840",
+    "aadhaar": "1141 3193 5923",
+    "dob": "1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      378
+    ],
+    "back_pincode": [
+      162,
+      399,
+      206,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

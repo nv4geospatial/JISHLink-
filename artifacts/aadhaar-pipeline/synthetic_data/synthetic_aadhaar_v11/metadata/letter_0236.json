@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0236",
+  "data": {
+    "name": "Nathaniel Chawla",
+    "nominee": "W/O: Warhi",
+    "address_lines": [
+      "27/716, Batra Chowk",
+      "Kerala - 139211"
+    ],
+    "pincode": "139211",
+    "mobile": "7576498805",
+    "aadhaar": "8078 2357 8452",
+    "dob": "1945",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0153",
+  "data": {
+    "name": "Balveer Nazareth",
+    "nominee": "D/O: Bhavya",
+    "address_lines": [
+      "H.No. 61, Munshi Circle",
+      "Haryana - 144066"
+    ],
+    "pincode": "144066",
+    "mobile": "9748456134",
+    "aadhaar": "XXXX XXXX 5955",
+    "dob": "08/01/1978",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      378
+    ],
+    "back_pincode": [
+      120,
+      399,
+      164,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      139,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

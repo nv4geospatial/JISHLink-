@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0469",
+  "data": {
+    "name": "Dayita Narayanan",
+    "nominee": "C/O: Chandresh",
+    "address_lines": [
+      "267, Loke Zila",
+      "Madhya Pradesh - 762014"
+    ],
+    "pincode": "762014",
+    "mobile": "8679645463",
+    "aadhaar": "XXXX XXXX 7662",
+    "dob": "03/08/1985",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      163,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      209,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0194",
+  "data": {
+    "name": "Sachi Dave",
+    "nominee": "W/O: Oni",
+    "address_lines": [
+      "67/066, Pandya Street",
+      "Andhra Pradesh - 594241"
+    ],
+    "pincode": "594241",
+    "mobile": "7635550230",
+    "aadhaar": "6365 5647 2929",
+    "dob": "23/10/1956",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

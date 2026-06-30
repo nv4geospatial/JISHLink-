@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0178",
+  "data": {
+    "name": "Frado Kothari",
+    "nominee": "C/O: Lucky",
+    "address_lines": [
+      "64/037, Chowdhury Marg",
+      "Kerala - 785672"
+    ],
+    "pincode": "785672",
+    "mobile": "8339773681",
+    "aadhaar": "9427 8816 5803",
+    "dob": "25/10/1958",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

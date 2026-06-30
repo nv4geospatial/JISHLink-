@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0086",
+  "data": {
+    "name": "Amruta Chopra",
+    "nominee": "C/O: Theodore",
+    "address_lines": [
+      "H.No. 531, Mane Ganj",
+      "Telangana - 455069"
+    ],
+    "pincode": "455069",
+    "mobile": "8208984244",
+    "aadhaar": "8222 6189 6288",
+    "dob": "21/07/1943",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      156,
+      376
+    ],
+    "back_pincode": [
+      132,
+      397,
+      176,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

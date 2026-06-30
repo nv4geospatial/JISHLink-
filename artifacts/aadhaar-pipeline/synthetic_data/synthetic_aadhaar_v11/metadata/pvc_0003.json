@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0003",
+  "data": {
+    "name": "Robert Natt",
+    "nominee": "S/O: Banjeet",
+    "address_lines": [
+      "254, Chatterjee Zila",
+      "Tamil Nadu - 140048"
+    ],
+    "pincode": "140048",
+    "mobile": "9264488389",
+    "aadhaar": "2216 1070 5184",
+    "dob": "1942",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      379
+    ],
+    "back_pincode": [
+      137,
+      400,
+      181,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

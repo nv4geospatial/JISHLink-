@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0154",
+  "data": {
+    "name": "Champak Ramaswamy",
+    "nominee": "W/O: Vasana",
+    "address_lines": [
+      "H.No. 021, Sarin Path",
+      "Dindigul, Bhopal",
+      "Rajasthan - 656656"
+    ],
+    "pincode": "656656",
+    "mobile": "9757627978",
+    "aadhaar": "9360 7984 8704",
+    "dob": "11/09/1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      174,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

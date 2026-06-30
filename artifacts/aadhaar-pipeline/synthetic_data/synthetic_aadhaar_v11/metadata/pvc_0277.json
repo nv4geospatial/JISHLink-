@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0277",
+  "data": {
+    "name": "Ojas Pandey",
+    "nominee": "W/O: Triya",
+    "address_lines": [
+      "26/91, Randhawa Zila",
+      "Karnataka - 748663"
+    ],
+    "pincode": "748663",
+    "mobile": "9116153797",
+    "aadhaar": "5836 6834 8268",
+    "dob": "30/01/1957",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      378
+    ],
+    "back_pincode": [
+      130,
+      399,
+      174,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

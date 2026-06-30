@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0125",
+  "data": {
+    "name": "Vinaya Baral",
+    "nominee": "C/O: Qabil",
+    "address_lines": [
+      "58, Murthy",
+      "Rewa, Udupi",
+      "Uttar Pradesh - 728958"
+    ],
+    "pincode": "728958",
+    "mobile": "9191099113",
+    "aadhaar": "2054 6475 4895",
+    "dob": "22/11/1968",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      378
+    ],
+    "back_pincode": [
+      149,
+      414,
+      193,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

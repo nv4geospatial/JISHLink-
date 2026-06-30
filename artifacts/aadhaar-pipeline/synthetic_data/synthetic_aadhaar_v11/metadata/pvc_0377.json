@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0377",
+  "data": {
+    "name": "Adya Sen",
+    "nominee": "W/O: Pahal",
+    "address_lines": [
+      "909, Mittal Nagar",
+      "Berhampore, Thoothukudi",
+      "Maharashtra - 271678"
+    ],
+    "pincode": "271678",
+    "mobile": "9738286878",
+    "aadhaar": "6844 2464 8849",
+    "dob": "04/06/1969",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

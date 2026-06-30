@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0438",
+  "data": {
+    "name": "Dayita Shetty",
+    "nominee": "D/O: Urmi",
+    "address_lines": [
+      "H.No. 448, Basak Street",
+      "West Bengal - 652874"
+    ],
+    "pincode": "652874",
+    "mobile": "8869084355",
+    "aadhaar": "XXXX XXXX 3077",
+    "dob": "27/09/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

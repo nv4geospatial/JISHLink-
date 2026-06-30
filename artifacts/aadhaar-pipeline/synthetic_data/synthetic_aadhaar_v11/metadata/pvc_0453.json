@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0453",
+  "data": {
+    "name": "Megha Raval",
+    "nominee": "D/O: Yoshita",
+    "address_lines": [
+      "031, Pillai",
+      "Bihar - 585520"
+    ],
+    "pincode": "585520",
+    "mobile": "8196778194",
+    "aadhaar": "7623 1336 1094",
+    "dob": "24/06/2004",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

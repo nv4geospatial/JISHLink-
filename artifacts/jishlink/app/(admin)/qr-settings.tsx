@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import {
-  View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView, Platform,
+  View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView, Platform, Share as RNShare,
 } from "react-native";
 import { Feather } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import QRCode from "react-native-qrcode-svg";
 import Toast from "react-native-toast-message";
+import * as Sharing from "expo-sharing";
+import * as FileSystem from "expo-file-system";
 import { NavHeader } from "@/components/NavHeader";
 import colors from "@/constants/colors";
 
@@ -16,11 +18,124 @@ export default function QRSettingsScreen() {
   const c = colors.light;
   const [url, setUrl] = useState(DEFAULT_URL);
   const [saved, setSaved] = useState(DEFAULT_URL);
+  const [qrCodeObj, setQrCodeObj] = useState<any>(null);
 
   const handleSave = () => {
     if (!url.trim()) { Toast.show({ type: "error", text1: "Enter a URL" }); return; }
     setSaved(url.trim());
     Toast.show({ type: "success", text1: "QR code generated!" });
+  };
+
+  const handleShareLink = async () => {
+    if (!saved) return;
+    
+    // Web: use Web Share API or clipboard fallback
+    if (Platform.OS === "web") {
+      if (typeof navigator !== "undefined" && navigator.share) {
+        try {
+          await navigator.share({ title: "Registration Link", url: saved });
+        } catch { /* user cancelled */ }
+      } else {
+        await navigator.clipboard.writeText(saved);
+        Toast.show({ type: "success", text1: "Link copied to clipboard!" });
+      }
+      return;
+    }
+    
+    // Native: use React Native Share (works with URLs on mobile)
+    try {
+      await RNShare.share({ message: saved, url: saved });
+    } catch {
+      // user cancelled — ignore
+    }
+  };
+
+  const handleShareQRImage = async () => {
+    if (!saved) {
+      Toast.show({ type: "error", text1: "Generate QR first" });
+      return;
+    }
+    
+    // Web: convert SVG to canvas and share as image
+    if (Platform.OS === "web") {
+      try {
+        const svgElement = document.querySelector("svg");
+        if (!svgElement) {
+          Toast.show({ type: "error", text1: "QR not found" });
+          return;
+        }
+        const svgData = new XMLSerializer().serializeToString(svgElement);
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+        const img = new Image();
+        img.onload = async () => {
+          canvas.width = img.width;
+          canvas.height = img.height;
+          ctx?.drawImage(img, 0, 0);
+          canvas.toBlob(async (blob) => {
+            if (!blob) return;
+            const file = new File([blob], "qr-code.png", { type: "image/png" });
+            if (typeof navigator !== "undefined" && navigator.share) {
+              try {
+                await navigator.share({ files: [file], title: "QR Code" });
+              } catch { /* user cancelled */ }
+            } else {
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement("a");
+              a.href = url;
+              a.download = "qr-code.png";
+              a.click();
+              URL.revokeObjectURL(url);
+              Toast.show({ type: "success", text1: "QR image downloaded!" });
+            }
+          });
+        };
+        img.src = "data:image/svg+xml;base64," + btoa(svgData);
+      } catch {
+        Toast.show({ type: "error", text1: "Failed to share QR image" });
+      }
+      return;
+    }
+    
+    // Native: use react-native-qrcode-svg toDataURL with callback
+    if (!qrCodeObj) {
+      Toast.show({ type: "error", text1: "Generate QR first" });
+      return;
+    }
+    
+    try {
+      // toDataURL in v6.3.x uses callback: toDataURL(callback, padding)
+      const dataUrl = await new Promise<string | null>((resolve) => {
+        qrCodeObj.toDataURL((url: string) => resolve(url), 500);
+      });
+      
+      if (!dataUrl) {
+        Toast.show({ type: "error", text1: "Could not generate QR image" });
+        return;
+      }
+      
+      const base64 = dataUrl.replace(/^data:image\/png;base64,/, "");
+      const fileUri = (FileSystem.cacheDirectory ?? "") + "qr-code.png";
+      
+      await FileSystem.writeAsStringAsync(fileUri, base64, {
+        encoding: FileSystem.EncodingType.Base64,
+      });
+      
+      // Verify file exists before sharing
+      const fileInfo = await FileSystem.getInfoAsync(fileUri);
+      if (!fileInfo.exists) {
+        throw new Error("File not created");
+      }
+      
+      await Sharing.shareAsync(fileUri, {
+        dialogTitle: "Share QR Code",
+        mimeType: "image/png",
+        UTI: "public.png",
+      });
+    } catch (err: any) {
+      console.error("QR share error:", err);
+      Toast.show({ type: "error", text1: "Failed to share QR: " + (err?.message || "Unknown error") });
+    }
   };
 
   const bottomPad = Platform.OS === "web" ? 34 : insets.bottom;
@@ -36,15 +151,21 @@ export default function QRSettingsScreen() {
           </Text>
 
           <Text style={[styles.label, { color: c.mutedForeground, fontFamily: "Inter_500Medium" }]}>Form URL</Text>
-          <TextInput
-            style={[styles.input, { borderColor: c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
-            value={url}
-            onChangeText={setUrl}
-            placeholder="https://docs.google.com/forms/..."
-            placeholderTextColor={c.mutedForeground}
-            autoCapitalize="none"
-            autoCorrect={false}
-          />
+          <View style={styles.inputRow}>
+            <TextInput
+              style={[styles.inputWithBtn, { borderColor: c.border, backgroundColor: c.offwhite, color: c.text, fontFamily: "Inter_400Regular" }]}
+              value={url}
+              onChangeText={setUrl}
+              placeholder="https://docs.google.com/forms/..."
+              placeholderTextColor={c.mutedForeground}
+              autoCapitalize="none"
+              autoCorrect={false}
+            />
+            <TouchableOpacity onPress={handleShareLink} style={[styles.shareLinkBtn, { backgroundColor: c.gold }]} activeOpacity={0.7}>
+              <Feather name="share-2" size={14} color={c.navy} />
+              <Text style={[styles.shareLinkText, { color: c.navy, fontFamily: "Poppins_600SemiBold" }]}>Share</Text>
+            </TouchableOpacity>
+          </View>
           <TouchableOpacity onPress={handleSave} style={[styles.btn, { backgroundColor: c.gold }]}>
             <Text style={[styles.btnText, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>Generate QR</Text>
           </TouchableOpacity>
@@ -53,6 +174,7 @@ export default function QRSettingsScreen() {
         {saved ? (
           <View style={[styles.qrContainer, { backgroundColor: c.white }]}>
             <QRCode
+              getRef={(ref: any) => setQrCodeObj(ref)}
               value={saved}
               size={220}
               color={c.navy}
@@ -90,4 +212,9 @@ const styles = StyleSheet.create({
   qrSub: { fontSize: 11, textAlign: "center", color: "#9CA3AF" },
   infoBox: { flexDirection: "row", gap: 10, padding: 12, marginTop: 4 },
   infoText: { flex: 1, fontSize: 12 },
+
+  inputRow: { flexDirection: "row", gap: 8, alignItems: "center", marginBottom: 14 },
+  inputWithBtn: { flex: 1, borderWidth: 1, borderRadius: 8, paddingHorizontal: 12, paddingVertical: 10, fontSize: 14 },
+  shareLinkBtn: { flexDirection: "row", alignItems: "center", gap: 4, paddingHorizontal: 12, paddingVertical: 10, borderRadius: 8 },
+  shareLinkText: { fontSize: 13 },
 });

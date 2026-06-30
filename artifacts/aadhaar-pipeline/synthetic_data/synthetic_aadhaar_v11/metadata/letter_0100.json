@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0100",
+  "data": {
+    "name": "Pooja Ganesan",
+    "nominee": "S/O: Tristan",
+    "address_lines": [
+      "H.No. 01, Patla Marg",
+      "Amroha, Nagercoil",
+      "Telangana - 625119"
+    ],
+    "pincode": "625119",
+    "mobile": "7204889313",
+    "aadhaar": "6315 9996 5047",
+    "dob": "1979",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

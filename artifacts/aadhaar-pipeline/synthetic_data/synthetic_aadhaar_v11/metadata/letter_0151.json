@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0151",
+  "data": {
+    "name": "Anamika Chaudry",
+    "nominee": "W/O: Chameli",
+    "address_lines": [
+      "H.No. 581, Nair",
+      "Sultan Pur Majra, Kota",
+      "Madhya Pradesh - 489737"
+    ],
+    "pincode": "489737",
+    "mobile": "8226466892",
+    "aadhaar": "7099 9173 8168",
+    "dob": "18/02/2006",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

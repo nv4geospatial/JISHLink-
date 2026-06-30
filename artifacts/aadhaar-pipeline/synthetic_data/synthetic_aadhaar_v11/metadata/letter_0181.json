@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0181",
+  "data": {
+    "name": "Farhan Vaidya",
+    "nominee": "D/O: Garima",
+    "address_lines": [
+      "30/316, Setty Zila",
+      "Katni, Tirupati",
+      "Bihar - 295984"
+    ],
+    "pincode": "295984",
+    "mobile": "9977198832",
+    "aadhaar": "XXXX XXXX 3926",
+    "dob": "10/01/1987",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

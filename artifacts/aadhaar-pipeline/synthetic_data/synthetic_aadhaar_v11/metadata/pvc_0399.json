@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0399",
+  "data": {
+    "name": "Daksh Deo",
+    "nominee": "S/O: Yuvraj",
+    "address_lines": [
+      "23/15, Nigam Path",
+      "Jabalpur, Saharanpur",
+      "Haryana - 435197"
+    ],
+    "pincode": "435197",
+    "mobile": "7283319438",
+    "aadhaar": "6864 9864 7868",
+    "dob": "1946",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      379
+    ],
+    "back_pincode": [
+      120,
+      415,
+      164,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

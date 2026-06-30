@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0188",
+  "data": {
+    "name": "Krisha Mohanty",
+    "nominee": "S/O: Charles",
+    "address_lines": [
+      "H.No. 241, Kata Nagar",
+      "Bettiah, Gurgaon",
+      "Odisha - 283785"
+    ],
+    "pincode": "283785",
+    "mobile": "7316581500",
+    "aadhaar": "8430 9883 9205",
+    "dob": "07/09/2008",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

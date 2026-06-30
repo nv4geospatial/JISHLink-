@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0291",
+  "data": {
+    "name": "Abha Patel",
+    "nominee": "D/O: Lavanya",
+    "address_lines": [
+      "98/24, Nair Path",
+      "Gujarat - 120669"
+    ],
+    "pincode": "120669",
+    "mobile": "8806272779",
+    "aadhaar": "6986 4079 0569",
+    "dob": "28/08/1991",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0126",
+  "data": {
+    "name": "Odika Toor",
+    "nominee": "D/O: Lekha",
+    "address_lines": [
+      "H.No. 62, Rastogi",
+      "Tamil Nadu - 592126"
+    ],
+    "pincode": "592126",
+    "mobile": "8467659963",
+    "aadhaar": "8891 4444 9835",
+    "dob": "20/05/2005",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      137,
+      397,
+      181,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0212",
+  "data": {
+    "name": "Advik Virk",
+    "nominee": "D/O: Dayita",
+    "address_lines": [
+      "H.No. 85, Lalla Marg",
+      "Gujarat - 690500"
+    ],
+    "pincode": "690500",
+    "mobile": "9899484915",
+    "aadhaar": "4577 6004 9082",
+    "dob": "1969",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

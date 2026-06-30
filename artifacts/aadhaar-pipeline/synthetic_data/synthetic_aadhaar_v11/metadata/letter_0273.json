@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0273",
+  "data": {
+    "name": "Aachal Sood",
+    "nominee": "W/O: Chakrika",
+    "address_lines": [
+      "81/80, Jha Marg",
+      "Haryana - 227391"
+    ],
+    "pincode": "227391",
+    "mobile": "8925190102",
+    "aadhaar": "2752 0885 4749",
+    "dob": "05/10/1992",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

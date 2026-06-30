@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0017",
+  "data": {
+    "name": "Chasmum Wadhwa",
+    "nominee": "D/O: Netra",
+    "address_lines": [
+      "H.No. 49, Oza Ganj",
+      "Bilaspur, Aligarh",
+      "Karnataka - 636004"
+    ],
+    "pincode": "636004",
+    "mobile": "9282204745",
+    "aadhaar": "XXXX XXXX 3320",
+    "dob": "19/12/1955",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

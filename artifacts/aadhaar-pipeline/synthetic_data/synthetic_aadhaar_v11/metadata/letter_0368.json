@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0368",
+  "data": {
+    "name": "Avni Maharaj",
+    "nominee": "C/O: Kabir",
+    "address_lines": [
+      "75/243, Golla Chowk",
+      "Gorakhpur, Gudivada",
+      "Karnataka - 275915"
+    ],
+    "pincode": "275915",
+    "mobile": "9754332056",
+    "aadhaar": "6270 6614 9828",
+    "dob": "30/03/2001",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0386",
+  "data": {
+    "name": "Varsha Prabhakar",
+    "nominee": "S/O: Zaid",
+    "address_lines": [
+      "920, Rout Path",
+      "Maharashtra - 532232"
+    ],
+    "pincode": "532232",
+    "mobile": "7769426316",
+    "aadhaar": "7535 8464 0510",
+    "dob": "30/10/1975",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      127,
+      376
+    ],
+    "back_pincode": [
+      142,
+      397,
+      186,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

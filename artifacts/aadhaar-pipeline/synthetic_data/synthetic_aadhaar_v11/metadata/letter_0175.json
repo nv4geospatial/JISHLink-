@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0175",
+  "data": {
+    "name": "Aarav Kala",
+    "nominee": "D/O: Brinda",
+    "address_lines": [
+      "51/627, Karnik Zila",
+      "Bihar - 268772"
+    ],
+    "pincode": "268772",
+    "mobile": "8308656189",
+    "aadhaar": "1290 8781 4141",
+    "dob": "09/08/1969",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

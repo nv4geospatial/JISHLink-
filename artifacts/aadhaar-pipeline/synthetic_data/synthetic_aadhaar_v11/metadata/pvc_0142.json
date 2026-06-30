@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0142",
+  "data": {
+    "name": "Harshil Choudhry",
+    "nominee": "D/O: Divya",
+    "address_lines": [
+      "H.No. 753, Chaudhuri Marg",
+      "Maharashtra - 111593"
+    ],
+    "pincode": "111593",
+    "mobile": "9703002791",
+    "aadhaar": "4008 3850 7659",
+    "dob": "23/10/1977",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      142,
+      399,
+      186,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

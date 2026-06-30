@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0231",
+  "data": {
+    "name": "Laksh Sahota",
+    "nominee": "C/O: Charles",
+    "address_lines": [
+      "934, Jaggi Circle",
+      "Maharashtra - 677210"
+    ],
+    "pincode": "677210",
+    "mobile": "7231021447",
+    "aadhaar": "4586 8339 0198",
+    "dob": "11/09/1967",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

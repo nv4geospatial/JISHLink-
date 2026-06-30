@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0083",
+  "data": {
+    "name": "Aarnav Ramesh",
+    "nominee": "C/O: Ikbal",
+    "address_lines": [
+      "H.No. 509, Narasimhan Chowk",
+      "Tamil Nadu - 481220"
+    ],
+    "pincode": "481220",
+    "mobile": "8242930795",
+    "aadhaar": "8333 3939 5786",
+    "dob": "1963",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      130,
+      376
+    ],
+    "back_pincode": [
+      137,
+      397,
+      181,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

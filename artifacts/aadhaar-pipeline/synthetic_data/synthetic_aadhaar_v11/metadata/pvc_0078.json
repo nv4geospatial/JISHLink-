@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0078",
+  "data": {
+    "name": "Nachiket Date",
+    "nominee": "S/O: Ekbal",
+    "address_lines": [
+      "39/672, Pandya Chowk",
+      "West Bengal - 216818"
+    ],
+    "pincode": "216818",
+    "mobile": "8298082098",
+    "aadhaar": "1136 9572 7908",
+    "dob": "05/03/2001",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      143,
+      397,
+      187,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0330",
+  "data": {
+    "name": "Mahika Hari",
+    "nominee": "D/O: Pushti",
+    "address_lines": [
+      "92/372, Narang Road",
+      "Karnataka - 586961"
+    ],
+    "pincode": "586961",
+    "mobile": "9707128682",
+    "aadhaar": "5296 3530 5970",
+    "dob": "1941",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0110",
+  "data": {
+    "name": "Eiravati Pai",
+    "nominee": "S/O: Ryan",
+    "address_lines": [
+      "14, Kota Chowk",
+      "Tamil Nadu - 240454"
+    ],
+    "pincode": "240454",
+    "mobile": "8225572934",
+    "aadhaar": "2528 6692 9662",
+    "dob": "14/03/1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

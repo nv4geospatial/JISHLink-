@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0472",
+  "data": {
+    "name": "Nathan Ghosh",
+    "nominee": "W/O: Bhavika",
+    "address_lines": [
+      "45, Batra Path",
+      "Raipur, Jamshedpur",
+      "Rajasthan - 270444"
+    ],
+    "pincode": "270444",
+    "mobile": "7241597244",
+    "aadhaar": "0441 3845 9609",
+    "dob": "08/01/1999",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0352",
+  "data": {
+    "name": "Geetika Sha",
+    "nominee": "W/O: Vanya",
+    "address_lines": [
+      "736, Parmar Nagar",
+      "Sonipat, Ambarnath",
+      "Maharashtra - 108845"
+    ],
+    "pincode": "108845",
+    "mobile": "7669983283",
+    "aadhaar": "5488 0644 2006",
+    "dob": "12/12/1944",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      378
+    ],
+    "back_pincode": [
+      142,
+      414,
+      186,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

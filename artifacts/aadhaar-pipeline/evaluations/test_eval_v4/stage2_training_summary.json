@@ -1,0 +1,12 @@
+{
+  "model": "yolov8n",
+  "epochs": 150,
+  "best_model": "/content/runs/stage2/train/weights/best.pt",
+  "last_model": "/content/runs/stage2/train/weights/last.pt",
+  "classes": [
+    "nominee",
+    "pincode",
+    "mobile",
+    "address"
+  ]
+}

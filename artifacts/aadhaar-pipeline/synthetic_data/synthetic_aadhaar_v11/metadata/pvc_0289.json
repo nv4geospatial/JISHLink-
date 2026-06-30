@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0289",
+  "data": {
+    "name": "Manbir Arora",
+    "nominee": "D/O: Rajata",
+    "address_lines": [
+      "85/85, Sundaram Marg",
+      "Andhra Pradesh - 110205"
+    ],
+    "pincode": "110205",
+    "mobile": "8922120921",
+    "aadhaar": "5107 4091 3111",
+    "dob": "08/10/1989",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      379
+    ],
+    "back_pincode": [
+      162,
+      400,
+      206,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

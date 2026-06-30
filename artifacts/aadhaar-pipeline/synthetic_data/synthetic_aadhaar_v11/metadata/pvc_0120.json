@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0120",
+  "data": {
+    "name": "Frederick Basu",
+    "nominee": "D/O: Aradhana",
+    "address_lines": [
+      "H.No. 68, Murty Ganj",
+      "Uttar Pradesh - 495019"
+    ],
+    "pincode": "495019",
+    "mobile": "7465147820",
+    "aadhaar": "9737 1122 2990",
+    "dob": "19/08/1997",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      157,
+      376
+    ],
+    "back_pincode": [
+      149,
+      397,
+      193,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

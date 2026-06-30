@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0062",
+  "data": {
+    "name": "Xalak Shah",
+    "nominee": "W/O: Meghana",
+    "address_lines": [
+      "H.No. 97, Talwar Ganj",
+      "Bihar - 266951"
+    ],
+    "pincode": "266951",
+    "mobile": "7303785198",
+    "aadhaar": "XXXX XXXX 6913",
+    "dob": "24/08/1962",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      156,
+      379
+    ],
+    "back_pincode": [
+      105,
+      400,
+      149,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

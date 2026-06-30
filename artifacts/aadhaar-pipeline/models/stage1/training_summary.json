@@ -1,0 +1,11 @@
+{
+  "model": "yolov8s",
+  "epochs": 100,
+  "best_model_drive": "/content/drive/MyDrive/Aadhaar_ML_Pipeline/models/stage1/best.pt",
+  "classes": [
+    "address_block",
+    "aadhaar_area",
+    "photo_dob_gender_area",
+    "header"
+  ]
+}

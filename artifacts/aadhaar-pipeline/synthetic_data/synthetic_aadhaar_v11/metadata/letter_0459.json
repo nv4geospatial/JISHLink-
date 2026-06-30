@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0459",
+  "data": {
+    "name": "Sathvik Gaba",
+    "nominee": "D/O: Tamanna",
+    "address_lines": [
+      "49/251, Vala Path",
+      "Jamshedpur, Pallavaram",
+      "Haryana - 590636"
+    ],
+    "pincode": "590636",
+    "mobile": "8109792590",
+    "aadhaar": "2588 3586 8122",
+    "dob": "07/09/1955",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

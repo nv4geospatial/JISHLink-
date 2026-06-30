@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0027",
+  "data": {
+    "name": "Vanya Biswas",
+    "nominee": "C/O: Robert",
+    "address_lines": [
+      "72/994, Jain",
+      "Kerala - 549407"
+    ],
+    "pincode": "549407",
+    "mobile": "7381856258",
+    "aadhaar": "9125 6523 7341",
+    "dob": "06/09/1978",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

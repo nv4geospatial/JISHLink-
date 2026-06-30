@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0389",
+  "data": {
+    "name": "Charles Yogi",
+    "nominee": "S/O: Gaurang",
+    "address_lines": [
+      "H.No. 379, Nanda",
+      "Rajasthan - 675006"
+    ],
+    "pincode": "675006",
+    "mobile": "9195535272",
+    "aadhaar": "5542 3401 6361",
+    "dob": "1972",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

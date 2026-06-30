@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0076",
+  "data": {
+    "name": "Frado Ben",
+    "nominee": "C/O: Faras",
+    "address_lines": [
+      "67, Sathe",
+      "Haryana - 240440"
+    ],
+    "pincode": "240440",
+    "mobile": "8920184955",
+    "aadhaar": "6506 0983 5841",
+    "dob": "21/12/1971",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

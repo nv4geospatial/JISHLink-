@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0480",
+  "data": {
+    "name": "Tanay Walla",
+    "nominee": "W/O: Devika",
+    "address_lines": [
+      "H.No. 615, Srinivasan Ganj",
+      "Madhya Pradesh - 107054"
+    ],
+    "pincode": "107054",
+    "mobile": "8626941508",
+    "aadhaar": "XXXX XXXX 9561",
+    "dob": "24/01/1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      209,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0004",
+  "data": {
+    "name": "Rachana Bajwa",
+    "nominee": "W/O: Ladli",
+    "address_lines": [
+      "H.No. 83, Sarna Zila",
+      "Bhalswa Jahangir Pur, Mau",
+      "Uttar Pradesh - 641422"
+    ],
+    "pincode": "641422",
+    "mobile": "8547083251",
+    "aadhaar": "0138 2412 7049",
+    "dob": "25/07/1998",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

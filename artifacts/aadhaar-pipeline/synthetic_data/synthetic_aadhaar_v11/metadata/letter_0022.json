@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0022",
+  "data": {
+    "name": "Reyansh Rastogi",
+    "nominee": "W/O: Maya",
+    "address_lines": [
+      "H.No. 142, Lanka",
+      "Karnataka - 321941"
+    ],
+    "pincode": "321941",
+    "mobile": "8398775766",
+    "aadhaar": "6417 0805 3100",
+    "dob": "1943",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

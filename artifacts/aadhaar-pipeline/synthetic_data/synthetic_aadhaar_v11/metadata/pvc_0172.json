@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0172",
+  "data": {
+    "name": "Aadi Bedi",
+    "nominee": "W/O: Ekantika",
+    "address_lines": [
+      "369, Mannan Zila",
+      "Ambala, Chandigarh",
+      "Rajasthan - 200757"
+    ],
+    "pincode": "200757",
+    "mobile": "7362942260",
+    "aadhaar": "XXXX XXXX 7368",
+    "dob": "1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      153,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      174,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

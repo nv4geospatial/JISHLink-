@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0385",
+  "data": {
+    "name": "Darpan Sani",
+    "nominee": "S/O: Balveer",
+    "address_lines": [
+      "91/945, Parmar Chowk",
+      "Ahmedabad, Imphal",
+      "Bihar - 792085"
+    ],
+    "pincode": "792085",
+    "mobile": "7606308772",
+    "aadhaar": "7270 2896 6605",
+    "dob": "24/11/1996",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

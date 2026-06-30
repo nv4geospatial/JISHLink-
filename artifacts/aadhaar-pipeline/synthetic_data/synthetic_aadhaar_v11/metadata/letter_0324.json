@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0324",
+  "data": {
+    "name": "Siddharth Jani",
+    "nominee": "D/O: Warhi",
+    "address_lines": [
+      "H.No. 439, Bera Road",
+      "Gandhinagar, Rohtak",
+      "Uttar Pradesh - 124559"
+    ],
+    "pincode": "124559",
+    "mobile": "9736195900",
+    "aadhaar": "XXXX XXXX 4851",
+    "dob": "30/10/1975",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

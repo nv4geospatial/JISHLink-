@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0112",
+  "data": {
+    "name": "Widisha Bajaj",
+    "nominee": "C/O: Chakradev",
+    "address_lines": [
+      "50/04, Singhal Chowk",
+      "Gujarat - 676429"
+    ],
+    "pincode": "676429",
+    "mobile": "7387643522",
+    "aadhaar": "8580 7836 1340",
+    "dob": "1962",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

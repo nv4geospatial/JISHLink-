@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0128",
+  "data": {
+    "name": "Kiaan Sridhar",
+    "nominee": "D/O: Vasana",
+    "address_lines": [
+      "918, Wable Chowk",
+      "Jamalpur, Siwan",
+      "Bihar - 210790"
+    ],
+    "pincode": "210790",
+    "mobile": "8536489528",
+    "aadhaar": "1853 7474 1124",
+    "dob": "23/12/1993",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

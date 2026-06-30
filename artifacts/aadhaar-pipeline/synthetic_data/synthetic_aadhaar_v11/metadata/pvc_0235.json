@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0235",
+  "data": {
+    "name": "Neha Solanki",
+    "nominee": "S/O: Jackson",
+    "address_lines": [
+      "52/059, Ray",
+      "Kumbakonam, Bulandshahr",
+      "Andhra Pradesh - 226832"
+    ],
+    "pincode": "226832",
+    "mobile": "8246014686",
+    "aadhaar": "5873 3930 4936",
+    "dob": "20/09/2006",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

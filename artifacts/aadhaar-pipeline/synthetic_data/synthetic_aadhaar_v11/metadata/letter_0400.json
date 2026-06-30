@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0400",
+  "data": {
+    "name": "Faraj Chopra",
+    "nominee": "S/O: Fitan",
+    "address_lines": [
+      "804, Deo Marg",
+      "Gorakhpur, Mehsana",
+      "Uttar Pradesh - 100561"
+    ],
+    "pincode": "100561",
+    "mobile": "8327609166",
+    "aadhaar": "XXXX XXXX 7554",
+    "dob": "05/07/1976",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

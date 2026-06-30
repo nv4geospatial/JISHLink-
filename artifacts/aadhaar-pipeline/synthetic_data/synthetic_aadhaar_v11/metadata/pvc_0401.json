@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0401",
+  "data": {
+    "name": "Advika Karan",
+    "nominee": "C/O: Jagdish",
+    "address_lines": [
+      "00, Kaul Ganj",
+      "Proddatur, Faridabad",
+      "Telangana - 737460"
+    ],
+    "pincode": "737460",
+    "mobile": "7943341577",
+    "aadhaar": "XXXX XXXX 7082",
+    "dob": "09/09/2012",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      379
+    ],
+    "back_pincode": [
+      132,
+      415,
+      176,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

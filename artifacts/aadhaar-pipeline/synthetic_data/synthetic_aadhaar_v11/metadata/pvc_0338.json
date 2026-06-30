@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0338",
+  "data": {
+    "name": "Harrison Chana",
+    "nominee": "D/O: Nirja",
+    "address_lines": [
+      "H.No. 57, Dutta Path",
+      "Eluru, Bilaspur",
+      "Maharashtra - 785578"
+    ],
+    "pincode": "785578",
+    "mobile": "8570464462",
+    "aadhaar": "4174 3043 5023",
+    "dob": "26/05/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      130,
+      379
+    ],
+    "back_pincode": [
+      142,
+      415,
+      186,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

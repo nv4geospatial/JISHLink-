@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0077",
+  "data": {
+    "name": "Chanakya Garde",
+    "nominee": "C/O: Nathan",
+    "address_lines": [
+      "92, Andra Road",
+      "Bokaro, Katihar",
+      "Bihar - 169730"
+    ],
+    "pincode": "169730",
+    "mobile": "7894668747",
+    "aadhaar": "4648 4494 1163",
+    "dob": "04/09/1992",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

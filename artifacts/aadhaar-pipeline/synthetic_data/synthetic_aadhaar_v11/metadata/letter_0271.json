@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0271",
+  "data": {
+    "name": "Lekha Deo",
+    "nominee": "W/O: Adweta",
+    "address_lines": [
+      "90/88, Chander Zila",
+      "Andhra Pradesh - 531690"
+    ],
+    "pincode": "531690",
+    "mobile": "9944846231",
+    "aadhaar": "5798 8774 9242",
+    "dob": "1977",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

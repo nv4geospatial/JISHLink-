@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0055",
+  "data": {
+    "name": "Lakshmi Raju",
+    "nominee": "D/O: Yachana",
+    "address_lines": [
+      "H.No. 870, Rout Street",
+      "Maharashtra - 347745"
+    ],
+    "pincode": "347745",
+    "mobile": "7286293158",
+    "aadhaar": "9212 7799 7995",
+    "dob": "07/09/2006",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

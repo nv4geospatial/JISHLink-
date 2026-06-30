@@ -113,21 +113,26 @@ globalThis.__dirname = __bannerPath.dirname(globalThis.__filename);
     },
   });
 
-  // ── Copy Python OCR service to dist so it works in production ───────────
+  // ── Copy non-JS assets to dist (if any) ───────────
+  // Note: ocr_service.ts is compiled into the bundle by esbuild.
+  // The Python OCR pipeline runs separately; Node.js connects via HTTP.
   const srcLib = path.resolve(artifactDir, "src/lib");
   const distLib = path.resolve(artifactDir, "dist/lib");
   
   if (fs.existsSync(srcLib)) {
     fs.mkdirSync(distLib, { recursive: true });
     
-    const pySrc = path.join(srcLib, "ocr_service.py");
-    const pyDist = path.join(distLib, "ocr_service.py");
-    
-    if (fs.existsSync(pySrc)) {
+    // Copy any .py files that need to be available at runtime (none currently)
+    const pyFiles = fs.readdirSync(srcLib).filter(f => f.endsWith('.py'));
+    for (const pyFile of pyFiles) {
+      const pySrc = path.join(srcLib, pyFile);
+      const pyDist = path.join(distLib, pyFile);
       fs.copyFileSync(pySrc, pyDist);
-      console.log("[BUILD] Copied ocr_service.py to dist/lib/");
-    } else {
-      console.warn("[BUILD] ocr_service.py not found in src/lib/");
+      console.log(`[BUILD] Copied ${pyFile} to dist/lib/`);
+    }
+    
+    if (pyFiles.length === 0) {
+      console.log("[BUILD] No .py files to copy (ocr_service is TypeScript, compiled into bundle)");
     }
   }
 }

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0488",
+  "data": {
+    "name": "Laksh Kuruvilla",
+    "nominee": "W/O: Ganga",
+    "address_lines": [
+      "H.No. 744, Bajaj Marg",
+      "Bulandshahr, Bettiah",
+      "Tamil Nadu - 680433"
+    ],
+    "pincode": "680433",
+    "mobile": "8275029976",
+    "aadhaar": "XXXX XXXX 4722",
+    "dob": "1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      379
+    ],
+    "back_pincode": [
+      137,
+      415,
+      181,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

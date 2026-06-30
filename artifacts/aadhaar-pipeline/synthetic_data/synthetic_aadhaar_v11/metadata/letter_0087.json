@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0087",
+  "data": {
+    "name": "Girik Sampath",
+    "nominee": "D/O: Adya",
+    "address_lines": [
+      "322, Merchant Zila",
+      "Bokaro, Mau",
+      "Tamil Nadu - 272529"
+    ],
+    "pincode": "272529",
+    "mobile": "8224811770",
+    "aadhaar": "3971 8707 2867",
+    "dob": "01/09/2004",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

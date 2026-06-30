@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0166",
+  "data": {
+    "name": "Chatresh Parmer",
+    "nominee": "W/O: Watika",
+    "address_lines": [
+      "77, Butala Street",
+      "Yamunanagar, Alappuzha",
+      "Kerala - 221011"
+    ],
+    "pincode": "221011",
+    "mobile": "8725783470",
+    "aadhaar": "9684 6081 0620",
+    "dob": "18/06/1983",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0152",
+  "data": {
+    "name": "Sneha Garg",
+    "nominee": "D/O: Sanaya",
+    "address_lines": [
+      "42, Bansal Marg",
+      "Maharashtra - 461848"
+    ],
+    "pincode": "461848",
+    "mobile": "8518285868",
+    "aadhaar": "XXXX XXXX 6592",
+    "dob": "29/07/2008",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      378
+    ],
+    "back_pincode": [
+      142,
+      399,
+      186,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

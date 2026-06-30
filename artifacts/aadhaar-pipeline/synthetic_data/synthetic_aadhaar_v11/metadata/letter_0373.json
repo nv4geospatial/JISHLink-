@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0373",
+  "data": {
+    "name": "Ekansh Arora",
+    "nominee": "S/O: Samesh",
+    "address_lines": [
+      "443, Bajwa Nagar",
+      "Loni, Amroha",
+      "Andhra Pradesh - 572552"
+    ],
+    "pincode": "572552",
+    "mobile": "7315758599",
+    "aadhaar": "0234 6791 2141",
+    "dob": "26/07/1987",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

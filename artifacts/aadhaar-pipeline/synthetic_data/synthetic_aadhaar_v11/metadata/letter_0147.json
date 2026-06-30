@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0147",
+  "data": {
+    "name": "Garima Chandran",
+    "nominee": "S/O: Ansh",
+    "address_lines": [
+      "H.No. 489, Gola Nagar",
+      "Rajpur Sonarpur, Gopalpur",
+      "Uttar Pradesh - 398916"
+    ],
+    "pincode": "398916",
+    "mobile": "7714457408",
+    "aadhaar": "3333 4680 0722",
+    "dob": "29/01/2011",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

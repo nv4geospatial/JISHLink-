@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0321",
+  "data": {
+    "name": "Fitan Chandran",
+    "nominee": "D/O: Megha",
+    "address_lines": [
+      "H.No. 79, Varughese Circle",
+      "Kamarhati, Udaipur",
+      "Bihar - 248514"
+    ],
+    "pincode": "248514",
+    "mobile": "9118132628",
+    "aadhaar": "1944 2589 2225",
+    "dob": "10/05/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      379
+    ],
+    "back_pincode": [
+      105,
+      415,
+      150,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

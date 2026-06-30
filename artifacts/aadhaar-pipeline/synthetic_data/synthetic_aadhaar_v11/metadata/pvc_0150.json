@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0150",
+  "data": {
+    "name": "Falguni Kala",
+    "nominee": "S/O: Viraj",
+    "address_lines": [
+      "38/31, Mall Circle",
+      "Andhra Pradesh - 620529"
+    ],
+    "pincode": "620529",
+    "mobile": "8134395963",
+    "aadhaar": "6527 7584 4663",
+    "dob": "05/12/1994",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      127,
+      379
+    ],
+    "back_pincode": [
+      162,
+      400,
+      206,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

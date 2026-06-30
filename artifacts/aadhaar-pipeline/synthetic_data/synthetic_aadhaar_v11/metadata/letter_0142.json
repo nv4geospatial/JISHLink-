@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0142",
+  "data": {
+    "name": "Geetika Kurian",
+    "nominee": "D/O: Xalak",
+    "address_lines": [
+      "808, Borde Nagar",
+      "Nagercoil, Kolhapur",
+      "Kerala - 226124"
+    ],
+    "pincode": "226124",
+    "mobile": "7327515325",
+    "aadhaar": "XXXX XXXX 9451",
+    "dob": "29/04/2012",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

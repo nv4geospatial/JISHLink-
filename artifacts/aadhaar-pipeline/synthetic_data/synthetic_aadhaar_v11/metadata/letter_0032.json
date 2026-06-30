@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0032",
+  "data": {
+    "name": "Gayathri Ravel",
+    "nominee": "W/O: Vinaya",
+    "address_lines": [
+      "720, Raghavan Road",
+      "Madhya Pradesh - 733039"
+    ],
+    "pincode": "733039",
+    "mobile": "7824022357",
+    "aadhaar": "9904 9027 8742",
+    "dob": "15/05/1965",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

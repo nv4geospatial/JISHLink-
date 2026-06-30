@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0230",
+  "data": {
+    "name": "Anmol Bava",
+    "nominee": "D/O: Turvi",
+    "address_lines": [
+      "046, Venkatesh Zila",
+      "Amravati, Bhalswa Jahangir Pur",
+      "Odisha - 134007"
+    ],
+    "pincode": "134007",
+    "mobile": "9420449171",
+    "aadhaar": "5101 6224 9998",
+    "dob": "04/01/1961",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

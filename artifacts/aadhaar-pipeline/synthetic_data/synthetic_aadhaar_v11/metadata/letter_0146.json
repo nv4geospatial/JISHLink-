@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0146",
+  "data": {
+    "name": "Faris Balay",
+    "nominee": "C/O: Chakradhar",
+    "address_lines": [
+      "H.No. 021, Saraf Chowk",
+      "Nadiad, Suryapet",
+      "Haryana - 153015"
+    ],
+    "pincode": "153015",
+    "mobile": "7394181098",
+    "aadhaar": "5786 1035 7972",
+    "dob": "03/07/1989",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

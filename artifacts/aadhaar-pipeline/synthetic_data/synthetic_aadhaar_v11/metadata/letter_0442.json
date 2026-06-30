@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0442",
+  "data": {
+    "name": "Maanav Patil",
+    "nominee": "S/O: Wazir",
+    "address_lines": [
+      "03/486, Patil Road",
+      "Gujarat - 647108"
+    ],
+    "pincode": "647108",
+    "mobile": "8810032153",
+    "aadhaar": "7457 3144 1583",
+    "dob": "17/02/2009",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

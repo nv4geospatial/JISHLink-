@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0219",
+  "data": {
+    "name": "Dalaja Maharaj",
+    "nominee": "S/O: Siddharth",
+    "address_lines": [
+      "48, Ranganathan",
+      "Bihar - 367865"
+    ],
+    "pincode": "367865",
+    "mobile": "7947384695",
+    "aadhaar": "9407 0164 5104",
+    "dob": "29/11/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

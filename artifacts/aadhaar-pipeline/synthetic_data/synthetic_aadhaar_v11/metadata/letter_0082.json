@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0082",
+  "data": {
+    "name": "Faqid Goel",
+    "nominee": "D/O: Vedika",
+    "address_lines": [
+      "74, Bhalla Road",
+      "West Bengal - 768933"
+    ],
+    "pincode": "768933",
+    "mobile": "8454650074",
+    "aadhaar": "7120 8267 7345",
+    "dob": "1967",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

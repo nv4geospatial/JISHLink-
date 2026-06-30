@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0062",
+  "data": {
+    "name": "Chakrika Narain",
+    "nominee": "D/O: Harita",
+    "address_lines": [
+      "474, Contractor Path",
+      "Panvel, Bettiah",
+      "Maharashtra - 504924"
+    ],
+    "pincode": "504924",
+    "mobile": "7442185272",
+    "aadhaar": "1522 0472 7790",
+    "dob": "1976",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

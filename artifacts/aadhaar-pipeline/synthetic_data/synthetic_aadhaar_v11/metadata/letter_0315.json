@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0315",
+  "data": {
+    "name": "Aachal Parsa",
+    "nominee": "D/O: Vanya",
+    "address_lines": [
+      "24/04, Kala Ganj",
+      "Rajasthan - 597013"
+    ],
+    "pincode": "597013",
+    "mobile": "7263662130",
+    "aadhaar": "7770 7933 4960",
+    "dob": "11/07/2005",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0149",
+  "data": {
+    "name": "Pranit Naidu",
+    "nominee": "S/O: Tanish",
+    "address_lines": [
+      "55/251, Nagar Nagar",
+      "Secunderabad, Srinagar",
+      "Maharashtra - 711176"
+    ],
+    "pincode": "711176",
+    "mobile": "9100228825",
+    "aadhaar": "3267 1494 9819",
+    "dob": "20/10/1992",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

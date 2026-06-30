@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0119",
+  "data": {
+    "name": "Gautami Bala",
+    "nominee": "C/O: Jagdish",
+    "address_lines": [
+      "04/38, Bali Ganj",
+      "Ujjain, Amritsar",
+      "Odisha - 661683"
+    ],
+    "pincode": "661683",
+    "mobile": "8728848779",
+    "aadhaar": "XXXX XXXX 4956",
+    "dob": "1958",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      379
+    ],
+    "back_pincode": [
+      115,
+      415,
+      159,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

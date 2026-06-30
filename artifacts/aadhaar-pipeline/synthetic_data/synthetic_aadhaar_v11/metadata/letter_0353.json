@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0353",
+  "data": {
+    "name": "Bhanumati Konda",
+    "nominee": "S/O: Frederick",
+    "address_lines": [
+      "H.No. 207, Cherian Nagar",
+      "Bijapur, Panvel",
+      "Odisha - 594932"
+    ],
+    "pincode": "594932",
+    "mobile": "7526818051",
+    "aadhaar": "3337 3898 7751",
+    "dob": "1969",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

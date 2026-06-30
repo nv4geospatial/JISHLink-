@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0271",
+  "data": {
+    "name": "Balvan Din",
+    "nominee": "C/O: Chandresh",
+    "address_lines": [
+      "60, Kurian Street",
+      "Anand, Naihati",
+      "Andhra Pradesh - 752317"
+    ],
+    "pincode": "752317",
+    "mobile": "9666606892",
+    "aadhaar": "8290 4579 2714",
+    "dob": "02/05/1995",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      163,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0000",
+  "data": {
+    "name": "Gunbir Parmer",
+    "nominee": "S/O: Orinder",
+    "address_lines": [
+      "18, Pathak Road",
+      "Jharkhand - 344098"
+    ],
+    "pincode": "344098",
+    "mobile": "8586845604",
+    "aadhaar": "5255 3419 2832",
+    "dob": "15/05/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0417",
+  "data": {
+    "name": "Sudiksha Dugal",
+    "nominee": "D/O: Aachal",
+    "address_lines": [
+      "643, Char Circle",
+      "Shimla, Madurai",
+      "Maharashtra - 130731"
+    ],
+    "pincode": "130731",
+    "mobile": "7433885770",
+    "aadhaar": "9860 3721 8600",
+    "dob": "23/10/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

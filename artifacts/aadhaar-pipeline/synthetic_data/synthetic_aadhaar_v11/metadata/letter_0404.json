@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0404",
+  "data": {
+    "name": "Qarin Jha",
+    "nominee": "W/O: Nitara",
+    "address_lines": [
+      "41/06, Dhillon Chowk",
+      "Jharkhand - 418148"
+    ],
+    "pincode": "418148",
+    "mobile": "9388315411",
+    "aadhaar": "8123 0834 0242",
+    "dob": "10/07/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

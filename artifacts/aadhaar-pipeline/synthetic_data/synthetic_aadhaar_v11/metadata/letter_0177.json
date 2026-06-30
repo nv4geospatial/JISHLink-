@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0177",
+  "data": {
+    "name": "Max Sabharwal",
+    "nominee": "W/O: Janani",
+    "address_lines": [
+      "H.No. 65, Kota Street",
+      "Kolhapur, Giridih",
+      "Karnataka - 420310"
+    ],
+    "pincode": "420310",
+    "mobile": "7793155758",
+    "aadhaar": "9142 8341 1080",
+    "dob": "17/07/1961",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0054",
+  "data": {
+    "name": "Abhimanyu Prashad",
+    "nominee": "D/O: Watika",
+    "address_lines": [
+      "55/356, Bhandari Marg",
+      "Mahbubnagar, Naihati",
+      "Odisha - 765748"
+    ],
+    "pincode": "765748",
+    "mobile": "7906491970",
+    "aadhaar": "2896 3406 4686",
+    "dob": "13/08/2014",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

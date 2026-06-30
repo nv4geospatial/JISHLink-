@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0066",
+  "data": {
+    "name": "Manbir Puri",
+    "nominee": "S/O: Tanay",
+    "address_lines": [
+      "018, Saraf Path",
+      "Pimpri-Chinchwad, Raurkela Industrial Township",
+      "Karnataka - 687159"
+    ],
+    "pincode": "687159",
+    "mobile": "7473235986",
+    "aadhaar": "7215 1494 0976",
+    "dob": "11/03/2014",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      174,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

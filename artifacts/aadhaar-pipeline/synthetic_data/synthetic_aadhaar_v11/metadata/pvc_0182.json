@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0182",
+  "data": {
+    "name": "Pavani Divan",
+    "nominee": "D/O: Meghana",
+    "address_lines": [
+      "H.No. 970, Dewan Path",
+      "Phusro, Hyderabad",
+      "Jharkhand - 284260"
+    ],
+    "pincode": "284260",
+    "mobile": "9767496930",
+    "aadhaar": "XXXX XXXX 0090",
+    "dob": "1976",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      154,
+      379
+    ],
+    "back_pincode": [
+      133,
+      415,
+      177,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

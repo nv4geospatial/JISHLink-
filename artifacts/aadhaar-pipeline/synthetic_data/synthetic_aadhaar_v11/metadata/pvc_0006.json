@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0006",
+  "data": {
+    "name": "Daksh Ben",
+    "nominee": "D/O: Sai",
+    "address_lines": [
+      "67, Chaudhuri Marg",
+      "Tadipatri, Muzaffarpur",
+      "Uttar Pradesh - 425569"
+    ],
+    "pincode": "425569",
+    "mobile": "8291130376",
+    "aadhaar": "4295 6334 3244",
+    "dob": "1966",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      121,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

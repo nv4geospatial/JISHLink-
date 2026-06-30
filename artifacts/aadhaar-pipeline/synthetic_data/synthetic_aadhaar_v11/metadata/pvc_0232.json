@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0232",
+  "data": {
+    "name": "Pavani Vala",
+    "nominee": "W/O: Nidhi",
+    "address_lines": [
+      "46, Kapadia Zila",
+      "Panihati, Bilaspur",
+      "Gujarat - 799764"
+    ],
+    "pincode": "799764",
+    "mobile": "7784432173",
+    "aadhaar": "8600 3044 3619",
+    "dob": "22/12/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      161,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

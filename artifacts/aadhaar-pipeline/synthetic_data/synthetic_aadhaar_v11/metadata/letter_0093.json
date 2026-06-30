@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0093",
+  "data": {
+    "name": "Mason Wable",
+    "nominee": "D/O: Dayamai",
+    "address_lines": [
+      "97, Choudhry Zila",
+      "Barasat, Nashik",
+      "Madhya Pradesh - 154040"
+    ],
+    "pincode": "154040",
+    "mobile": "9747382621",
+    "aadhaar": "0139 8373 5403",
+    "dob": "30/01/2004",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

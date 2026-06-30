@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0491",
+  "data": {
+    "name": "Amruta Ben",
+    "nominee": "C/O: Ekapad",
+    "address_lines": [
+      "H.No. 756, Chhabra Circle",
+      "Bareilly, Aligarh",
+      "Rajasthan - 350301"
+    ],
+    "pincode": "350301",
+    "mobile": "8147262675",
+    "aadhaar": "2816 4098 9103",
+    "dob": "30/07/1960",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      379
+    ],
+    "back_pincode": [
+      130,
+      415,
+      174,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

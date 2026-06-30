@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0288",
+  "data": {
+    "name": "Hemal Pau",
+    "nominee": "C/O: George",
+    "address_lines": [
+      "H.No. 64, Gole Chowk",
+      "West Bengal - 588659"
+    ],
+    "pincode": "588659",
+    "mobile": "8626402312",
+    "aadhaar": "8485 8800 6167",
+    "dob": "02/12/1983",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0000",
+  "data": {
+    "name": "Janani Bansal",
+    "nominee": "W/O: Xiti",
+    "address_lines": [
+      "87/28, Gill Ganj",
+      "Thiruvananthapuram, Bhubaneswar",
+      "Haryana - 181566"
+    ],
+    "pincode": "181566",
+    "mobile": "7649439339",
+    "aadhaar": "7675 4813 8666",
+    "dob": "1945",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      124,
+      376
+    ],
+    "back_pincode": [
+      120,
+      412,
+      164,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

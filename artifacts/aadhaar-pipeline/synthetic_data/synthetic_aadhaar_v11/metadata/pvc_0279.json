@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0279",
+  "data": {
+    "name": "Eesha Thakkar",
+    "nominee": "S/O: Rohan",
+    "address_lines": [
+      "22, Mani Marg",
+      "Sambhal, Madhyamgram",
+      "Bihar - 191200"
+    ],
+    "pincode": "191200",
+    "mobile": "9920339303",
+    "aadhaar": "5789 8260 4180",
+    "dob": "29/09/1940",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

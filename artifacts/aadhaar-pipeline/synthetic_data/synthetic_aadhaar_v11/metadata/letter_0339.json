@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0339",
+  "data": {
+    "name": "Samaksh Aggarwal",
+    "nominee": "W/O: Abha",
+    "address_lines": [
+      "397, Rout Chowk",
+      "Panchkula, Narasaraopet",
+      "Haryana - 687324"
+    ],
+    "pincode": "687324",
+    "mobile": "8788232308",
+    "aadhaar": "0566 4187 7580",
+    "dob": "1974",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

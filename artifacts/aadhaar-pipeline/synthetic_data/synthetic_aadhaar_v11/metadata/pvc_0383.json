@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0383",
+  "data": {
+    "name": "Ranbir Dasgupta",
+    "nominee": "S/O: Baljiwan",
+    "address_lines": [
+      "94, Sachar",
+      "Madhya Pradesh - 242217"
+    ],
+    "pincode": "242217",
+    "mobile": "8321817966",
+    "aadhaar": "6158 7366 2713",
+    "dob": "31/12/1978",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      379
+    ],
+    "back_pincode": [
+      164,
+      400,
+      208,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

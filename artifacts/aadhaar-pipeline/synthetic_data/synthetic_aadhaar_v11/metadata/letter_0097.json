@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0097",
+  "data": {
+    "name": "Ryan Barman",
+    "nominee": "S/O: Nakul",
+    "address_lines": [
+      "H.No. 03, Parikh Road",
+      "Kottayam, Tinsukia",
+      "Jharkhand - 626611"
+    ],
+    "pincode": "626611",
+    "mobile": "8965615974",
+    "aadhaar": "2118 2339 8454",
+    "dob": "06/01/2006",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

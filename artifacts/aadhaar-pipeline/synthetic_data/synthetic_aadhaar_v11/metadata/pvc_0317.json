@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0317",
+  "data": {
+    "name": "Pratyush Patla",
+    "nominee": "S/O: Christopher",
+    "address_lines": [
+      "54, Nagi",
+      "Ludhiana, Kurnool",
+      "Uttar Pradesh - 546087"
+    ],
+    "pincode": "546087",
+    "mobile": "7715967316",
+    "aadhaar": "1368 1720 3136",
+    "dob": "1942",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      168,
+      379
+    ],
+    "back_pincode": [
+      149,
+      415,
+      193,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

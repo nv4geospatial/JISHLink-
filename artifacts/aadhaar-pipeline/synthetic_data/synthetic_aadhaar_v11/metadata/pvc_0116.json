@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0116",
+  "data": {
+    "name": "Azad Ghose",
+    "nominee": "S/O: Zayan",
+    "address_lines": [
+      "49/84, Sampath Ganj",
+      "Uttar Pradesh - 300284"
+    ],
+    "pincode": "300284",
+    "mobile": "8230003868",
+    "aadhaar": "3211 4716 5609",
+    "dob": "14/04/2011",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      378
+    ],
+    "back_pincode": [
+      149,
+      399,
+      194,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

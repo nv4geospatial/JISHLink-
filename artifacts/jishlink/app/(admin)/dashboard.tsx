@@ -194,6 +194,7 @@ export default function AdminDashboard() {
                 { icon: "download", label: "Export", onPress: () => router.push("/(admin)/export") },
                 { icon: "inbox", label: "Queue", onPress: () => router.push("/(admin)/review-queue") },
                 { icon: "grid" as any, label: "QR", onPress: () => router.push("/(admin)/qr-settings") },
+                { icon: "calendar", label: "Attendance", onPress: () => router.push("/(admin)/attendance") },
               ].map((a) => (
                 <TouchableOpacity
                   key={a.label}

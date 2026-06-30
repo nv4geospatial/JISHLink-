@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0209",
+  "data": {
+    "name": "Gunbir Chada",
+    "nominee": "C/O: Orinder",
+    "address_lines": [
+      "86, Soman Circle",
+      "Maharashtra - 300924"
+    ],
+    "pincode": "300924",
+    "mobile": "9997969776",
+    "aadhaar": "6789 9405 3910",
+    "dob": "07/01/1984",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

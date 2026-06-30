@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0263",
+  "data": {
+    "name": "Idika Suresh",
+    "nominee": "C/O: Agastya",
+    "address_lines": [
+      "H.No. 58, Rao Nagar",
+      "Jharkhand - 268049"
+    ],
+    "pincode": "268049",
+    "mobile": "7263376073",
+    "aadhaar": "4276 7746 2591",
+    "dob": "31/12/2009",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      379
+    ],
+    "back_pincode": [
+      133,
+      400,
+      177,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

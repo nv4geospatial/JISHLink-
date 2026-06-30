@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0304",
+  "data": {
+    "name": "Matthew Mistry",
+    "nominee": "S/O: Harish",
+    "address_lines": [
+      "84/02, Murthy Zila",
+      "Bahraich, Khammam",
+      "Tamil Nadu - 538229"
+    ],
+    "pincode": "538229",
+    "mobile": "8372156675",
+    "aadhaar": "6300 5937 7756",
+    "dob": "28/03/2013",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      137,
+      412,
+      181,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

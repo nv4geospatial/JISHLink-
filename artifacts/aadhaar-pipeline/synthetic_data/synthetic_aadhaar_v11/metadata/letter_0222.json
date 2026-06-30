@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0222",
+  "data": {
+    "name": "Tristan Warrior",
+    "nominee": "W/O: Rachita",
+    "address_lines": [
+      "24, Goswami Circle",
+      "Gujarat - 570988"
+    ],
+    "pincode": "570988",
+    "mobile": "9248795415",
+    "aadhaar": "XXXX XXXX 2925",
+    "dob": "16/06/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

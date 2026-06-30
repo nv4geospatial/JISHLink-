@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0370",
+  "data": {
+    "name": "Hemani Bhagat",
+    "nominee": "C/O: Kevin",
+    "address_lines": [
+      "47, Kaur Circle",
+      "Faridabad, Madhyamgram",
+      "Kerala - 367657"
+    ],
+    "pincode": "367657",
+    "mobile": "9474283516",
+    "aadhaar": "8750 6633 7050",
+    "dob": "10/05/1969",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

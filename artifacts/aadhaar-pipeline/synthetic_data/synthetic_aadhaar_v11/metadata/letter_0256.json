@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0256",
+  "data": {
+    "name": "Anay Ramachandran",
+    "nominee": "W/O: Aarini",
+    "address_lines": [
+      "H.No. 49, Manda Zila",
+      "Srinagar, Ambala",
+      "Uttar Pradesh - 520075"
+    ],
+    "pincode": "520075",
+    "mobile": "9197352922",
+    "aadhaar": "5851 7432 8063",
+    "dob": "27/08/1998",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

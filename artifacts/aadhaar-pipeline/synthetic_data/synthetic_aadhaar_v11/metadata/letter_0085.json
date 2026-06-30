@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0085",
+  "data": {
+    "name": "Nathan Patla",
+    "nominee": "S/O: Quincy",
+    "address_lines": [
+      "51/518, Mander Marg",
+      "Rajasthan - 373453"
+    ],
+    "pincode": "373453",
+    "mobile": "8453932473",
+    "aadhaar": "4990 4530 1742",
+    "dob": "24/08/1959",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

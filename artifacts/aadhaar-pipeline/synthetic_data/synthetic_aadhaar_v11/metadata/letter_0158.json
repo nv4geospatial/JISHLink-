@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0158",
+  "data": {
+    "name": "Isha Ganesan",
+    "nominee": "D/O: Sudiksha",
+    "address_lines": [
+      "888, Kant",
+      "Aligarh, Navi Mumbai",
+      "Tamil Nadu - 444625"
+    ],
+    "pincode": "444625",
+    "mobile": "9388095021",
+    "aadhaar": "1552 1667 4676",
+    "dob": "16/05/1974",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

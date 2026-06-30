@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0238",
+  "data": {
+    "name": "Naksh Tiwari",
+    "nominee": "S/O: Wahab",
+    "address_lines": [
+      "540, Kapoor Circle",
+      "Dehradun, Pallavaram",
+      "Gujarat - 753205"
+    ],
+    "pincode": "753205",
+    "mobile": "7682535775",
+    "aadhaar": "5854 2493 2149",
+    "dob": "01/05/1982",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0109",
+  "data": {
+    "name": "Pratyush Sandal",
+    "nominee": "S/O: Falan",
+    "address_lines": [
+      "54, Agate Zila",
+      "Baranagar, Vasai-Virar",
+      "Maharashtra - 746311"
+    ],
+    "pincode": "746311",
+    "mobile": "7764943338",
+    "aadhaar": "0040 4769 2105",
+    "dob": "25/12/2005",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

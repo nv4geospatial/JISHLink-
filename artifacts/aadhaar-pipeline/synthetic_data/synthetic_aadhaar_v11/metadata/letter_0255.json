@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0255",
+  "data": {
+    "name": "Ethan Bhagat",
+    "nominee": "S/O: Gaurav",
+    "address_lines": [
+      "H.No. 66, Ravel Chowk",
+      "Rajasthan - 796889"
+    ],
+    "pincode": "796889",
+    "mobile": "9454153192",
+    "aadhaar": "6908 7766 1830",
+    "dob": "27/05/1973",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0388",
+  "data": {
+    "name": "Urvi Tank",
+    "nominee": "C/O: Gaurang",
+    "address_lines": [
+      "645, Setty",
+      "Varanasi, Bharatpur",
+      "Maharashtra - 578221"
+    ],
+    "pincode": "578221",
+    "mobile": "9556708953",
+    "aadhaar": "2831 4359 8926",
+    "dob": "1943",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

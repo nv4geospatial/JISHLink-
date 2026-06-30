@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0039",
+  "data": {
+    "name": "Vasatika Bir",
+    "nominee": "W/O: Adya",
+    "address_lines": [
+      "091, Khalsa Road",
+      "Jharkhand - 533877"
+    ],
+    "pincode": "533877",
+    "mobile": "7733301861",
+    "aadhaar": "4938 1735 9848",
+    "dob": "28/07/1996",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      133,
+      399,
+      177,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

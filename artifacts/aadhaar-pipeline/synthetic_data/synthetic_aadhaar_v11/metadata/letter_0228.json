@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0228",
+  "data": {
+    "name": "Tamanna Venkatesh",
+    "nominee": "C/O: Om",
+    "address_lines": [
+      "260, Kapur Ganj",
+      "Kerala - 146038"
+    ],
+    "pincode": "146038",
+    "mobile": "8707191953",
+    "aadhaar": "2222 0644 7421",
+    "dob": "04/10/1995",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

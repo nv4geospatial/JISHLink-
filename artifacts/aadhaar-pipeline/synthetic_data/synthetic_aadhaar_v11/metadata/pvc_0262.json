@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0262",
+  "data": {
+    "name": "Meera Kala",
+    "nominee": "D/O: Riya",
+    "address_lines": [
+      "654, Ramesh Marg",
+      "Jalandhar, Warangal",
+      "Kerala - 301628"
+    ],
+    "pincode": "301628",
+    "mobile": "9131021832",
+    "aadhaar": "XXXX XXXX 2654",
+    "dob": "31/01/1981",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      129,
+      378
+    ],
+    "back_pincode": [
+      110,
+      414,
+      154,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

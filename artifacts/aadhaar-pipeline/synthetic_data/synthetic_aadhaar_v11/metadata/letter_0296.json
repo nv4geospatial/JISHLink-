@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0296",
+  "data": {
+    "name": "Ayush Banerjee",
+    "nominee": "W/O: Omaja",
+    "address_lines": [
+      "829, Shan",
+      "Panvel, Motihari",
+      "Haryana - 166670"
+    ],
+    "pincode": "166670",
+    "mobile": "8821202394",
+    "aadhaar": "1623 1981 8984",
+    "dob": "14/06/1988",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0326",
+  "data": {
+    "name": "Gaurang Grewal",
+    "nominee": "C/O: Hardik",
+    "address_lines": [
+      "45/76, Badami Street",
+      "Karnataka - 325217"
+    ],
+    "pincode": "325217",
+    "mobile": "9665062651",
+    "aadhaar": "6988 6497 6776",
+    "dob": "1966",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

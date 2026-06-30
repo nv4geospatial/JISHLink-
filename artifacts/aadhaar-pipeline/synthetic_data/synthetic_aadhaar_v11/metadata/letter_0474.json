@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0474",
+  "data": {
+    "name": "Naksh Master",
+    "nominee": "W/O: Yashica",
+    "address_lines": [
+      "H.No. 376, Korpal Nagar",
+      "Bihar - 618970"
+    ],
+    "pincode": "618970",
+    "mobile": "7257734586",
+    "aadhaar": "9031 0287 9508",
+    "dob": "09/12/2003",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

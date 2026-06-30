@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0191",
+  "data": {
+    "name": "Dipta Ray",
+    "nominee": "S/O: Darpan",
+    "address_lines": [
+      "H.No. 11, Modi Street",
+      "West Bengal - 376142"
+    ],
+    "pincode": "376142",
+    "mobile": "8823377624",
+    "aadhaar": "5182 7553 9423",
+    "dob": "19/04/2003",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

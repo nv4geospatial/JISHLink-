@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0013",
+  "data": {
+    "name": "Adweta Ghosh",
+    "nominee": "D/O: Krisha",
+    "address_lines": [
+      "H.No. 261, Kade Path",
+      "West Bengal - 624235"
+    ],
+    "pincode": "624235",
+    "mobile": "8567507869",
+    "aadhaar": "1562 6244 6704",
+    "dob": "05/09/1963",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      143,
+      397,
+      187,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

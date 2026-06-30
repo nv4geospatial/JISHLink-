@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0196",
+  "data": {
+    "name": "Laksh Saini",
+    "nominee": "W/O: Zansi",
+    "address_lines": [
+      "H.No. 98, Rama Path",
+      "Eluru, Nangloi Jat",
+      "Gujarat - 687569"
+    ],
+    "pincode": "687569",
+    "mobile": "8469517811",
+    "aadhaar": "0615 9399 8245",
+    "dob": "17/01/1961",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

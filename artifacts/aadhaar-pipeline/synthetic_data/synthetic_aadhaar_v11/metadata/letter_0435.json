@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0435",
+  "data": {
+    "name": "Charita Sant",
+    "nominee": "D/O: Irya",
+    "address_lines": [
+      "H.No. 829, Kala Chowk",
+      "Chandrapur, Motihari",
+      "Madhya Pradesh - 380589"
+    ],
+    "pincode": "380589",
+    "mobile": "7474256340",
+    "aadhaar": "8477 6863 4234",
+    "dob": "18/09/1990",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

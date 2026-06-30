@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0140",
+  "data": {
+    "name": "Jagrati Morar",
+    "nominee": "S/O: Kalpit",
+    "address_lines": [
+      "75/355, Bath Marg",
+      "Anand, Kirari Suleman Nagar",
+      "Bihar - 317005"
+    ],
+    "pincode": "317005",
+    "mobile": "7608492614",
+    "aadhaar": "1467 7418 6256",
+    "dob": "31/03/1983",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0267",
+  "data": {
+    "name": "Liam Sarraf",
+    "nominee": "C/O: Fitan",
+    "address_lines": [
+      "259, Karpe Zila",
+      "Kerala - 586288"
+    ],
+    "pincode": "586288",
+    "mobile": "9535252390",
+    "aadhaar": "2570 1658 0464",
+    "dob": "02/01/1972",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

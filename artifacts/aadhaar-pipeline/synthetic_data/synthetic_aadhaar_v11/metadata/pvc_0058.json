@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0058",
+  "data": {
+    "name": "Sanaya D\u2019Alia",
+    "nominee": "W/O: Kavya",
+    "address_lines": [
+      "02/564, Kurian Ganj",
+      "Tirunelveli, Aligarh",
+      "Odisha - 363895"
+    ],
+    "pincode": "363895",
+    "mobile": "8816162690",
+    "aadhaar": "4510 1739 7396",
+    "dob": "07/02/1991",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      378
+    ],
+    "back_pincode": [
+      115,
+      414,
+      159,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

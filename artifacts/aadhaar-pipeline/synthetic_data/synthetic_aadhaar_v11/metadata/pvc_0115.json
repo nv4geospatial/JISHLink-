@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0115",
+  "data": {
+    "name": "Omaja Doctor",
+    "nominee": "C/O: Gavin",
+    "address_lines": [
+      "57/041, Bhasin Street",
+      "Kolhapur, Nandyal",
+      "Odisha - 648532"
+    ],
+    "pincode": "648532",
+    "mobile": "7719569898",
+    "aadhaar": "5613 7230 8172",
+    "dob": "18/06/2007",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

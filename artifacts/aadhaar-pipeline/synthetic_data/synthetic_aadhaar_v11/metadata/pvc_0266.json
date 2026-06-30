@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0266",
+  "data": {
+    "name": "Advik Dyal",
+    "nominee": "S/O: Nathaniel",
+    "address_lines": [
+      "66, Mitter Nagar",
+      "Ramgarh, Malda",
+      "Gujarat - 583607"
+    ],
+    "pincode": "583607",
+    "mobile": "9281251517",
+    "aadhaar": "5482 4218 3854",
+    "dob": "16/10/1972",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      154,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

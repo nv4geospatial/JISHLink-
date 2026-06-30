@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0103",
+  "data": {
+    "name": "Varenya Chander",
+    "nominee": "C/O: Yug",
+    "address_lines": [
+      "72/40, Gaba Road",
+      "Jaunpur, Belgaum",
+      "Uttar Pradesh - 676850"
+    ],
+    "pincode": "676850",
+    "mobile": "9447768046",
+    "aadhaar": "6259 0459 9080",
+    "dob": "09/10/2007",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      126,
+      379
+    ],
+    "back_pincode": [
+      149,
+      415,
+      193,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

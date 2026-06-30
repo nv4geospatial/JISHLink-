@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0340",
+  "data": {
+    "name": "Nidhi Lall",
+    "nominee": "C/O: Elijah",
+    "address_lines": [
+      "14, Butala",
+      "Karnataka - 591201"
+    ],
+    "pincode": "591201",
+    "mobile": "9231915340",
+    "aadhaar": "6750 7627 9955",
+    "dob": "07/02/1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      379
+    ],
+    "back_pincode": [
+      130,
+      400,
+      174,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

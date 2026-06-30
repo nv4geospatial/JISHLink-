@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0119",
+  "data": {
+    "name": "Oscar Sharaf",
+    "nominee": "S/O: Onveer",
+    "address_lines": [
+      "H.No. 84, Mishra Ganj",
+      "Bilaspur, Nellore",
+      "Gujarat - 360221"
+    ],
+    "pincode": "360221",
+    "mobile": "9752398123",
+    "aadhaar": "4043 8983 6403",
+    "dob": "07/02/1999",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0123",
+  "data": {
+    "name": "Bhavna Nagi",
+    "nominee": "S/O: Luke",
+    "address_lines": [
+      "620, Tandon Marg",
+      "Hubli\u2013Dharwad, Deoghar",
+      "Telangana - 375722"
+    ],
+    "pincode": "375722",
+    "mobile": "9182753316",
+    "aadhaar": "7785 0792 5241",
+    "dob": "26/08/1954",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

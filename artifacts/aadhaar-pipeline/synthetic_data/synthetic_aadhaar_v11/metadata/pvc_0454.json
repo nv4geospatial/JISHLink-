@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0454",
+  "data": {
+    "name": "Jack Sachar",
+    "nominee": "C/O: Rayaan",
+    "address_lines": [
+      "30, Saran Ganj",
+      "Dewas, Nagpur",
+      "Madhya Pradesh - 465917"
+    ],
+    "pincode": "465917",
+    "mobile": "8224880686",
+    "aadhaar": "3727 7685 7606",
+    "dob": "26/05/1999",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      378
+    ],
+    "back_pincode": [
+      164,
+      414,
+      208,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

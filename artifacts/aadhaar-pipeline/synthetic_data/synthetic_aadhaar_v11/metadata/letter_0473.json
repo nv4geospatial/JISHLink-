@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0473",
+  "data": {
+    "name": "Amara Dora",
+    "nominee": "W/O: Arya",
+    "address_lines": [
+      "08/12, Jha Zila",
+      "Jharkhand - 377366"
+    ],
+    "pincode": "377366",
+    "mobile": "8118539966",
+    "aadhaar": "7070 5783 6091",
+    "dob": "23/09/2009",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

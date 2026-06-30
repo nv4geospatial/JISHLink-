@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0060",
+  "data": {
+    "name": "Bina Chahal",
+    "nominee": "C/O: Daksh",
+    "address_lines": [
+      "569, Mukhopadhyay Nagar",
+      "Mau, Bhiwandi",
+      "West Bengal - 126886"
+    ],
+    "pincode": "126886",
+    "mobile": "7777017062",
+    "aadhaar": "5146 0745 5534",
+    "dob": "1945",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

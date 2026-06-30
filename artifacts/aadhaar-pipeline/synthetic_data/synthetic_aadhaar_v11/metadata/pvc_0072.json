@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0072",
+  "data": {
+    "name": "Vritti Munshi",
+    "nominee": "C/O: Patrick",
+    "address_lines": [
+      "243, Kalita Street",
+      "Tamil Nadu - 143610"
+    ],
+    "pincode": "143610",
+    "mobile": "8970705148",
+    "aadhaar": "9181 5899 8868",
+    "dob": "20/06/1985",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      376
+    ],
+    "back_pincode": [
+      137,
+      397,
+      181,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

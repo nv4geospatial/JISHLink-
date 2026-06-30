@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0165",
+  "data": {
+    "name": "Ansh Goel",
+    "nominee": "S/O: Kevin",
+    "address_lines": [
+      "90, Kota Chowk",
+      "Tirunelveli, Hindupur",
+      "West Bengal - 593161"
+    ],
+    "pincode": "593161",
+    "mobile": "7281859204",
+    "aadhaar": "8360 8493 7830",
+    "dob": "29/05/1976",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

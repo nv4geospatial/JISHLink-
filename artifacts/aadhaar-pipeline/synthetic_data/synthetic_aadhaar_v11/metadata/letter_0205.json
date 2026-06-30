@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0205",
+  "data": {
+    "name": "Keya Dyal",
+    "nominee": "D/O: Charita",
+    "address_lines": [
+      "015, Gupta Ganj",
+      "Haryana - 477934"
+    ],
+    "pincode": "477934",
+    "mobile": "9333848350",
+    "aadhaar": "1365 0249 1630",
+    "dob": "07/08/1971",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0429",
+  "data": {
+    "name": "Vritti Zacharia",
+    "nominee": "S/O: Wahab",
+    "address_lines": [
+      "47, Purohit",
+      "Kishanganj, Guna",
+      "Kerala - 467645"
+    ],
+    "pincode": "467645",
+    "mobile": "8980917094",
+    "aadhaar": "6053 8444 4630",
+    "dob": "19/05/1987",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

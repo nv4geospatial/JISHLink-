@@ -42,6 +42,7 @@ export default function AdminLayout() {
       <Stack.Screen name="recruiters/edit" />
       <Stack.Screen name="recruiters/add" />
       <Stack.Screen name="notifications" />
+      <Stack.Screen name="attendance" />
     </Stack>
   );
 }

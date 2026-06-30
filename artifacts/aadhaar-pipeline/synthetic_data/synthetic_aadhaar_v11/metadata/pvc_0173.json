@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0173",
+  "data": {
+    "name": "Urvashi Pant",
+    "nominee": "S/O: Jeet",
+    "address_lines": [
+      "H.No. 94, Sarin Street",
+      "Bhusawal, Navi Mumbai",
+      "Odisha - 207599"
+    ],
+    "pincode": "207599",
+    "mobile": "9573822048",
+    "aadhaar": "2333 5104 0961",
+    "dob": "03/02/1992",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      126,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

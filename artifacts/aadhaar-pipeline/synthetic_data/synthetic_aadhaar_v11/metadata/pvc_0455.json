@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0455",
+  "data": {
+    "name": "Manan Sengupta",
+    "nominee": "C/O: Ekaraj",
+    "address_lines": [
+      "747, Shukla Marg",
+      "Karnataka - 172835"
+    ],
+    "pincode": "172835",
+    "mobile": "8207467352",
+    "aadhaar": "8870 1799 9324",
+    "dob": "03/09/1994",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      379
+    ],
+    "back_pincode": [
+      130,
+      400,
+      174,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

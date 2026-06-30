@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0105",
+  "data": {
+    "name": "Jyoti Sibal",
+    "nominee": "S/O: Dhruv",
+    "address_lines": [
+      "66/91, Nadig Street",
+      "Telangana - 584045"
+    ],
+    "pincode": "584045",
+    "mobile": "8992582047",
+    "aadhaar": "1672 4342 6617",
+    "dob": "23/04/1989",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0259",
+  "data": {
+    "name": "Chatura Shenoy",
+    "nominee": "D/O: Mohini",
+    "address_lines": [
+      "H.No. 52, Chaudhry Ganj",
+      "Kerala - 166175"
+    ],
+    "pincode": "166175",
+    "mobile": "8971364069",
+    "aadhaar": "XXXX XXXX 0925",
+    "dob": "1962",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

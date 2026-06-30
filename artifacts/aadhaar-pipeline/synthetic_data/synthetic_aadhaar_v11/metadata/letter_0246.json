@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0246",
+  "data": {
+    "name": "Pranav Thakur",
+    "nominee": "C/O: Neel",
+    "address_lines": [
+      "84/608, Bakshi Zila",
+      "Nagercoil, Ballia",
+      "Uttar Pradesh - 733941"
+    ],
+    "pincode": "733941",
+    "mobile": "9354208336",
+    "aadhaar": "8468 9500 9751",
+    "dob": "09/06/1969",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

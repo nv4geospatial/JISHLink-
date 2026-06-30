@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0227",
+  "data": {
+    "name": "Rayaan Badami",
+    "nominee": "D/O: Kritika",
+    "address_lines": [
+      "94/21, Misra Nagar",
+      "Rajasthan - 512160"
+    ],
+    "pincode": "512160",
+    "mobile": "7292069408",
+    "aadhaar": "7937 1452 1117",
+    "dob": "29/07/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

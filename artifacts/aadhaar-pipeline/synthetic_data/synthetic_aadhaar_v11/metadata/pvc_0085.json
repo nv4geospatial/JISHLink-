@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0085",
+  "data": {
+    "name": "Mitesh Roy",
+    "nominee": "D/O: Widisha",
+    "address_lines": [
+      "H.No. 45, Gopal Marg",
+      "Chandrapur, Nandyal",
+      "Tamil Nadu - 610326"
+    ],
+    "pincode": "610326",
+    "mobile": "9669714642",
+    "aadhaar": "0111 0005 1553",
+    "dob": "05/04/1981",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      376
+    ],
+    "back_pincode": [
+      137,
+      412,
+      181,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0370",
+  "data": {
+    "name": "Naksh Rajagopalan",
+    "nominee": "W/O: Hemangini",
+    "address_lines": [
+      "H.No. 92, Hora Marg",
+      "Telangana - 449193"
+    ],
+    "pincode": "449193",
+    "mobile": "7278481809",
+    "aadhaar": "9003 6221 1732",
+    "dob": "11/12/1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      164,
+      379
+    ],
+    "back_pincode": [
+      132,
+      400,
+      176,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

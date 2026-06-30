@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0347",
+  "data": {
+    "name": "Odika Bhalla",
+    "nominee": "D/O: Nisha",
+    "address_lines": [
+      "405, Warrior Marg",
+      "Bihar - 397901"
+    ],
+    "pincode": "397901",
+    "mobile": "8871845007",
+    "aadhaar": "2583 2302 4102",
+    "dob": "07/07/2004",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

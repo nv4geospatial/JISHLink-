@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0008",
+  "data": {
+    "name": "Sai Muni",
+    "nominee": "W/O: Ridhi",
+    "address_lines": [
+      "H.No. 09, Karpe Circle",
+      "Jamshedpur, Kamarhati",
+      "Telangana - 543555"
+    ],
+    "pincode": "543555",
+    "mobile": "9810678904",
+    "aadhaar": "7234 3098 0500",
+    "dob": "19/03/1985",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

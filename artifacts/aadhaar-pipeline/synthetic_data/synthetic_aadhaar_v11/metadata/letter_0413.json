@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0413",
+  "data": {
+    "name": "Triya Deshmukh",
+    "nominee": "W/O: Gautami",
+    "address_lines": [
+      "H.No. 48, Varkey Zila",
+      "Karimnagar, Raurkela Industrial Township",
+      "Madhya Pradesh - 246118"
+    ],
+    "pincode": "246118",
+    "mobile": "9552127953",
+    "aadhaar": "3330 2126 0650",
+    "dob": "23/03/1955",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

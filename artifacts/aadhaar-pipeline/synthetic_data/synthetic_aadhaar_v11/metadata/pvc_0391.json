@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0391",
+  "data": {
+    "name": "Hamsini Mukhopadhyay",
+    "nominee": "D/O: Divya",
+    "address_lines": [
+      "71/07, Sahni Path",
+      "Andhra Pradesh - 189121"
+    ],
+    "pincode": "189121",
+    "mobile": "9482358908",
+    "aadhaar": "XXXX XXXX 0794",
+    "dob": "1959",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      162,
+      399,
+      206,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

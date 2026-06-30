@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0436",
+  "data": {
+    "name": "Liam Merchant",
+    "nominee": "W/O: Radhika",
+    "address_lines": [
+      "33/952, Prasad Chowk",
+      "Uttar Pradesh - 111303"
+    ],
+    "pincode": "111303",
+    "mobile": "7324066914",
+    "aadhaar": "2672 4469 3172",
+    "dob": "28/02/1959",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      376
+    ],
+    "back_pincode": [
+      149,
+      397,
+      193,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

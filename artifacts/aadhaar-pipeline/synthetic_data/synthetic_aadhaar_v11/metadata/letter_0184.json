@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0184",
+  "data": {
+    "name": "Harshil D\u2019Alia",
+    "nominee": "D/O: Yashoda",
+    "address_lines": [
+      "H.No. 62, Banik Street",
+      "Ahmedabad, Ranchi",
+      "Gujarat - 732789"
+    ],
+    "pincode": "732789",
+    "mobile": "9797107270",
+    "aadhaar": "6865 0863 7659",
+    "dob": "05/07/1982",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

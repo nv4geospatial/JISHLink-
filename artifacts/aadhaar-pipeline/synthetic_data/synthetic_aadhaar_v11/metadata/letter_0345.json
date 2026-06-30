@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0345",
+  "data": {
+    "name": "Gauri Palla",
+    "nominee": "W/O: Aashi",
+    "address_lines": [
+      "85/01, Om Path",
+      "Rohtak, Aizawl",
+      "Odisha - 298553"
+    ],
+    "pincode": "298553",
+    "mobile": "9601869492",
+    "aadhaar": "9599 5946 5217",
+    "dob": "04/08/1970",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

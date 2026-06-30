@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0163",
+  "data": {
+    "name": "Upkaar Ravel",
+    "nominee": "D/O: Shravya",
+    "address_lines": [
+      "549, Aggarwal Road",
+      "Agartala, Tiruppur",
+      "West Bengal - 704411"
+    ],
+    "pincode": "704411",
+    "mobile": "7348592047",
+    "aadhaar": "XXXX XXXX 8484",
+    "dob": "28/08/1947",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      378
+    ],
+    "back_pincode": [
+      143,
+      414,
+      187,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0405",
+  "data": {
+    "name": "Bhavika Seth",
+    "nominee": "C/O: Akshay",
+    "address_lines": [
+      "H.No. 061, Iyengar Ganj",
+      "Haryana - 186488"
+    ],
+    "pincode": "186488",
+    "mobile": "7441815794",
+    "aadhaar": "1985 4582 9420",
+    "dob": "27/03/1998",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      378
+    ],
+    "back_pincode": [
+      120,
+      399,
+      164,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      139,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

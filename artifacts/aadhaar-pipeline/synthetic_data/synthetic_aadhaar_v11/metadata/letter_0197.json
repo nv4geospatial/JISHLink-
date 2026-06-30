@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0197",
+  "data": {
+    "name": "Atharv Nagar",
+    "nominee": "W/O: Amruta",
+    "address_lines": [
+      "133, Walla Road",
+      "Chittoor, Bhimavaram",
+      "Odisha - 542306"
+    ],
+    "pincode": "542306",
+    "mobile": "8176605123",
+    "aadhaar": "1253 5544 9647",
+    "dob": "13/07/2002",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

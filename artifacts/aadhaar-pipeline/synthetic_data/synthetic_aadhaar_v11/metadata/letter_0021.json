@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0021",
+  "data": {
+    "name": "Gaurangi Sabharwal",
+    "nominee": "D/O: Lila",
+    "address_lines": [
+      "754, Kapoor Ganj",
+      "West Bengal - 611945"
+    ],
+    "pincode": "611945",
+    "mobile": "8131165166",
+    "aadhaar": "6562 7298 0699",
+    "dob": "1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

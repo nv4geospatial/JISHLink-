@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0047",
+  "data": {
+    "name": "Daksha Rau",
+    "nominee": "S/O: Laban",
+    "address_lines": [
+      "59, Bal Road",
+      "Gujarat - 790909"
+    ],
+    "pincode": "790909",
+    "mobile": "9133447745",
+    "aadhaar": "XXXX XXXX 1592",
+    "dob": "1947",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

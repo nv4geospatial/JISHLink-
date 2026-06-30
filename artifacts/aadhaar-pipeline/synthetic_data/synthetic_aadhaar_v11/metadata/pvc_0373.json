@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0373",
+  "data": {
+    "name": "Nathaniel Doshi",
+    "nominee": "S/O: Finn",
+    "address_lines": [
+      "43/127, Baral Zila",
+      "Kochi, Kozhikode",
+      "West Bengal - 449563"
+    ],
+    "pincode": "449563",
+    "mobile": "9132518455",
+    "aadhaar": "3318 3611 3389",
+    "dob": "19/10/1950",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0107",
+  "data": {
+    "name": "Zilmil Mander",
+    "nominee": "S/O: Balveer",
+    "address_lines": [
+      "81/82, Dube",
+      "Maharashtra - 606222"
+    ],
+    "pincode": "606222",
+    "mobile": "7224628497",
+    "aadhaar": "2545 7387 5717",
+    "dob": "03/07/1953",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

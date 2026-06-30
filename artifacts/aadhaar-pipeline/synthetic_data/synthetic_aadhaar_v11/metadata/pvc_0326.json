@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0326",
+  "data": {
+    "name": "Fitan Thaman",
+    "nominee": "C/O: Gavin",
+    "address_lines": [
+      "H.No. 358, Doshi",
+      "Sasaram, Ajmer",
+      "Uttar Pradesh - 525704"
+    ],
+    "pincode": "525704",
+    "mobile": "9609561866",
+    "aadhaar": "3126 7731 9227",
+    "dob": "10/04/1983",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      194,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

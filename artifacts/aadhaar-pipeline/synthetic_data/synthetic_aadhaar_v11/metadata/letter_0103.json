@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0103",
+  "data": {
+    "name": "Jacob Lala",
+    "nominee": "C/O: Kalpit",
+    "address_lines": [
+      "H.No. 217, Saxena Street",
+      "Kakinada, Pallavaram",
+      "Karnataka - 414313"
+    ],
+    "pincode": "414313",
+    "mobile": "8370260533",
+    "aadhaar": "3799 3712 4065",
+    "dob": "14/04/2016",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0490",
+  "data": {
+    "name": "Farhan Kata",
+    "nominee": "W/O: Manya",
+    "address_lines": [
+      "H.No. 604, Chander Marg",
+      "Jamalpur, Suryapet",
+      "Rajasthan - 704208"
+    ],
+    "pincode": "704208",
+    "mobile": "8349203827",
+    "aadhaar": "XXXX XXXX 5787",
+    "dob": "29/06/1990",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      174,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

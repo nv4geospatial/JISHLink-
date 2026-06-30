@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0453",
+  "data": {
+    "name": "Chaitanya Datta",
+    "nominee": "W/O: Meera",
+    "address_lines": [
+      "56/25, Dora Chowk",
+      "Andhra Pradesh - 416693"
+    ],
+    "pincode": "416693",
+    "mobile": "9567954159",
+    "aadhaar": "5923 4268 3441",
+    "dob": "21/09/1982",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0045",
+  "data": {
+    "name": "Falan Dugar",
+    "nominee": "S/O: Aarav",
+    "address_lines": [
+      "447, Kaur Zila",
+      "Hospet, Jalna",
+      "West Bengal - 794963"
+    ],
+    "pincode": "794963",
+    "mobile": "9122932394",
+    "aadhaar": "0532 9318 3933",
+    "dob": "16/09/2010",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

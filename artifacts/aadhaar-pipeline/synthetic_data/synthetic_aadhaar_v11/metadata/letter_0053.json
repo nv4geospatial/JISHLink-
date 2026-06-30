@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0053",
+  "data": {
+    "name": "Yashoda Deshpande",
+    "nominee": "C/O: Bakhshi",
+    "address_lines": [
+      "H.No. 449, Suri",
+      "Telangana - 658453"
+    ],
+    "pincode": "658453",
+    "mobile": "9994807263",
+    "aadhaar": "5160 6071 5969",
+    "dob": "02/04/2006",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

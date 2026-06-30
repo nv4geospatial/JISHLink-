@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0322",
+  "data": {
+    "name": "Arjun Mody",
+    "nominee": "S/O: Frado",
+    "address_lines": [
+      "H.No. 335, Chada Street",
+      "Tamil Nadu - 188896"
+    ],
+    "pincode": "188896",
+    "mobile": "7566081562",
+    "aadhaar": "0602 9084 6684",
+    "dob": "1949",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

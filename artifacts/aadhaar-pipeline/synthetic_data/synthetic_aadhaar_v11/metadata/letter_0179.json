@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0179",
+  "data": {
+    "name": "Ekavir Wable",
+    "nominee": "D/O: Radha",
+    "address_lines": [
+      "10, Bir",
+      "Tamil Nadu - 606990"
+    ],
+    "pincode": "606990",
+    "mobile": "8348839570",
+    "aadhaar": "XXXX XXXX 6770",
+    "dob": "16/07/1941",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

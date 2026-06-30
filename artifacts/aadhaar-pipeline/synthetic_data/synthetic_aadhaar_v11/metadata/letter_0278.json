@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0278",
+  "data": {
+    "name": "Dakshesh Gill",
+    "nominee": "C/O: Yug",
+    "address_lines": [
+      "098, Kata Circle",
+      "Hyderabad, Kadapa",
+      "Andhra Pradesh - 169966"
+    ],
+    "pincode": "169966",
+    "mobile": "9615917815",
+    "aadhaar": "XXXX XXXX 0429",
+    "dob": "01/04/1987",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

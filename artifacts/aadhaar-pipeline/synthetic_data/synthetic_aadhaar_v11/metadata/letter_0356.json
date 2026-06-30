@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0356",
+  "data": {
+    "name": "Ayushman Bhattacharyya",
+    "nominee": "W/O: Dayita",
+    "address_lines": [
+      "92/81, Chhabra Marg",
+      "West Bengal - 315893"
+    ],
+    "pincode": "315893",
+    "mobile": "9175139840",
+    "aadhaar": "7058 0256 6212",
+    "dob": "04/04/1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

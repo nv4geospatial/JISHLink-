@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0344",
+  "data": {
+    "name": "Chatresh Sharma",
+    "nominee": "D/O: Yadavi",
+    "address_lines": [
+      "05/72, Pandya Zila",
+      "Tirunelveli, Karaikudi",
+      "Andhra Pradesh - 573295"
+    ],
+    "pincode": "573295",
+    "mobile": "7953011821",
+    "aadhaar": "2121 1018 7803",
+    "dob": "18/06/1945",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

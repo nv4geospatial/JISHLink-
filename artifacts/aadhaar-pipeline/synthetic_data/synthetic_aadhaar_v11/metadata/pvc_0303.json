@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0303",
+  "data": {
+    "name": "Keya Bhargava",
+    "nominee": "D/O: Baghyawati",
+    "address_lines": [
+      "H.No. 721, Sachdev Path",
+      "Odisha - 110703"
+    ],
+    "pincode": "110703",
+    "mobile": "9888970904",
+    "aadhaar": "0203 0423 2277",
+    "dob": "21/02/2003",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      167,
+      379
+    ],
+    "back_pincode": [
+      115,
+      400,
+      159,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      139,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

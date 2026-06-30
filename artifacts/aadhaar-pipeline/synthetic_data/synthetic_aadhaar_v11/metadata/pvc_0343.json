@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0343",
+  "data": {
+    "name": "Ishanvi Bose",
+    "nominee": "C/O: Ekalinga",
+    "address_lines": [
+      "51/93, Kapur Path",
+      "Shahjahanpur, Jalandhar",
+      "Kerala - 261571"
+    ],
+    "pincode": "261571",
+    "mobile": "9259276659",
+    "aadhaar": "5812 2590 9566",
+    "dob": "1975",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      379
+    ],
+    "back_pincode": [
+      110,
+      415,
+      154,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

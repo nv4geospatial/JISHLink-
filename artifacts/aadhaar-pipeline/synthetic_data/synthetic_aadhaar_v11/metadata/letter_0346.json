@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0346",
+  "data": {
+    "name": "Ayush Gill",
+    "nominee": "C/O: Gunbir",
+    "address_lines": [
+      "27/278, Shere Path",
+      "West Bengal - 754227"
+    ],
+    "pincode": "754227",
+    "mobile": "9925007816",
+    "aadhaar": "XXXX XXXX 1508",
+    "dob": "28/01/2000",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

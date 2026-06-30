@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0282",
+  "data": {
+    "name": "Neel Shankar",
+    "nominee": "S/O: Qarin",
+    "address_lines": [
+      "410, Shenoy Ganj",
+      "Akola, Kollam",
+      "Uttar Pradesh - 702430"
+    ],
+    "pincode": "702430",
+    "mobile": "7168042297",
+    "aadhaar": "6356 4072 3247",
+    "dob": "23/05/1975",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      378
+    ],
+    "back_pincode": [
+      149,
+      414,
+      193,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

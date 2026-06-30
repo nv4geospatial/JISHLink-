@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0417",
+  "data": {
+    "name": "Hema Gera",
+    "nominee": "D/O: Amrita",
+    "address_lines": [
+      "321, Choudhury Marg",
+      "Warangal, Ambattur",
+      "Uttar Pradesh - 726116"
+    ],
+    "pincode": "726116",
+    "mobile": "8301588378",
+    "aadhaar": "XXXX XXXX 0970",
+    "dob": "1946",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

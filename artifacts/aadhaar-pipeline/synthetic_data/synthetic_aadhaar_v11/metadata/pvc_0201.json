@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0201",
+  "data": {
+    "name": "Gayathri Lala",
+    "nominee": "S/O: Hritik",
+    "address_lines": [
+      "H.No. 864, Sheth Circle",
+      "Kerala - 252795"
+    ],
+    "pincode": "252795",
+    "mobile": "9436827097",
+    "aadhaar": "9514 3468 2394",
+    "dob": "1972",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

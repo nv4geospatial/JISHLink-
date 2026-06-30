@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0157",
+  "data": {
+    "name": "Avni Nagy",
+    "nominee": "D/O: Jeevika",
+    "address_lines": [
+      "31/170, Arya Ganj",
+      "Uttar Pradesh - 603174"
+    ],
+    "pincode": "603174",
+    "mobile": "9884923076",
+    "aadhaar": "4244 6263 2514",
+    "dob": "14/06/1991",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      376
+    ],
+    "back_pincode": [
+      149,
+      397,
+      194,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

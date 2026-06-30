@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0240",
+  "data": {
+    "name": "Andrew Chauhan",
+    "nominee": "C/O: Saksham",
+    "address_lines": [
+      "83/75, Bhagat Path",
+      "West Bengal - 342948"
+    ],
+    "pincode": "342948",
+    "mobile": "9377082043",
+    "aadhaar": "5625 5770 1715",
+    "dob": "21/07/2002",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

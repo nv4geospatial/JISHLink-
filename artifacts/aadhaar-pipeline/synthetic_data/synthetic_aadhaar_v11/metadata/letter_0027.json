@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0027",
+  "data": {
+    "name": "Elijah Shah",
+    "nominee": "W/O: Indali",
+    "address_lines": [
+      "H.No. 632, Shetty Circle",
+      "West Bengal - 363615"
+    ],
+    "pincode": "363615",
+    "mobile": "7438817025",
+    "aadhaar": "1823 3749 8941",
+    "dob": "1944",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

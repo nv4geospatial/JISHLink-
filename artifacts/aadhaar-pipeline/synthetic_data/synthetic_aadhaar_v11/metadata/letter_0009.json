@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0009",
+  "data": {
+    "name": "Abhimanyu Bobal",
+    "nominee": "S/O: Ayushman",
+    "address_lines": [
+      "34/73, Deo Circle",
+      "Rajasthan - 346629"
+    ],
+    "pincode": "346629",
+    "mobile": "9364371717",
+    "aadhaar": "9909 1699 8543",
+    "dob": "20/06/1995",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0003",
+  "data": {
+    "name": "Divya Kala",
+    "nominee": "W/O: Siya",
+    "address_lines": [
+      "96/965, Devi Ganj",
+      "Kerala - 624902"
+    ],
+    "pincode": "624902",
+    "mobile": "7771410971",
+    "aadhaar": "4893 2528 8095",
+    "dob": "1979",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

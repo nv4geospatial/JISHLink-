@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0336",
+  "data": {
+    "name": "Krishna Ramaswamy",
+    "nominee": "W/O: Ojasvi",
+    "address_lines": [
+      "14, Gade Path",
+      "Mangalore, Gudivada",
+      "Haryana - 116645"
+    ],
+    "pincode": "116645",
+    "mobile": "9102198503",
+    "aadhaar": "9700 2687 6811",
+    "dob": "02/02/1995",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

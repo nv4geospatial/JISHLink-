@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0324",
+  "data": {
+    "name": "Jacob Mammen",
+    "nominee": "S/O: Om",
+    "address_lines": [
+      "71/58, Bhatnagar Road",
+      "Gaya, Mau",
+      "Maharashtra - 486177"
+    ],
+    "pincode": "486177",
+    "mobile": "9387406467",
+    "aadhaar": "1195 5640 9196",
+    "dob": "03/12/1999",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      123,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

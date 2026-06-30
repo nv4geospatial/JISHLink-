@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0046",
+  "data": {
+    "name": "Rudra Sandal",
+    "nominee": "W/O: Jeevika",
+    "address_lines": [
+      "H.No. 99, Sarna Road",
+      "Ajmer, Allahabad",
+      "Maharashtra - 282973"
+    ],
+    "pincode": "282973",
+    "mobile": "7241522640",
+    "aadhaar": "XXXX XXXX 0268",
+    "dob": "1949",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

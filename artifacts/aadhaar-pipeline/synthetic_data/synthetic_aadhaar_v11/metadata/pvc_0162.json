@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0162",
+  "data": {
+    "name": "Wakeeta Venkataraman",
+    "nominee": "W/O: Darika",
+    "address_lines": [
+      "H.No. 943, Wali Zila",
+      "Bihar - 498019"
+    ],
+    "pincode": "498019",
+    "mobile": "8179883432",
+    "aadhaar": "8517 4460 0452",
+    "dob": "03/03/1948",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

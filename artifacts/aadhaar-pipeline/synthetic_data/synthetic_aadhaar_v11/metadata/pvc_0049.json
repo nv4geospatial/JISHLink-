@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0049",
+  "data": {
+    "name": "Manan Kumar",
+    "nominee": "W/O: Gaurika",
+    "address_lines": [
+      "36/26, Mittal Road",
+      "Tiruchirappalli, Sikar",
+      "Tamil Nadu - 234425"
+    ],
+    "pincode": "234425",
+    "mobile": "8758858259",
+    "aadhaar": "1779 3238 2231",
+    "dob": "17/07/1978",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      376
+    ],
+    "back_pincode": [
+      137,
+      412,
+      181,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

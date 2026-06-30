@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0403",
+  "data": {
+    "name": "Balendra Joshi",
+    "nominee": "S/O: Ishwar",
+    "address_lines": [
+      "26/32, Amble Circle",
+      "Chennai, Jodhpur",
+      "Gujarat - 103521"
+    ],
+    "pincode": "103521",
+    "mobile": "9196616677",
+    "aadhaar": "XXXX XXXX 6923",
+    "dob": "18/01/2010",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

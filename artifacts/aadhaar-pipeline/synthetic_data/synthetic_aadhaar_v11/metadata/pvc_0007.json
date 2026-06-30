@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0007",
+  "data": {
+    "name": "Atharv Setty",
+    "nominee": "D/O: Inaya",
+    "address_lines": [
+      "28/45, Srivastava Marg",
+      "Ahmedabad, Guntakal",
+      "Jharkhand - 138515"
+    ],
+    "pincode": "138515",
+    "mobile": "7677618107",
+    "aadhaar": "9365 4358 8418",
+    "dob": "25/07/1995",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      378
+    ],
+    "back_pincode": [
+      133,
+      414,
+      177,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

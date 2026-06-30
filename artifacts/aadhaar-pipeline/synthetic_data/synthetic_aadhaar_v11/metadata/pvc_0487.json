@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0487",
+  "data": {
+    "name": "Harini Dar",
+    "nominee": "C/O: Amol",
+    "address_lines": [
+      "H.No. 01, Mital Nagar",
+      "Sambalpur, Jorhat",
+      "Uttar Pradesh - 611057"
+    ],
+    "pincode": "611057",
+    "mobile": "9699565788",
+    "aadhaar": "XXXX XXXX 1843",
+    "dob": "07/01/1991",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

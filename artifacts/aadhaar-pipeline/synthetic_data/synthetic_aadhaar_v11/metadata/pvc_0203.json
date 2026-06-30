@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0203",
+  "data": {
+    "name": "Megha Barad",
+    "nominee": "W/O: Radhika",
+    "address_lines": [
+      "54/27, Badal Chowk",
+      "Narasaraopet, Amravati",
+      "Karnataka - 156962"
+    ],
+    "pincode": "156962",
+    "mobile": "7775960462",
+    "aadhaar": "8397 6205 3440",
+    "dob": "04/12/1973",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      174,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0097",
+  "data": {
+    "name": "Yahvi Bains",
+    "nominee": "C/O: Fiyaz",
+    "address_lines": [
+      "36/788, Gandhi Zila",
+      "Bikaner, Ranchi",
+      "Rajasthan - 553882"
+    ],
+    "pincode": "553882",
+    "mobile": "7623279634",
+    "aadhaar": "0511 5794 2387",
+    "dob": "05/10/1973",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      378
+    ],
+    "back_pincode": [
+      130,
+      414,
+      174,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      139,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

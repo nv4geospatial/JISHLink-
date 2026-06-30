@@ -1,0 +1,10 @@
+path: /content/aadhaar_dataset
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: address_block
+  1: aadhaar_area
+  2: photo_dob_gender_area
+  3: header
+nc: 4

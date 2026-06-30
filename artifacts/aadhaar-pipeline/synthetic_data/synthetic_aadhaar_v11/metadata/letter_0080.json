@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0080",
+  "data": {
+    "name": "Onveer Sharma",
+    "nominee": "W/O: Chanchal",
+    "address_lines": [
+      "16/45, Nath Ganj",
+      "Latur, Giridih",
+      "Karnataka - 281594"
+    ],
+    "pincode": "281594",
+    "mobile": "8686556403",
+    "aadhaar": "5497 3348 4344",
+    "dob": "15/09/1999",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

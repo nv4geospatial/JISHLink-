@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0378",
+  "data": {
+    "name": "Upma Rai",
+    "nominee": "W/O: Anita",
+    "address_lines": [
+      "52, Lal Path",
+      "Thanjavur, Anand",
+      "Telangana - 765960"
+    ],
+    "pincode": "765960",
+    "mobile": "9235740731",
+    "aadhaar": "8190 2217 9789",
+    "dob": "22/06/1982",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      132,
+      412,
+      176,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

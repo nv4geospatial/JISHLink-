@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0315",
+  "data": {
+    "name": "Charita Karnik",
+    "nominee": "C/O: Brijesh",
+    "address_lines": [
+      "H.No. 232, Andra",
+      "Chittoor, Panipat",
+      "Maharashtra - 150970"
+    ],
+    "pincode": "150970",
+    "mobile": "9275664851",
+    "aadhaar": "0865 2377 7296",
+    "dob": "1950",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      379
+    ],
+    "back_pincode": [
+      142,
+      415,
+      186,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

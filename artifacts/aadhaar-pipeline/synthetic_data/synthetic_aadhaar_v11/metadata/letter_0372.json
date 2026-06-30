@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0372",
+  "data": {
+    "name": "Anjali Nayak",
+    "nominee": "W/O: Lila",
+    "address_lines": [
+      "93/852, Anne Path",
+      "Bhimavaram, Surendranagar Dudhrej",
+      "Madhya Pradesh - 249645"
+    ],
+    "pincode": "249645",
+    "mobile": "9527317270",
+    "aadhaar": "4027 0116 8646",
+    "dob": "17/08/1991",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

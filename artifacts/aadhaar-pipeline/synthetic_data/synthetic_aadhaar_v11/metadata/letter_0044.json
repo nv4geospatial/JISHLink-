@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0044",
+  "data": {
+    "name": "Omaja Kara",
+    "nominee": "D/O: Varenya",
+    "address_lines": [
+      "13/34, Dugar Zila",
+      "Odisha - 535037"
+    ],
+    "pincode": "535037",
+    "mobile": "8761051532",
+    "aadhaar": "6405 3773 5158",
+    "dob": "21/09/1958",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

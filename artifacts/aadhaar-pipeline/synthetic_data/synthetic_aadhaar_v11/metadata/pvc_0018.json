@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0018",
+  "data": {
+    "name": "Kavya Kumar",
+    "nominee": "W/O: Ekani",
+    "address_lines": [
+      "89, Sandhu Path",
+      "Rajasthan - 543054"
+    ],
+    "pincode": "543054",
+    "mobile": "9375799180",
+    "aadhaar": "1613 9449 8830",
+    "dob": "12/10/1974",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      175,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

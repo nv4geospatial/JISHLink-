@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0135",
+  "data": {
+    "name": "Daksh Dey",
+    "nominee": "S/O: Zayan",
+    "address_lines": [
+      "428, Sachdev Ganj",
+      "Muzaffarpur, Gangtok",
+      "Jharkhand - 651860"
+    ],
+    "pincode": "651860",
+    "mobile": "7501140044",
+    "aadhaar": "6915 4522 6752",
+    "dob": "01/05/1963",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

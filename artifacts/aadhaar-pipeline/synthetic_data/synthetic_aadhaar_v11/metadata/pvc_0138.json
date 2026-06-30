@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0138",
+  "data": {
+    "name": "Atharv Dube",
+    "nominee": "W/O: Yochana",
+    "address_lines": [
+      "960, Sanghvi",
+      "Kerala - 701740"
+    ],
+    "pincode": "701740",
+    "mobile": "7588492574",
+    "aadhaar": "2132 9016 2047",
+    "dob": "15/04/1950",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      154,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0048",
+  "data": {
+    "name": "Ansh Luthra",
+    "nominee": "S/O: Anmol",
+    "address_lines": [
+      "67/17, Rege Path",
+      "Nandyal, Alwar",
+      "Jharkhand - 219971"
+    ],
+    "pincode": "219971",
+    "mobile": "9873995963",
+    "aadhaar": "3673 6576 6156",
+    "dob": "1965",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

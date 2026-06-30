@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0367",
+  "data": {
+    "name": "Jhalak Bail",
+    "nominee": "S/O: Tarak",
+    "address_lines": [
+      "83/625, Ravi Ganj",
+      "Asansol, Jaunpur",
+      "Maharashtra - 785378"
+    ],
+    "pincode": "785378",
+    "mobile": "7545007346",
+    "aadhaar": "0013 6510 3444",
+    "dob": "1972",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0292",
+  "data": {
+    "name": "Vinaya Sekhon",
+    "nominee": "W/O: Sai",
+    "address_lines": [
+      "99/611, Oza Street",
+      "Andhra Pradesh - 274721"
+    ],
+    "pincode": "274721",
+    "mobile": "8316636672",
+    "aadhaar": "7183 4404 9639",
+    "dob": "1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

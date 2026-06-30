@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0456",
+  "data": {
+    "name": "Kamya Jayaraman",
+    "nominee": "S/O: Vincent",
+    "address_lines": [
+      "14/505, Raju Chowk",
+      "Bihar - 620314"
+    ],
+    "pincode": "620314",
+    "mobile": "8559991687",
+    "aadhaar": "5386 9479 0254",
+    "dob": "28/11/2007",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      150,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0439",
+  "data": {
+    "name": "Pratyush Das",
+    "nominee": "S/O: Pratyush",
+    "address_lines": [
+      "84/21, Jayaraman Marg",
+      "Kalyan-Dombivli, Alwar",
+      "Jharkhand - 630228"
+    ],
+    "pincode": "630228",
+    "mobile": "8976242620",
+    "aadhaar": "0675 6020 8019",
+    "dob": "12/07/1943",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      378
+    ],
+    "back_pincode": [
+      133,
+      414,
+      177,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

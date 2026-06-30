@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0440",
+  "data": {
+    "name": "Zayan Taneja",
+    "nominee": "S/O: Chakradev",
+    "address_lines": [
+      "63/63, Chhabra Street",
+      "Kerala - 683480"
+    ],
+    "pincode": "683480",
+    "mobile": "9150544007",
+    "aadhaar": "XXXX XXXX 0300",
+    "dob": "21/10/1953",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

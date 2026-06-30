@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0104",
+  "data": {
+    "name": "Meera Guha",
+    "nominee": "D/O: Eshana",
+    "address_lines": [
+      "82/091, Rajagopalan Marg",
+      "Sambalpur, Sambhal",
+      "Kerala - 196321"
+    ],
+    "pincode": "196321",
+    "mobile": "8463094446",
+    "aadhaar": "1651 7680 8662",
+    "dob": "1942",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      376
+    ],
+    "back_pincode": [
+      110,
+      412,
+      154,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

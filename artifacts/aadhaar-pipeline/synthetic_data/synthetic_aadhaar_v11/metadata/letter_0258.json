@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0258",
+  "data": {
+    "name": "Abdul Ramesh",
+    "nominee": "D/O: Niharika",
+    "address_lines": [
+      "239, Hari Road",
+      "Rajpur Sonarpur, Anand",
+      "West Bengal - 707488"
+    ],
+    "pincode": "707488",
+    "mobile": "7889693867",
+    "aadhaar": "2707 9032 0204",
+    "dob": "1949",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

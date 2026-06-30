@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0364",
+  "data": {
+    "name": "Naveen Dhar",
+    "nominee": "D/O: Barkha",
+    "address_lines": [
+      "55/021, Ahuja Ganj",
+      "Alappuzha, Tadipatri",
+      "Bihar - 517827"
+    ],
+    "pincode": "517827",
+    "mobile": "7525961566",
+    "aadhaar": "6489 0082 4845",
+    "dob": "19/06/1969",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

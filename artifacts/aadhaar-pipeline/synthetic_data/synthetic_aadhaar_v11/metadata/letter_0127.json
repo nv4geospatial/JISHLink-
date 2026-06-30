@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0127",
+  "data": {
+    "name": "Jagvi Keer",
+    "nominee": "S/O: Azaan",
+    "address_lines": [
+      "84/145, Kant",
+      "Kirari Suleman Nagar, Kozhikode",
+      "Maharashtra - 708982"
+    ],
+    "pincode": "708982",
+    "mobile": "9980428452",
+    "aadhaar": "6199 0623 4456",
+    "dob": "22/02/1957",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

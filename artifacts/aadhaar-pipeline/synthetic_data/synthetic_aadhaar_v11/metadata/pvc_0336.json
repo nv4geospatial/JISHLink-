@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0336",
+  "data": {
+    "name": "Falguni Chaudhary",
+    "nominee": "W/O: Triveni",
+    "address_lines": [
+      "470, Shanker Path",
+      "Madhya Pradesh - 679391"
+    ],
+    "pincode": "679391",
+    "mobile": "9451388537",
+    "aadhaar": "6631 1388 5034",
+    "dob": "16/08/1993",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      208,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

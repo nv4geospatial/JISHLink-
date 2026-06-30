@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0073",
+  "data": {
+    "name": "Arunima Dave",
+    "nominee": "C/O: Siddharth",
+    "address_lines": [
+      "26/714, Dhar Marg",
+      "Rajasthan - 556276"
+    ],
+    "pincode": "556276",
+    "mobile": "7627464296",
+    "aadhaar": "1587 9647 4080",
+    "dob": "22/03/1981",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      157,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

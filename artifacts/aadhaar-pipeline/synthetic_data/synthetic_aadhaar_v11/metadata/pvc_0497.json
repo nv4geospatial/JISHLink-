@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0497",
+  "data": {
+    "name": "Saksham Dhingra",
+    "nominee": "D/O: Saumya",
+    "address_lines": [
+      "04, Sant Nagar",
+      "Latur, Unnao",
+      "Odisha - 201789"
+    ],
+    "pincode": "201789",
+    "mobile": "9602015372",
+    "aadhaar": "9057 1918 9866",
+    "dob": "22/09/1975",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      378
+    ],
+    "back_pincode": [
+      115,
+      414,
+      159,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

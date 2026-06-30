@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0434",
+  "data": {
+    "name": "Laksh Singh",
+    "nominee": "S/O: Om",
+    "address_lines": [
+      "H.No. 44, Varghese Road",
+      "Unnao, Katihar",
+      "Bihar - 408834"
+    ],
+    "pincode": "408834",
+    "mobile": "9499377110",
+    "aadhaar": "1448 6983 0521",
+    "dob": "22/10/1957",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      123,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      150,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

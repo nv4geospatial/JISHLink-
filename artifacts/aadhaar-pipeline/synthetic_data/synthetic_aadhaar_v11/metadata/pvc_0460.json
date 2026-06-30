@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0460",
+  "data": {
+    "name": "Ria Loke",
+    "nominee": "S/O: Ekbal",
+    "address_lines": [
+      "H.No. 63, Basu Nagar",
+      "Thiruvananthapuram, Tadepalligudem",
+      "Kerala - 111631"
+    ],
+    "pincode": "111631",
+    "mobile": "8144033825",
+    "aadhaar": "7860 4356 6050",
+    "dob": "1963",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      376
+    ],
+    "back_pincode": [
+      110,
+      412,
+      154,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0342",
+  "data": {
+    "name": "Ekantika Pillay",
+    "nominee": "S/O: Ranveer",
+    "address_lines": [
+      "145, Sachdev Circle",
+      "Odisha - 206773"
+    ],
+    "pincode": "206773",
+    "mobile": "7416664467",
+    "aadhaar": "6619 6399 0767",
+    "dob": "13/05/1980",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

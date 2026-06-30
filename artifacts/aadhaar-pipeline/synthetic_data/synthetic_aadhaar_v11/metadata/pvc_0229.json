@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0229",
+  "data": {
+    "name": "Meghana Karnik",
+    "nominee": "D/O: Gaurika",
+    "address_lines": [
+      "H.No. 008, Thaker Zila",
+      "Haridwar, Begusarai",
+      "Jharkhand - 705662"
+    ],
+    "pincode": "705662",
+    "mobile": "7443816109",
+    "aadhaar": "8446 1777 3264",
+    "dob": "1970",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      376
+    ],
+    "back_pincode": [
+      133,
+      412,
+      177,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0300",
+  "data": {
+    "name": "Anita Mane",
+    "nominee": "S/O: Krish",
+    "address_lines": [
+      "H.No. 17, Sethi",
+      "Odisha - 772528"
+    ],
+    "pincode": "772528",
+    "mobile": "8949350526",
+    "aadhaar": "2063 4591 1238",
+    "dob": "05/03/1961",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

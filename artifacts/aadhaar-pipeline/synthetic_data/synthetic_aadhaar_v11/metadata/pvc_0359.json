@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0359",
+  "data": {
+    "name": "Megha Barman",
+    "nominee": "C/O: Udarsh",
+    "address_lines": [
+      "712, Narang Circle",
+      "Rajahmundry, Raipur",
+      "Telangana - 759711"
+    ],
+    "pincode": "759711",
+    "mobile": "9279366591",
+    "aadhaar": "0881 4319 2797",
+    "dob": "1953",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      132,
+      412,
+      176,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

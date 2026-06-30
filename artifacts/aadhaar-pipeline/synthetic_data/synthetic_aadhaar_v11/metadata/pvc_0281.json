@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0281",
+  "data": {
+    "name": "Nilima Bajaj",
+    "nominee": "C/O: Nicholas",
+    "address_lines": [
+      "H.No. 968, Hans Circle",
+      "Rourkela, Mysore",
+      "Gujarat - 450504"
+    ],
+    "pincode": "450504",
+    "mobile": "8157331978",
+    "aadhaar": "4542 1854 5705",
+    "dob": "11/02/2005",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      151,
+      376
+    ],
+    "back_pincode": [
+      116,
+      412,
+      161,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

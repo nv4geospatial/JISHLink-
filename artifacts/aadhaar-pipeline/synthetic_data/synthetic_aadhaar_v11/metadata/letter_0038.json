@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0038",
+  "data": {
+    "name": "Ucchal Raghavan",
+    "nominee": "C/O: Om",
+    "address_lines": [
+      "545, Majumdar Road",
+      "Shimla, South Dumdum",
+      "Uttar Pradesh - 667296"
+    ],
+    "pincode": "667296",
+    "mobile": "7777703980",
+    "aadhaar": "4316 1172 4005",
+    "dob": "25/09/1982",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

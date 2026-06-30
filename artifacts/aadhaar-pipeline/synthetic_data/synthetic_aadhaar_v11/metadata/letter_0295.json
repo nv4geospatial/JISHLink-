@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0295",
+  "data": {
+    "name": "Fiyaz Chawla",
+    "nominee": "S/O: Karan",
+    "address_lines": [
+      "472, Vyas Street",
+      "Guwahati, Tirupati",
+      "Kerala - 357516"
+    ],
+    "pincode": "357516",
+    "mobile": "8621175333",
+    "aadhaar": "8660 3242 0448",
+    "dob": "21/03/2004",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

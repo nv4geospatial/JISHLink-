@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0108",
+  "data": {
+    "name": "Imaran Kapur",
+    "nominee": "D/O: Megha",
+    "address_lines": [
+      "H.No. 092, Sangha Street",
+      "Tadepalligudem, Kochi",
+      "Haryana - 694381"
+    ],
+    "pincode": "694381",
+    "mobile": "8332793730",
+    "aadhaar": "8040 3253 7657",
+    "dob": "22/10/1980",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      379
+    ],
+    "back_pincode": [
+      120,
+      415,
+      164,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

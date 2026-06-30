@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0474",
+  "data": {
+    "name": "Mitali Naik",
+    "nominee": "D/O: Ekani",
+    "address_lines": [
+      "H.No. 61, Natt Chowk",
+      "Telangana - 241440"
+    ],
+    "pincode": "241440",
+    "mobile": "8299710882",
+    "aadhaar": "9862 2699 2066",
+    "dob": "02/10/1951",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      132,
+      397,
+      176,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

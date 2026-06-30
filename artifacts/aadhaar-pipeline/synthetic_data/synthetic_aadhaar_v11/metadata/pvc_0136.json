@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0136",
+  "data": {
+    "name": "Harish Sawhney",
+    "nominee": "W/O: Mohini",
+    "address_lines": [
+      "H.No. 371, Shetty Path",
+      "Rajahmundry, Suryapet",
+      "West Bengal - 295056"
+    ],
+    "pincode": "295056",
+    "mobile": "7658891180",
+    "aadhaar": "1319 0924 8762",
+    "dob": "16/11/1971",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

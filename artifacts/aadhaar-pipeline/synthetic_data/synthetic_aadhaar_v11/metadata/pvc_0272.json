@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0272",
+  "data": {
+    "name": "Fariq Sant",
+    "nominee": "C/O: Dalbir",
+    "address_lines": [
+      "05/973, Maharaj Marg",
+      "Bihar - 364905"
+    ],
+    "pincode": "364905",
+    "mobile": "7992968317",
+    "aadhaar": "8397 2833 9121",
+    "dob": "03/04/1997",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

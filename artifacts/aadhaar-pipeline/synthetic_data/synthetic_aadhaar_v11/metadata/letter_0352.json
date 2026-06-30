@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0352",
+  "data": {
+    "name": "Ridhi Dalal",
+    "nominee": "D/O: Falguni",
+    "address_lines": [
+      "858, Madan Path",
+      "Maharashtra - 203189"
+    ],
+    "pincode": "203189",
+    "mobile": "7686291021",
+    "aadhaar": "XXXX XXXX 9284",
+    "dob": "1951",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0334",
+  "data": {
+    "name": "Vedika Kibe",
+    "nominee": "D/O: Janya",
+    "address_lines": [
+      "86/09, Chaudhari Zila",
+      "Vasai-Virar, Kishanganj",
+      "Odisha - 401009"
+    ],
+    "pincode": "401009",
+    "mobile": "8497868623",
+    "aadhaar": "5792 2030 0449",
+    "dob": "28/03/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      378
+    ],
+    "back_pincode": [
+      115,
+      414,
+      159,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

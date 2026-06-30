@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0410",
+  "data": {
+    "name": "Laksh Iyengar",
+    "nominee": "S/O: Girik",
+    "address_lines": [
+      "47/87, Bala Ganj",
+      "Bihar - 733870"
+    ],
+    "pincode": "733870",
+    "mobile": "9459536072",
+    "aadhaar": "9262 4945 1475",
+    "dob": "16/08/2000",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

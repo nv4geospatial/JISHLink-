@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0482",
+  "data": {
+    "name": "Manan Sandal",
+    "nominee": "D/O: Chaitaly",
+    "address_lines": [
+      "15, Rau Circle",
+      "Karnataka - 411792"
+    ],
+    "pincode": "411792",
+    "mobile": "9655852128",
+    "aadhaar": "8986 4565 2203",
+    "dob": "13/03/1985",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

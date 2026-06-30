@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0480",
+  "data": {
+    "name": "Yashasvi Choudhry",
+    "nominee": "C/O: Ayushman",
+    "address_lines": [
+      "17/490, Nori Chowk",
+      "Rampur, Amravati",
+      "Bihar - 205901"
+    ],
+    "pincode": "205901",
+    "mobile": "8125696210",
+    "aadhaar": "2128 8665 2683",
+    "dob": "13/03/2015",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

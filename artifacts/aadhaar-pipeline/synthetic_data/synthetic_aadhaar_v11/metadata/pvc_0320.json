@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0320",
+  "data": {
+    "name": "Aarini Dave",
+    "nominee": "C/O: Neel",
+    "address_lines": [
+      "93/238, Dhar Street",
+      "Srikakulam, Morena",
+      "Bihar - 230737"
+    ],
+    "pincode": "230737",
+    "mobile": "8792355342",
+    "aadhaar": "8388 2176 4846",
+    "dob": "1957",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

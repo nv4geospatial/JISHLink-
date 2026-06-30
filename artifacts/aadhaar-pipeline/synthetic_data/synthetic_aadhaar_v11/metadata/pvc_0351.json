@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0351",
+  "data": {
+    "name": "Sai Balasubramanian",
+    "nominee": "S/O: Anirudh",
+    "address_lines": [
+      "29/821, Hans Chowk",
+      "Bijapur, Moradabad",
+      "Madhya Pradesh - 145727"
+    ],
+    "pincode": "145727",
+    "mobile": "7856314186",
+    "aadhaar": "2112 2121 5481",
+    "dob": "11/05/1986",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      208,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

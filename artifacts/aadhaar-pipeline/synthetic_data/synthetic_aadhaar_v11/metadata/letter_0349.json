@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0349",
+  "data": {
+    "name": "Isaac Prasad",
+    "nominee": "S/O: Anirudh",
+    "address_lines": [
+      "82, Oak Ganj",
+      "Kerala - 760035"
+    ],
+    "pincode": "760035",
+    "mobile": "7645750195",
+    "aadhaar": "9731 7912 8685",
+    "dob": "09/09/2010",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

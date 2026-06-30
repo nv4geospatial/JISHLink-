@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0107",
+  "data": {
+    "name": "Ojasvi Dhar",
+    "nominee": "C/O: Aadi",
+    "address_lines": [
+      "543, Chowdhury Marg",
+      "Odisha - 224956"
+    ],
+    "pincode": "224956",
+    "mobile": "7578398626",
+    "aadhaar": "9863 2106 1339",
+    "dob": "1977",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      129,
+      376
+    ],
+    "back_pincode": [
+      115,
+      397,
+      159,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

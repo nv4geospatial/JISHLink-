@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0036",
+  "data": {
+    "name": "Charvi Dara",
+    "nominee": "C/O: Ansh",
+    "address_lines": [
+      "50/67, Sant Zila",
+      "Karnataka - 664742"
+    ],
+    "pincode": "664742",
+    "mobile": "9919128302",
+    "aadhaar": "8675 3396 3605",
+    "dob": "06/07/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

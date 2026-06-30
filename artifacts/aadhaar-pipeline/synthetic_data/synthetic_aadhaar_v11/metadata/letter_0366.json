@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0366",
+  "data": {
+    "name": "Devika Bera",
+    "nominee": "C/O: Onveer",
+    "address_lines": [
+      "56/54, Ganesh Road",
+      "Jharkhand - 779525"
+    ],
+    "pincode": "779525",
+    "mobile": "7345897637",
+    "aadhaar": "5533 8033 9685",
+    "dob": "06/03/1943",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

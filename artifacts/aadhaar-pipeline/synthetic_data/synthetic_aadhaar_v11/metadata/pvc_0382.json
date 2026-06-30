@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0382",
+  "data": {
+    "name": "Warhi Grewal",
+    "nominee": "S/O: Wahab",
+    "address_lines": [
+      "01/23, Dhawan Road",
+      "Guntakal, Mango",
+      "West Bengal - 110942"
+    ],
+    "pincode": "110942",
+    "mobile": "9234915899",
+    "aadhaar": "9742 5513 6090",
+    "dob": "27/03/2007",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

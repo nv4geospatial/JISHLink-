@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0342",
+  "data": {
+    "name": "Ansh Subramanian",
+    "nominee": "W/O: Triya",
+    "address_lines": [
+      "45/465, Keer Path",
+      "Gaya, Ramgarh",
+      "Haryana - 154650"
+    ],
+    "pincode": "154650",
+    "mobile": "8974373959",
+    "aadhaar": "6487 1775 4619",
+    "dob": "28/10/1964",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      378
+    ],
+    "back_pincode": [
+      120,
+      414,
+      164,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

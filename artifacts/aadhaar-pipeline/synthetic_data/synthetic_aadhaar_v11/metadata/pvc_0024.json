@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0024",
+  "data": {
+    "name": "Arin Balay",
+    "nominee": "D/O: Ganga",
+    "address_lines": [
+      "63/71, Seth Path",
+      "Eluru, Katni",
+      "Andhra Pradesh - 245303"
+    ],
+    "pincode": "245303",
+    "mobile": "7743781418",
+    "aadhaar": "9605 9329 7150",
+    "dob": "21/01/1989",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      379
+    ],
+    "back_pincode": [
+      162,
+      415,
+      206,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

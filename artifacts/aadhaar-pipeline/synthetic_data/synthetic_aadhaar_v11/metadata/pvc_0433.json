@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0433",
+  "data": {
+    "name": "Madhav Baral",
+    "nominee": "D/O: Maya",
+    "address_lines": [
+      "H.No. 78, Raju Chowk",
+      "Karnataka - 289716"
+    ],
+    "pincode": "289716",
+    "mobile": "8904854504",
+    "aadhaar": "2732 0222 7111",
+    "dob": "21/01/1998",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      378
+    ],
+    "back_pincode": [
+      130,
+      399,
+      174,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      139,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

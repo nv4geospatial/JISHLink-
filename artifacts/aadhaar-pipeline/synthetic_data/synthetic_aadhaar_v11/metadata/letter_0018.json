@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0018",
+  "data": {
+    "name": "Aishani Tiwari",
+    "nominee": "D/O: Ladli",
+    "address_lines": [
+      "H.No. 24, Sathe Street",
+      "Bhusawal, Varanasi",
+      "Odisha - 254739"
+    ],
+    "pincode": "254739",
+    "mobile": "7935822550",
+    "aadhaar": "6328 7083 1727",
+    "dob": "03/06/1982",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0129",
+  "data": {
+    "name": "Faras Choudhury",
+    "nominee": "C/O: Azaan",
+    "address_lines": [
+      "71/39, Chand Chowk",
+      "Chapra, Dehradun",
+      "Uttar Pradesh - 638401"
+    ],
+    "pincode": "638401",
+    "mobile": "8980564513",
+    "aadhaar": "XXXX XXXX 7121",
+    "dob": "22/10/2008",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0137",
+  "data": {
+    "name": "Umang Mital",
+    "nominee": "W/O: Vedika",
+    "address_lines": [
+      "H.No. 35, Sengupta Zila",
+      "Uttar Pradesh - 568325"
+    ],
+    "pincode": "568325",
+    "mobile": "7844292151",
+    "aadhaar": "1541 0067 6267",
+    "dob": "15/11/2004",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

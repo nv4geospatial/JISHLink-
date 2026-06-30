@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0461",
+  "data": {
+    "name": "Ubika Kapur",
+    "nominee": "S/O: Faras",
+    "address_lines": [
+      "17, Dixit Road",
+      "Hajipur, Ramagundam",
+      "Maharashtra - 797576"
+    ],
+    "pincode": "797576",
+    "mobile": "9611544570",
+    "aadhaar": "XXXX XXXX 0941",
+    "dob": "17/04/2015",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

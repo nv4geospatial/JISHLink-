@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0096",
+  "data": {
+    "name": "Hemang Natarajan",
+    "nominee": "S/O: Ekalinga",
+    "address_lines": [
+      "72/217, Memon Nagar",
+      "Rajasthan - 106693"
+    ],
+    "pincode": "106693",
+    "mobile": "9348499712",
+    "aadhaar": "XXXX XXXX 9977",
+    "dob": "24/10/1955",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

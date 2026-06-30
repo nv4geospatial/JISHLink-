@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0195",
+  "data": {
+    "name": "Dalbir Khanna",
+    "nominee": "D/O: Charita",
+    "address_lines": [
+      "H.No. 102, Gole Chowk",
+      "Haridwar, Kanpur",
+      "West Bengal - 751353"
+    ],
+    "pincode": "751353",
+    "mobile": "8411815504",
+    "aadhaar": "0134 8087 3543",
+    "dob": "20/12/1961",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

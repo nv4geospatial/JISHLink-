@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0015",
+  "data": {
+    "name": "Eesha Sanghvi",
+    "nominee": "W/O: Aradhana",
+    "address_lines": [
+      "42/897, Bumb Ganj",
+      "Tamil Nadu - 661013"
+    ],
+    "pincode": "661013",
+    "mobile": "7555336460",
+    "aadhaar": "8612 0594 3897",
+    "dob": "16/02/2000",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      159,
+      376
+    ],
+    "back_pincode": [
+      137,
+      397,
+      181,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

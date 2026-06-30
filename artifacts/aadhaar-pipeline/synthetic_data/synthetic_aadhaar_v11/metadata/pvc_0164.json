@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0164",
+  "data": {
+    "name": "Yahvi Sood",
+    "nominee": "S/O: Michael",
+    "address_lines": [
+      "572, Som Nagar",
+      "Maharashtra - 243541"
+    ],
+    "pincode": "243541",
+    "mobile": "9104305118",
+    "aadhaar": "1707 5681 4298",
+    "dob": "1973",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      142,
+      397,
+      186,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0440",
+  "data": {
+    "name": "Darpan Anne",
+    "nominee": "D/O: Pahal",
+    "address_lines": [
+      "99/48, Khalsa Path",
+      "Uttar Pradesh - 749798"
+    ],
+    "pincode": "749798",
+    "mobile": "9714633783",
+    "aadhaar": "0932 2533 3202",
+    "dob": "1952",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      376
+    ],
+    "back_pincode": [
+      149,
+      397,
+      193,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

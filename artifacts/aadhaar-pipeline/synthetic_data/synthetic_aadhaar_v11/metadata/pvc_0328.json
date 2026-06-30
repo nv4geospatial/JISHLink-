@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0328",
+  "data": {
+    "name": "Panini Jain",
+    "nominee": "S/O: Liam",
+    "address_lines": [
+      "75, Mital Street",
+      "Jharkhand - 469070"
+    ],
+    "pincode": "469070",
+    "mobile": "8622149860",
+    "aadhaar": "6449 7470 0026",
+    "dob": "08/07/1940",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      130,
+      376
+    ],
+    "back_pincode": [
+      133,
+      397,
+      177,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

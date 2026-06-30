@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0217",
+  "data": {
+    "name": "Yashoda Sandhu",
+    "nominee": "D/O: Ojasvi",
+    "address_lines": [
+      "84, Murthy",
+      "Mangalore, Kalyan-Dombivli",
+      "Gujarat - 460002"
+    ],
+    "pincode": "460002",
+    "mobile": "9497340190",
+    "aadhaar": "1381 8655 0784",
+    "dob": "20/01/1948",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      379
+    ],
+    "back_pincode": [
+      116,
+      415,
+      160,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

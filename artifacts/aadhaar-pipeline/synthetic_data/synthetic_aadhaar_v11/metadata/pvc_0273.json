@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0273",
+  "data": {
+    "name": "Quincy Malhotra",
+    "nominee": "D/O: Sudiksha",
+    "address_lines": [
+      "H.No. 624, Shere Road",
+      "Darbhanga, Vellore",
+      "Jharkhand - 642198"
+    ],
+    "pincode": "642198",
+    "mobile": "7864172053",
+    "aadhaar": "9832 2101 0232",
+    "dob": "08/01/1986",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      155,
+      376
+    ],
+    "back_pincode": [
+      133,
+      412,
+      177,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

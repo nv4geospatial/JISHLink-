@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0061",
+  "data": {
+    "name": "Watika Mangat",
+    "nominee": "D/O: Qushi",
+    "address_lines": [
+      "04/709, Deep Path",
+      "Udupi, Durgapur",
+      "Bihar - 734035"
+    ],
+    "pincode": "734035",
+    "mobile": "7788460744",
+    "aadhaar": "XXXX XXXX 2478",
+    "dob": "06/05/1947",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

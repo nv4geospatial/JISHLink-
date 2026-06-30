@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0133",
+  "data": {
+    "name": "Arin Misra",
+    "nominee": "D/O: Unnati",
+    "address_lines": [
+      "431, Saini Nagar",
+      "Berhampur, Jaunpur",
+      "West Bengal - 204998"
+    ],
+    "pincode": "204998",
+    "mobile": "8673044801",
+    "aadhaar": "XXXX XXXX 9559",
+    "dob": "24/03/1987",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

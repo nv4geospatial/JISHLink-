@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0477",
+  "data": {
+    "name": "Maya Bansal",
+    "nominee": "S/O: Faqid",
+    "address_lines": [
+      "84/550, Wable Road",
+      "Saharsa, Gurgaon",
+      "Haryana - 181066"
+    ],
+    "pincode": "181066",
+    "mobile": "9640624591",
+    "aadhaar": "9868 1809 7887",
+    "dob": "19/11/1986",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

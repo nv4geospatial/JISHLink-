@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0084",
+  "data": {
+    "name": "Benjamin Sengupta",
+    "nominee": "W/O: Oeshi",
+    "address_lines": [
+      "18/203, Sarna Chowk",
+      "Ghaziabad, Kota",
+      "Telangana - 270387"
+    ],
+    "pincode": "270387",
+    "mobile": "8871588919",
+    "aadhaar": "XXXX XXXX 6685",
+    "dob": "27/04/1980",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

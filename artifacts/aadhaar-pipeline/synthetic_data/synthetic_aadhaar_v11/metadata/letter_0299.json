@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0299",
+  "data": {
+    "name": "Kashvi Gulati",
+    "nominee": "W/O: Urmi",
+    "address_lines": [
+      "H.No. 16, Varughese Ganj",
+      "Ujjain, Burhanpur",
+      "Jharkhand - 320606"
+    ],
+    "pincode": "320606",
+    "mobile": "8777909802",
+    "aadhaar": "5604 1776 5612",
+    "dob": "06/08/1998",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

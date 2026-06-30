@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0020",
+  "data": {
+    "name": "Chaitaly Thaker",
+    "nominee": "C/O: Balveer",
+    "address_lines": [
+      "H.No. 08, Nath Ganj",
+      "Andhra Pradesh - 765607"
+    ],
+    "pincode": "765607",
+    "mobile": "8610674706",
+    "aadhaar": "8055 5572 7738",
+    "dob": "09/06/1955",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      376
+    ],
+    "back_pincode": [
+      162,
+      397,
+      206,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

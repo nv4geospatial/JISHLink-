@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0057",
+  "data": {
+    "name": "Vamakshi Chaudhry",
+    "nominee": "S/O: Reyansh",
+    "address_lines": [
+      "714, Sibal Circle",
+      "Medininagar, Asansol",
+      "Jharkhand - 500033"
+    ],
+    "pincode": "500033",
+    "mobile": "7773126960",
+    "aadhaar": "7692 7438 1199",
+    "dob": "1953",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      150,
+      378
+    ],
+    "back_pincode": [
+      133,
+      414,
+      177,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

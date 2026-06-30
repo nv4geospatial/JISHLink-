@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0487",
+  "data": {
+    "name": "Krishna Soman",
+    "nominee": "W/O: Ekantika",
+    "address_lines": [
+      "H.No. 996, Kaul Marg",
+      "Hospet, Jalgaon",
+      "Karnataka - 608622"
+    ],
+    "pincode": "608622",
+    "mobile": "8741928074",
+    "aadhaar": "5874 1314 6753",
+    "dob": "28/11/2008",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

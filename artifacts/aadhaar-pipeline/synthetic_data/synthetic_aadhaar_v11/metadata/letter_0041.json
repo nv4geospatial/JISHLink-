@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0041",
+  "data": {
+    "name": "Diya Dar",
+    "nominee": "D/O: Inaya",
+    "address_lines": [
+      "H.No. 35, Mittal Street",
+      "Bally, Salem",
+      "Kerala - 736553"
+    ],
+    "pincode": "736553",
+    "mobile": "9304152670",
+    "aadhaar": "9421 0470 9521",
+    "dob": "1941",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

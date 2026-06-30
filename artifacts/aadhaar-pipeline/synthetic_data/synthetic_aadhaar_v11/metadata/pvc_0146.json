@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0146",
+  "data": {
+    "name": "Chaitaly Sibal",
+    "nominee": "S/O: Yug",
+    "address_lines": [
+      "346, Muni Zila",
+      "Anand, Nellore",
+      "Madhya Pradesh - 720434"
+    ],
+    "pincode": "720434",
+    "mobile": "8214350071",
+    "aadhaar": "2833 3721 8856",
+    "dob": "30/01/1953",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      125,
+      379
+    ],
+    "back_pincode": [
+      164,
+      415,
+      209,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

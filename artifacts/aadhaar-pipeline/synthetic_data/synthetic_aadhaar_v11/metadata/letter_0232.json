@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0232",
+  "data": {
+    "name": "Nimrat Merchant",
+    "nominee": "W/O: Anusha",
+    "address_lines": [
+      "H.No. 119, Dixit Chowk",
+      "Ongole, Noida",
+      "Andhra Pradesh - 236014"
+    ],
+    "pincode": "236014",
+    "mobile": "9882956156",
+    "aadhaar": "7729 3430 1071",
+    "dob": "25/08/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

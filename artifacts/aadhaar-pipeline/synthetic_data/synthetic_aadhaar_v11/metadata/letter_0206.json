@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0206",
+  "data": {
+    "name": "Alka Manda",
+    "nominee": "W/O: Kashish",
+    "address_lines": [
+      "H.No. 06, Menon Zila",
+      "Uttar Pradesh - 755498"
+    ],
+    "pincode": "755498",
+    "mobile": "9265268660",
+    "aadhaar": "8127 3585 7306",
+    "dob": "09/02/2003",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

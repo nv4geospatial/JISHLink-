@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0069",
+  "data": {
+    "name": "Charles Date",
+    "nominee": "W/O: Zansi",
+    "address_lines": [
+      "83, Bassi",
+      "Maharashtra - 361736"
+    ],
+    "pincode": "361736",
+    "mobile": "7635844374",
+    "aadhaar": "XXXX XXXX 9473",
+    "dob": "06/10/1995",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

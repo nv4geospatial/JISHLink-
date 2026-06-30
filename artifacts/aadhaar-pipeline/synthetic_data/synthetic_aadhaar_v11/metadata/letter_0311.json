@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0311",
+  "data": {
+    "name": "Rehaan Chaudhary",
+    "nominee": "W/O: Sara",
+    "address_lines": [
+      "H.No. 371, Bhat Chowk",
+      "Odisha - 586041"
+    ],
+    "pincode": "586041",
+    "mobile": "9866260270",
+    "aadhaar": "2788 1476 1742",
+    "dob": "03/12/1967",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

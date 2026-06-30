@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0185",
+  "data": {
+    "name": "Ijaya Raval",
+    "nominee": "C/O: Bahadurjit",
+    "address_lines": [
+      "17/753, Cheema Ganj",
+      "Ludhiana, Ahmednagar",
+      "Haryana - 622659"
+    ],
+    "pincode": "622659",
+    "mobile": "9308151513",
+    "aadhaar": "6381 6432 1269",
+    "dob": "16/11/2008",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      160,
+      379
+    ],
+    "back_pincode": [
+      120,
+      415,
+      164,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

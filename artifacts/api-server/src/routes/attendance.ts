@@ -93,75 +93,118 @@ router.get("/tracking", async (req: AuthRequest, res) => {
     return;
   }
 
-  const { date, employee_id } = req.query as { date?: string; employee_id?: string };
-  const targetDate = date ? new Date(date) : new Date();
-  targetDate.setHours(0, 0, 0, 0);
-  const nextDay = new Date(targetDate);
-  nextDay.setDate(nextDay.getDate() + 1);
+  const { from_date, to_date, employee_ids } = req.query as { 
+    from_date?: string; 
+    to_date?: string; 
+    employee_ids?: string;
+  };
 
-  let query = supabase
+  // Parse date range
+  let startDate: Date, endDate: Date;
+  if (from_date && to_date) {
+    startDate = new Date(from_date);
+    endDate = new Date(to_date);
+  } else if (from_date) {
+    startDate = new Date(from_date);
+    endDate = new Date(from_date);
+  } else {
+    // Default to today
+    startDate = new Date();
+    endDate = new Date();
+  }
+  startDate.setHours(0, 0, 0, 0);
+  endDate.setHours(23, 59, 59, 999);
+
+  // Build employee query
+  let empQuery = supabase
     .from("employees")
     .select("*, workplace:workplaces(*)")
     .eq("employment_status", "active");
 
   if (req.user!.role === "recruiter") {
-    query = query.eq("reporting_manager_id", req.user!.employee_id);
-  }
-  if (employee_id) {
-    query = query.eq("id", employee_id);
+    empQuery = empQuery.eq("reporting_manager_id", req.user!.employee_id);
   }
 
-  const { data: employees } = await query;
+  const selectedIds = employee_ids ? employee_ids.split(',') : [];
+  if (selectedIds.length > 0) {
+    empQuery = empQuery.in("id", selectedIds);
+  }
+
+  const { data: employees } = await empQuery;
   const ids = (employees ?? []).map((e) => e.id);
 
-  const { data: logs } = ids.length > 0
-    ? await supabase
-        .from("attendance_logs")
-        .select("*")
-        .in("employee_id", ids)
-        .gte("timestamp", targetDate.toISOString())
-        .lt("timestamp", nextDay.toISOString())
-    : { data: [] };
+  if (ids.length === 0) {
+    res.json([]);
+    return;
+  }
 
-  const records = (employees ?? []).map((emp) => {
-    const empLogs = (logs ?? []).filter((l) => l.employee_id === emp.id);
-    const login = empLogs.find((l) => l.type === "login");
-    const signoff = empLogs.find((l) => l.type === "signoff");
+  // Get logs for date range
+  const { data: logs } = await supabase
+    .from("attendance_logs")
+    .select("*")
+    .in("employee_id", ids)
+    .gte("timestamp", startDate.toISOString())
+    .lte("timestamp", endDate.toISOString())
+    .order("timestamp", { ascending: true });
 
-    let status: "present" | "absent" | "late" | "early_exit" = "absent";
-    if (login) {
-      status = "present";
-      if (emp.shift_start_time) {
-        const [h, m] = emp.shift_start_time.split(":").map(Number);
-        const shiftStart = new Date(targetDate);
-        shiftStart.setHours(h, m, 0, 0);
-        if (new Date(login.timestamp) > shiftStart) {
-          status = "late";
+  // Generate records for each day in range × each employee
+  const records: any[] = [];
+  const currentDate = new Date(startDate);
+  
+  while (currentDate <= endDate) {
+    const dateStr = currentDate.toISOString().split("T")[0];
+    
+    for (const emp of (employees ?? [])) {
+      const dayStart = new Date(currentDate);
+      dayStart.setHours(0, 0, 0, 0);
+      const dayEnd = new Date(currentDate);
+      dayEnd.setHours(23, 59, 59, 999);
+      
+      const empLogs = (logs ?? []).filter((l) => {
+        const logDate = new Date(l.timestamp);
+        return l.employee_id === emp.id && logDate >= dayStart && logDate <= dayEnd;
+      });
+      
+      const login = empLogs.find((l) => l.type === "login");
+      const signoff = empLogs.find((l) => l.type === "signoff");
+
+      let status: "present" | "absent" | "late" | "early_exit" = "absent";
+      if (login) {
+        status = "present";
+        if (emp.shift_start_time) {
+          const [h, m] = emp.shift_start_time.split(":").map(Number);
+          const shiftStart = new Date(currentDate);
+          shiftStart.setHours(h, m, 0, 0);
+          if (new Date(login.timestamp) > shiftStart) {
+            status = "late";
+          }
+        }
+        if (signoff && emp.shift_end_time) {
+          const [h, m] = emp.shift_end_time.split(":").map(Number);
+          const shiftEnd = new Date(currentDate);
+          shiftEnd.setHours(h, m, 0, 0);
+          if (new Date(signoff.timestamp) < shiftEnd) {
+            status = "early_exit";
+          }
         }
       }
-      if (signoff && emp.shift_end_time) {
-        const [h, m] = emp.shift_end_time.split(":").map(Number);
-        const shiftEnd = new Date(targetDate);
-        shiftEnd.setHours(h, m, 0, 0);
-        if (new Date(signoff.timestamp) < shiftEnd) {
-          status = "early_exit";
-        }
-      }
+
+      records.push({
+        employee_id: emp.id,
+        employee_name: emp.full_name,
+        date: dateStr,
+        login_time: login?.timestamp ?? null,
+        login_address: login?.resolved_address ?? null,
+        signoff_time: signoff?.timestamp ?? null,
+        signoff_address: signoff?.resolved_address ?? null,
+        status,
+        shift_start: emp.shift_start_time,
+        shift_end: emp.shift_end_time,
+      });
     }
-
-    return {
-      employee_id: emp.id,
-      employee_name: emp.full_name,
-      date: date || targetDate.toISOString().split("T")[0],
-      login_time: login?.timestamp ?? null,
-      login_address: login?.resolved_address ?? null,
-      signoff_time: signoff?.timestamp ?? null,
-      signoff_address: signoff?.resolved_address ?? null,
-      status,
-      shift_start: emp.shift_start_time,
-      shift_end: emp.shift_end_time,
-    };
-  });
+    
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
 
   res.json(records);
 });

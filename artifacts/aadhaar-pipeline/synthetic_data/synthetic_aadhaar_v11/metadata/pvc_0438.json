@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0438",
+  "data": {
+    "name": "Ranbir Kumar",
+    "nominee": "D/O: Vasana",
+    "address_lines": [
+      "79/176, Munshi Marg",
+      "Odisha - 464969"
+    ],
+    "pincode": "464969",
+    "mobile": "9977358932",
+    "aadhaar": "6026 6765 2728",
+    "dob": "1949",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      376
+    ],
+    "back_pincode": [
+      115,
+      397,
+      159,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

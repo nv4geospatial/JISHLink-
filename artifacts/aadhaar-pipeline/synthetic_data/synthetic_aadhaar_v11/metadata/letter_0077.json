@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0077",
+  "data": {
+    "name": "Tanveer Vala",
+    "nominee": "W/O: Pooja",
+    "address_lines": [
+      "H.No. 369, Amble Nagar",
+      "Anantapuram, Hajipur",
+      "Gujarat - 455556"
+    ],
+    "pincode": "455556",
+    "mobile": "7313736772",
+    "aadhaar": "XXXX XXXX 5787",
+    "dob": "11/01/1956",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0428",
+  "data": {
+    "name": "Qasim Sachdev",
+    "nominee": "S/O: Dalbir",
+    "address_lines": [
+      "605, Uppal Nagar",
+      "Maharashtra - 562991"
+    ],
+    "pincode": "562991",
+    "mobile": "7165655153",
+    "aadhaar": "XXXX XXXX 3703",
+    "dob": "21/05/2000",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      142,
+      397,
+      186,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

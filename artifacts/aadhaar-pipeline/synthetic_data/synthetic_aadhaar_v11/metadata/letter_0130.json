@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0130",
+  "data": {
+    "name": "Sanaya Bhakta",
+    "nominee": "S/O: Utkarsh",
+    "address_lines": [
+      "74/06, Aggarwal Road",
+      "Andhra Pradesh - 710610"
+    ],
+    "pincode": "710610",
+    "mobile": "7123407763",
+    "aadhaar": "1372 1510 7029",
+    "dob": "04/03/1997",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

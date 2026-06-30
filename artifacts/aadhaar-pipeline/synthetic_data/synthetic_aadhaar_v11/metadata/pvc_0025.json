@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0025",
+  "data": {
+    "name": "Daksha Chander",
+    "nominee": "D/O: Damini",
+    "address_lines": [
+      "164, Kaul Ganj",
+      "Madanapalle, Indore",
+      "Haryana - 595104"
+    ],
+    "pincode": "595104",
+    "mobile": "7446522472",
+    "aadhaar": "2410 3977 3973",
+    "dob": "13/08/1962",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      376
+    ],
+    "back_pincode": [
+      120,
+      412,
+      165,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

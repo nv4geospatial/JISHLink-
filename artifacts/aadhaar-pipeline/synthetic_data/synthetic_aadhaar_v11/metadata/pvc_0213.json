@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0213",
+  "data": {
+    "name": "Rudra Gole",
+    "nominee": "C/O: Utkarsh",
+    "address_lines": [
+      "71/20, Bajwa Marg",
+      "Rourkela, Gurgaon",
+      "West Bengal - 600801"
+    ],
+    "pincode": "600801",
+    "mobile": "9300533137",
+    "aadhaar": "0974 6191 7798",
+    "dob": "08/12/1992",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

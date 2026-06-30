@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0155",
+  "data": {
+    "name": "Gaurang Halder",
+    "nominee": "W/O: Aahana",
+    "address_lines": [
+      "H.No. 459, Madan Marg",
+      "Varanasi, Nashik",
+      "West Bengal - 719596"
+    ],
+    "pincode": "719596",
+    "mobile": "8800138394",
+    "aadhaar": "0394 6408 3037",
+    "dob": "04/08/1993",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

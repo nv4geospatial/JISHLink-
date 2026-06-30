@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0233",
+  "data": {
+    "name": "Yasti Borde",
+    "nominee": "D/O: Lavanya",
+    "address_lines": [
+      "H.No. 204, Munshi Path",
+      "Odisha - 111846"
+    ],
+    "pincode": "111846",
+    "mobile": "8373178728",
+    "aadhaar": "1448 8501 5569",
+    "dob": "1972",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0260",
+  "data": {
+    "name": "Ekaraj Hari",
+    "nominee": "S/O: Nathan",
+    "address_lines": [
+      "92/995, Sangha Path",
+      "Hospet, Tadepalligudem",
+      "Maharashtra - 239849"
+    ],
+    "pincode": "239849",
+    "mobile": "9757604060",
+    "aadhaar": "6207 1002 1946",
+    "dob": "23/04/1953",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

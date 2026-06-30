@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0479",
+  "data": {
+    "name": "Bhanumati Kala",
+    "nominee": "C/O: Chakradhar",
+    "address_lines": [
+      "H.No. 894, Modi Ganj",
+      "Odisha - 713160"
+    ],
+    "pincode": "713160",
+    "mobile": "8954543820",
+    "aadhaar": "4551 1668 2973",
+    "dob": "16/09/1995",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

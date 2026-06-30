@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0068",
+  "data": {
+    "name": "Jackson Butala",
+    "nominee": "S/O: Darsh",
+    "address_lines": [
+      "H.No. 19, Rajagopalan Street",
+      "Danapur, Lucknow",
+      "Haryana - 780952"
+    ],
+    "pincode": "780952",
+    "mobile": "7456256926",
+    "aadhaar": "1169 6667 2521",
+    "dob": "1977",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      376
+    ],
+    "back_pincode": [
+      120,
+      412,
+      164,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

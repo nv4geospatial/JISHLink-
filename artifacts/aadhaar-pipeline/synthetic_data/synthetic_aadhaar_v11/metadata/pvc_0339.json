@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0339",
+  "data": {
+    "name": "Ekantika Babu",
+    "nominee": "C/O: Daksh",
+    "address_lines": [
+      "82/69, Issac Zila",
+      "Tamil Nadu - 509829"
+    ],
+    "pincode": "509829",
+    "mobile": "8883651906",
+    "aadhaar": "2332 8293 0202",
+    "dob": "03/08/1947",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      137,
+      397,
+      181,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

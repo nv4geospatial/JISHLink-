@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0363",
+  "data": {
+    "name": "Jeremiah Desai",
+    "nominee": "S/O: Abdul",
+    "address_lines": [
+      "126, Sandal Chowk",
+      "West Bengal - 343697"
+    ],
+    "pincode": "343697",
+    "mobile": "8286424733",
+    "aadhaar": "XXXX XXXX 1495",
+    "dob": "10/11/1987",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0312",
+  "data": {
+    "name": "Ojasvi Pillay",
+    "nominee": "S/O: Ayush",
+    "address_lines": [
+      "H.No. 381, Kashyap Zila",
+      "Gujarat - 147285"
+    ],
+    "pincode": "147285",
+    "mobile": "8543476209",
+    "aadhaar": "1794 5491 8017",
+    "dob": "24/11/1980",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

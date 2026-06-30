@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0102",
+  "data": {
+    "name": "Lavanya Kurian",
+    "nominee": "C/O: Harshil",
+    "address_lines": [
+      "62/73, Pillay Marg",
+      "Muzaffarnagar, Agartala",
+      "Rajasthan - 756293"
+    ],
+    "pincode": "756293",
+    "mobile": "9576890916",
+    "aadhaar": "5147 4397 4292",
+    "dob": "1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      174,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

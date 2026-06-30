@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0204",
+  "data": {
+    "name": "Unnati Bansal",
+    "nominee": "D/O: Wakeeta",
+    "address_lines": [
+      "H.No. 724, Lad Road",
+      "Bihar - 725278"
+    ],
+    "pincode": "725278",
+    "mobile": "9957562163",
+    "aadhaar": "1776 0299 1406",
+    "dob": "17/07/2006",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      150,
+      376
+    ],
+    "back_pincode": [
+      105,
+      397,
+      149,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

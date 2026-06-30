@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0186",
+  "data": {
+    "name": "Chakradhar Rattan",
+    "nominee": "W/O: Vidhi",
+    "address_lines": [
+      "H.No. 534, Modi",
+      "Kerala - 516760"
+    ],
+    "pincode": "516760",
+    "mobile": "9941586401",
+    "aadhaar": "8725 8874 4956",
+    "dob": "12/09/1996",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

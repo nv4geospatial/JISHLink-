@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0495",
+  "data": {
+    "name": "Pallavi Seth",
+    "nominee": "C/O: Ansh",
+    "address_lines": [
+      "H.No. 749, Rai Road",
+      "Odisha - 428221"
+    ],
+    "pincode": "428221",
+    "mobile": "8861141405",
+    "aadhaar": "7881 1616 2028",
+    "dob": "07/06/2016",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0249",
+  "data": {
+    "name": "Jhalak Hegde",
+    "nominee": "D/O: Nandini",
+    "address_lines": [
+      "06, Lalla Road",
+      "Madhya Pradesh - 745710"
+    ],
+    "pincode": "745710",
+    "mobile": "8115250362",
+    "aadhaar": "1929 2752 4372",
+    "dob": "18/05/1950",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

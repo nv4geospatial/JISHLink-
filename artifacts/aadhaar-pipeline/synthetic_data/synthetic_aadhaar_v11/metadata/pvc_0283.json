@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0283",
+  "data": {
+    "name": "Sachi Khurana",
+    "nominee": "D/O: Vedhika",
+    "address_lines": [
+      "10, Ray Nagar",
+      "Telangana - 268734"
+    ],
+    "pincode": "268734",
+    "mobile": "8358095832",
+    "aadhaar": "1261 6850 7105",
+    "dob": "22/05/2006",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      376
+    ],
+    "back_pincode": [
+      132,
+      397,
+      177,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0450",
+  "data": {
+    "name": "Kala Shanker",
+    "nominee": "S/O: Brijesh",
+    "address_lines": [
+      "36/694, Chandran Zila",
+      "Nandyal, North Dumdum",
+      "Haryana - 387230"
+    ],
+    "pincode": "387230",
+    "mobile": "9582399282",
+    "aadhaar": "8245 5696 4430",
+    "dob": "28/10/1982",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

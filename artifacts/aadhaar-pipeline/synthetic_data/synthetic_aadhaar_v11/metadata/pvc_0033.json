@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0033",
+  "data": {
+    "name": "Raksha Dey",
+    "nominee": "C/O: Warinder",
+    "address_lines": [
+      "418, Ganguly Marg",
+      "Nanded, Surat",
+      "Maharashtra - 306984"
+    ],
+    "pincode": "306984",
+    "mobile": "7742413041",
+    "aadhaar": "7490 9617 3997",
+    "dob": "1946",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      153,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

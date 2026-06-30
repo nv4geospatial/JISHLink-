@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0210",
+  "data": {
+    "name": "Jairaj Wable",
+    "nominee": "D/O: Vrishti",
+    "address_lines": [
+      "535, Shah Ganj",
+      "Odisha - 334784"
+    ],
+    "pincode": "334784",
+    "mobile": "9270958116",
+    "aadhaar": "1650 5871 4692",
+    "dob": "01/06/1964",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      115,
+      397,
+      160,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

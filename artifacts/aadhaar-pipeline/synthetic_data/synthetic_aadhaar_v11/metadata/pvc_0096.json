@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0096",
+  "data": {
+    "name": "Saksham Walla",
+    "nominee": "W/O: Anya",
+    "address_lines": [
+      "H.No. 71, Bir Marg",
+      "Gurgaon, Karaikudi",
+      "Jharkhand - 499987"
+    ],
+    "pincode": "499987",
+    "mobile": "8492678179",
+    "aadhaar": "0622 9231 0672",
+    "dob": "1977",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      133,
+      414,
+      177,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0287",
+  "data": {
+    "name": "Abhiram Arora",
+    "nominee": "C/O: Henry",
+    "address_lines": [
+      "42/84, Luthra Ganj",
+      "Madhya Pradesh - 636256"
+    ],
+    "pincode": "636256",
+    "mobile": "8216003492",
+    "aadhaar": "1477 3201 0170",
+    "dob": "1976",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

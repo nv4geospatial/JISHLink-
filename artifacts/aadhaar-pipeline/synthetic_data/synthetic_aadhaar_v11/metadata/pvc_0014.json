@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0014",
+  "data": {
+    "name": "Wriddhish Pingle",
+    "nominee": "S/O: Quincy",
+    "address_lines": [
+      "233, Radhakrishnan Circle",
+      "Hajipur, Amritsar",
+      "Jharkhand - 787728"
+    ],
+    "pincode": "787728",
+    "mobile": "7272747645",
+    "aadhaar": "5298 6707 6604",
+    "dob": "06/04/1993",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      378
+    ],
+    "back_pincode": [
+      133,
+      414,
+      177,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0233",
+  "data": {
+    "name": "Arya Subramanian",
+    "nominee": "D/O: Yashica",
+    "address_lines": [
+      "17/39, Ranganathan Nagar",
+      "Pune, Singrauli",
+      "Haryana - 698229"
+    ],
+    "pincode": "698229",
+    "mobile": "7124524881",
+    "aadhaar": "2929 5014 3748",
+    "dob": "07/02/1999",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      376
+    ],
+    "back_pincode": [
+      120,
+      412,
+      164,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

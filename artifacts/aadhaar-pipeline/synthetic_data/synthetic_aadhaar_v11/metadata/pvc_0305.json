@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0305",
+  "data": {
+    "name": "Jalsa Sehgal",
+    "nominee": "S/O: Hredhaan",
+    "address_lines": [
+      "H.No. 53, Kumer Road",
+      "Pondicherry, Ambattur",
+      "Odisha - 535904"
+    ],
+    "pincode": "535904",
+    "mobile": "9897034641",
+    "aadhaar": "1746 9029 8310",
+    "dob": "14/05/1986",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      155,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      160,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

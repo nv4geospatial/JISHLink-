@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0195",
+  "data": {
+    "name": "Rachit Maharaj",
+    "nominee": "D/O: Vansha",
+    "address_lines": [
+      "87, Chahal Nagar",
+      "Kerala - 595962"
+    ],
+    "pincode": "595962",
+    "mobile": "8636439085",
+    "aadhaar": "2885 7448 9061",
+    "dob": "1961",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

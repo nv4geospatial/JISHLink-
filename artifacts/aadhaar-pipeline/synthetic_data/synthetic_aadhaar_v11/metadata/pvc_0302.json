@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0302",
+  "data": {
+    "name": "Yahvi Sarraf",
+    "nominee": "C/O: Laksh",
+    "address_lines": [
+      "79/706, Krish Chowk",
+      "Uttar Pradesh - 270407"
+    ],
+    "pincode": "270407",
+    "mobile": "9329513860",
+    "aadhaar": "9482 3220 4144",
+    "dob": "1961",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      376
+    ],
+    "back_pincode": [
+      149,
+      397,
+      193,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

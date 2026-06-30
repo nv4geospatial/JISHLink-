@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0494",
+  "data": {
+    "name": "Bhavna Luthra",
+    "nominee": "W/O: Diya",
+    "address_lines": [
+      "93, Dave Road",
+      "West Bengal - 655108"
+    ],
+    "pincode": "655108",
+    "mobile": "8918286899",
+    "aadhaar": "XXXX XXXX 1797",
+    "dob": "25/04/1984",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      131,
+      378
+    ],
+    "back_pincode": [
+      143,
+      399,
+      187,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

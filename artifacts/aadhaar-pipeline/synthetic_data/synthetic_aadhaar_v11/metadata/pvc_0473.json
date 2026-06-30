@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0473",
+  "data": {
+    "name": "Shaurya Solanki",
+    "nominee": "W/O: Rajata",
+    "address_lines": [
+      "H.No. 462, Sheth Chowk",
+      "Nellore, Amritsar",
+      "Telangana - 389873"
+    ],
+    "pincode": "389873",
+    "mobile": "7312155828",
+    "aadhaar": "2360 6679 9864",
+    "dob": "11/07/1990",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      379
+    ],
+    "back_pincode": [
+      132,
+      415,
+      176,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

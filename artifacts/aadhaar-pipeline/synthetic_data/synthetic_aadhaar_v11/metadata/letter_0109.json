@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0109",
+  "data": {
+    "name": "Nidra Mishra",
+    "nominee": "S/O: Utkarsh",
+    "address_lines": [
+      "73, Dhawan Path",
+      "Allahabad, Gandhidham",
+      "Maharashtra - 705393"
+    ],
+    "pincode": "705393",
+    "mobile": "9300746596",
+    "aadhaar": "5537 1478 5969",
+    "dob": "1964",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

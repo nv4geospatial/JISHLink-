@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0287",
+  "data": {
+    "name": "Ganga Seshadri",
+    "nominee": "D/O: Mahika",
+    "address_lines": [
+      "H.No. 95, Mohanty Road",
+      "Karnataka - 477427"
+    ],
+    "pincode": "477427",
+    "mobile": "7462275233",
+    "aadhaar": "2680 6486 0673",
+    "dob": "18/04/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

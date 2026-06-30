@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0010",
+  "data": {
+    "name": "Saksham Biswas",
+    "nominee": "D/O: Ijaya",
+    "address_lines": [
+      "46/52, Sha Zila",
+      "Ghaziabad, Adoni",
+      "Haryana - 415183"
+    ],
+    "pincode": "415183",
+    "mobile": "9662732476",
+    "aadhaar": "3922 5014 2576",
+    "dob": "28/01/2007",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      130,
+      379
+    ],
+    "back_pincode": [
+      120,
+      415,
+      164,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

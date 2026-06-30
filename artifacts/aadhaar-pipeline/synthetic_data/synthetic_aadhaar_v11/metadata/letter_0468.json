@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0468",
+  "data": {
+    "name": "Warhi Mannan",
+    "nominee": "D/O: Widisha",
+    "address_lines": [
+      "06/95, Bhatt Circle",
+      "Bihar - 559859"
+    ],
+    "pincode": "559859",
+    "mobile": "8475452581",
+    "aadhaar": "9342 9671 1148",
+    "dob": "06/11/1960",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0061",
+  "data": {
+    "name": "Ranveer Rama",
+    "nominee": "W/O: Odika",
+    "address_lines": [
+      "H.No. 875, Minhas Street",
+      "Kerala - 520815"
+    ],
+    "pincode": "520815",
+    "mobile": "7636695255",
+    "aadhaar": "1559 8354 1165",
+    "dob": "14/02/2004",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

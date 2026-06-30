@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0160",
+  "data": {
+    "name": "Hemal Shah",
+    "nominee": "D/O: Yoshita",
+    "address_lines": [
+      "H.No. 14, Contractor Nagar",
+      "Fatehpur, Bahraich",
+      "Gujarat - 454733"
+    ],
+    "pincode": "454733",
+    "mobile": "9763829091",
+    "aadhaar": "1637 5628 9002",
+    "dob": "17/03/1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

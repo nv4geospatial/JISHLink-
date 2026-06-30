@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0354",
+  "data": {
+    "name": "Pooja Raval",
+    "nominee": "D/O: Saanvi",
+    "address_lines": [
+      "79/64, Mani Chowk",
+      "Nagpur, Vasai-Virar",
+      "Madhya Pradesh - 741449"
+    ],
+    "pincode": "741449",
+    "mobile": "7402155787",
+    "aadhaar": "7891 1797 2699",
+    "dob": "28/01/1999",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      164,
+      412,
+      208,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0075",
+  "data": {
+    "name": "Pratyush Dhar",
+    "nominee": "W/O: Bhavya",
+    "address_lines": [
+      "52, Muni Path",
+      "Kerala - 299055"
+    ],
+    "pincode": "299055",
+    "mobile": "9601238919",
+    "aadhaar": "XXXX XXXX 3395",
+    "dob": "02/05/1995",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

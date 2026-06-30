@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0415",
+  "data": {
+    "name": "Baghyawati Pradhan",
+    "nominee": "C/O: Xavier",
+    "address_lines": [
+      "833, Vora Circle",
+      "Mau, Kota",
+      "Telangana - 681074"
+    ],
+    "pincode": "681074",
+    "mobile": "9638881430",
+    "aadhaar": "XXXX XXXX 2369",
+    "dob": "17/10/2004",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -30,6 +30,7 @@ export default function EmployeeLayout() {
       <Stack.Screen name="dashboard" />
       <Stack.Screen name="attendance" />
       <Stack.Screen name="notifications" />
+      <Stack.Screen name="scanner" />
     </Stack>
   );
 }

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0290",
+  "data": {
+    "name": "Vasatika Gill",
+    "nominee": "C/O: Wyatt",
+    "address_lines": [
+      "H.No. 33, Mall Street",
+      "Kanpur, Tiruvottiyur",
+      "Uttar Pradesh - 507964"
+    ],
+    "pincode": "507964",
+    "mobile": "7280592735",
+    "aadhaar": "0695 3541 2012",
+    "dob": "01/10/1986",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      149,
+      414,
+      194,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

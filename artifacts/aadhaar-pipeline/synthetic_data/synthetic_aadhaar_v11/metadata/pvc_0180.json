@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0180",
+  "data": {
+    "name": "Jairaj Mital",
+    "nominee": "S/O: Samaksh",
+    "address_lines": [
+      "79/16, Bains Street",
+      "Udaipur, Bongaigaon",
+      "Bihar - 643115"
+    ],
+    "pincode": "643115",
+    "mobile": "7553250483",
+    "aadhaar": "8157 2450 0000",
+    "dob": "16/07/1954",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      152,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

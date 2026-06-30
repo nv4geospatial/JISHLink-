@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0130",
+  "data": {
+    "name": "Finn Misra",
+    "nominee": "W/O: Ubika",
+    "address_lines": [
+      "54, Issac Street",
+      "Kerala - 233611"
+    ],
+    "pincode": "233611",
+    "mobile": "9837364568",
+    "aadhaar": "6309 0015 9446",
+    "dob": "1967",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

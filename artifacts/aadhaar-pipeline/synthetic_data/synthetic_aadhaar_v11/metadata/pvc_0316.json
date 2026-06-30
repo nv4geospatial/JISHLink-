@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0316",
+  "data": {
+    "name": "Nachiket Dey",
+    "nominee": "S/O: Wahab",
+    "address_lines": [
+      "62/62, Venkataraman Street",
+      "Ghaziabad, Durg",
+      "Telangana - 759868"
+    ],
+    "pincode": "759868",
+    "mobile": "7973673014",
+    "aadhaar": "7810 5580 0027",
+    "dob": "08/11/2013",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      140,
+      376
+    ],
+    "back_pincode": [
+      132,
+      412,
+      176,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

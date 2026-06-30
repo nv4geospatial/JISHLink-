@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0284",
+  "data": {
+    "name": "Upma Rajan",
+    "nominee": "S/O: Balendra",
+    "address_lines": [
+      "70, Rao Road",
+      "Maharashtra - 788848"
+    ],
+    "pincode": "788848",
+    "mobile": "8186834388",
+    "aadhaar": "0537 0923 0071",
+    "dob": "11/06/2003",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      152,
+      376
+    ],
+    "back_pincode": [
+      142,
+      397,
+      186,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

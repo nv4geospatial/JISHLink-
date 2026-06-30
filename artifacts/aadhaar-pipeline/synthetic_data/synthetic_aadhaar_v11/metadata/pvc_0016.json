@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0016",
+  "data": {
+    "name": "Dhruv Ganesh",
+    "nominee": "W/O: Yashoda",
+    "address_lines": [
+      "58/777, Rattan Road",
+      "Rajasthan - 364583"
+    ],
+    "pincode": "364583",
+    "mobile": "8923381466",
+    "aadhaar": "0842 4560 7540",
+    "dob": "27/12/1988",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      154,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

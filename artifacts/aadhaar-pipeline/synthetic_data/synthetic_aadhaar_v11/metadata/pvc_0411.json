@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0411",
+  "data": {
+    "name": "Ayushman Barad",
+    "nominee": "W/O: Upma",
+    "address_lines": [
+      "14/473, Bajwa Road",
+      "Telangana - 500383"
+    ],
+    "pincode": "500383",
+    "mobile": "8803399213",
+    "aadhaar": "2276 3460 1915",
+    "dob": "05/07/1991",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      379
+    ],
+    "back_pincode": [
+      132,
+      400,
+      176,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

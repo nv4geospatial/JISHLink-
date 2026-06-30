@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0131",
+  "data": {
+    "name": "Oni Subramaniam",
+    "nominee": "D/O: Gaurika",
+    "address_lines": [
+      "H.No. 992, Nadig Path",
+      "Aurangabad, Hyderabad",
+      "Kerala - 280189"
+    ],
+    "pincode": "280189",
+    "mobile": "8318121210",
+    "aadhaar": "8902 1994 7113",
+    "dob": "1941",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      376
+    ],
+    "back_pincode": [
+      110,
+      412,
+      154,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0135",
+  "data": {
+    "name": "Nicholas Sarin",
+    "nominee": "C/O: Rayaan",
+    "address_lines": [
+      "H.No. 110, Sabharwal",
+      "Bihar - 265777"
+    ],
+    "pincode": "265777",
+    "mobile": "9792573087",
+    "aadhaar": "8983 0650 3121",
+    "dob": "15/05/1948",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      144,
+      378
+    ],
+    "back_pincode": [
+      105,
+      399,
+      149,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

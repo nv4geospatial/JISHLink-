@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0466",
+  "data": {
+    "name": "Amol Guha",
+    "nominee": "W/O: Jagrati",
+    "address_lines": [
+      "H.No. 472, Sami Chowk",
+      "Maharashtra - 143768"
+    ],
+    "pincode": "143768",
+    "mobile": "9341855018",
+    "aadhaar": "5674 3000 3896",
+    "dob": "24/02/1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0435",
+  "data": {
+    "name": "Ekiya Khatri",
+    "nominee": "C/O: Girish",
+    "address_lines": [
+      "H.No. 49, Guha Marg",
+      "Farrukhabad, Thanjavur",
+      "Kerala - 696261"
+    ],
+    "pincode": "696261",
+    "mobile": "7385766802",
+    "aadhaar": "2647 1068 0177",
+    "dob": "19/11/1998",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      137,
+      376
+    ],
+    "back_pincode": [
+      110,
+      412,
+      154,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

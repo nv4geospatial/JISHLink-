@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0050",
+  "data": {
+    "name": "Netra Varkey",
+    "nominee": "S/O: Aadi",
+    "address_lines": [
+      "77/03, Deep Road",
+      "Andhra Pradesh - 392099"
+    ],
+    "pincode": "392099",
+    "mobile": "8702332331",
+    "aadhaar": "XXXX XXXX 4455",
+    "dob": "30/12/2010",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

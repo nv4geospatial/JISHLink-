@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0175",
+  "data": {
+    "name": "Keya Sarkar",
+    "nominee": "C/O: Chanakya",
+    "address_lines": [
+      "56, Salvi Chowk",
+      "Telangana - 683309"
+    ],
+    "pincode": "683309",
+    "mobile": "9204701827",
+    "aadhaar": "XXXX XXXX 2333",
+    "dob": "24/07/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      158,
+      378
+    ],
+    "back_pincode": [
+      132,
+      399,
+      176,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

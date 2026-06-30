@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0148",
+  "data": {
+    "name": "Devansh Sengupta",
+    "nominee": "C/O: Fiyaz",
+    "address_lines": [
+      "H.No. 98, Rao Path",
+      "Maharashtra - 186904"
+    ],
+    "pincode": "186904",
+    "mobile": "9109115922",
+    "aadhaar": "2867 1200 7202",
+    "dob": "08/10/1942",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      133,
+      378
+    ],
+    "back_pincode": [
+      142,
+      399,
+      187,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

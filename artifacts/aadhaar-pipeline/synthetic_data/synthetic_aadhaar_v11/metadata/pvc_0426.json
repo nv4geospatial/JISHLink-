@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0426",
+  "data": {
+    "name": "Jyoti Cherian",
+    "nominee": "C/O: Shaurya",
+    "address_lines": [
+      "H.No. 114, Soman Path",
+      "Visakhapatnam, Junagadh",
+      "Madhya Pradesh - 541042"
+    ],
+    "pincode": "541042",
+    "mobile": "7626760528",
+    "aadhaar": "8961 5738 5512",
+    "dob": "1970",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      378
+    ],
+    "back_pincode": [
+      164,
+      414,
+      208,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

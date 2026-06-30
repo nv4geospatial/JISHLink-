@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0151",
+  "data": {
+    "name": "Falan Sama",
+    "nominee": "S/O: Teerth",
+    "address_lines": [
+      "70, Sama Road",
+      "Imphal, Thiruvananthapuram",
+      "Andhra Pradesh - 161601"
+    ],
+    "pincode": "161601",
+    "mobile": "7215614607",
+    "aadhaar": "XXXX XXXX 3766",
+    "dob": "22/07/1949",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      138,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

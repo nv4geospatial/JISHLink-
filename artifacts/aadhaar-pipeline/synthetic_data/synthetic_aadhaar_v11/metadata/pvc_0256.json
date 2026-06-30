@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0256",
+  "data": {
+    "name": "Advika Balay",
+    "nominee": "S/O: Dalbir",
+    "address_lines": [
+      "H.No. 96, Bandi",
+      "Fatehpur, Bhind",
+      "Tamil Nadu - 366875"
+    ],
+    "pincode": "366875",
+    "mobile": "7530149880",
+    "aadhaar": "5025 4472 4191",
+    "dob": "28/12/1964",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      137,
+      412,
+      181,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

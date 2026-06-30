@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0338",
+  "data": {
+    "name": "Gautami Doctor",
+    "nominee": "C/O: Finn",
+    "address_lines": [
+      "H.No. 74, Dalal Street",
+      "Jharkhand - 216335"
+    ],
+    "pincode": "216335",
+    "mobile": "9630440618",
+    "aadhaar": "2839 9921 9212",
+    "dob": "12/10/2008",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

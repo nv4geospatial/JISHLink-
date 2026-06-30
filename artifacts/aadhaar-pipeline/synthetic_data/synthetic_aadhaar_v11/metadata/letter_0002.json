@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0002",
+  "data": {
+    "name": "Onveer Walla",
+    "nominee": "C/O: Jason",
+    "address_lines": [
+      "50/305, Loyal Marg",
+      "Kerala - 195325"
+    ],
+    "pincode": "195325",
+    "mobile": "7264112119",
+    "aadhaar": "2691 6697 8480",
+    "dob": "1945",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

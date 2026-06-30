@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0052",
+  "data": {
+    "name": "Jacob Dube",
+    "nominee": "W/O: Mugdha",
+    "address_lines": [
+      "82, Halder Marg",
+      "Maharashtra - 550797"
+    ],
+    "pincode": "550797",
+    "mobile": "9736873048",
+    "aadhaar": "7840 3690 0343",
+    "dob": "22/07/2010",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

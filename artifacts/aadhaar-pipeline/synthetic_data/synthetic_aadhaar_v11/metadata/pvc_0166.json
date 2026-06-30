@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0166",
+  "data": {
+    "name": "Chakradev Badal",
+    "nominee": "C/O: Maanav",
+    "address_lines": [
+      "H.No. 457, Panchal Chowk",
+      "Madhya Pradesh - 706424"
+    ],
+    "pincode": "706424",
+    "mobile": "9233840633",
+    "aadhaar": "6497 0169 3429",
+    "dob": "19/09/2015",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      146,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      209,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0020",
+  "data": {
+    "name": "Balveer Parmar",
+    "nominee": "D/O: Kritika",
+    "address_lines": [
+      "226, Gola Nagar",
+      "Karaikudi, Udupi",
+      "Rajasthan - 167348"
+    ],
+    "pincode": "167348",
+    "mobile": "9600282414",
+    "aadhaar": "6036 6909 6705",
+    "dob": "21/06/1996",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

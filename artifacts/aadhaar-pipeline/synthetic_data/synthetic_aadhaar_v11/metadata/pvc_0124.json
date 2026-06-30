@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0124",
+  "data": {
+    "name": "Omkaar Merchant",
+    "nominee": "W/O: Bhavna",
+    "address_lines": [
+      "74/747, Dasgupta Street",
+      "Nagercoil, Madurai",
+      "Uttar Pradesh - 526132"
+    ],
+    "pincode": "526132",
+    "mobile": "7444120916",
+    "aadhaar": "6035 6793 2798",
+    "dob": "04/05/2014",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

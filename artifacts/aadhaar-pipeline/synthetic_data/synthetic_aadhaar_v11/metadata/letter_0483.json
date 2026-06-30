@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0483",
+  "data": {
+    "name": "Zilmil Rana",
+    "nominee": "W/O: Yahvi",
+    "address_lines": [
+      "27/72, Wadhwa Circle",
+      "Unnao, Ujjain",
+      "Karnataka - 387150"
+    ],
+    "pincode": "387150",
+    "mobile": "7409751772",
+    "aadhaar": "4913 4213 8820",
+    "dob": "1949",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

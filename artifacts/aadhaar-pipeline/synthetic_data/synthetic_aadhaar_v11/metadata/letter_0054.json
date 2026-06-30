@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0054",
+  "data": {
+    "name": "Sanya Yohannan",
+    "nominee": "W/O: Pooja",
+    "address_lines": [
+      "63/60, Solanki Path",
+      "Sirsa, Maheshtala",
+      "Rajasthan - 192410"
+    ],
+    "pincode": "192410",
+    "mobile": "7567804106",
+    "aadhaar": "9681 6453 5218",
+    "dob": "02/02/1994",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0420",
+  "data": {
+    "name": "Xalak Nagarajan",
+    "nominee": "S/O: Parth",
+    "address_lines": [
+      "99, Swaminathan Path",
+      "Rohtak, Yamunanagar",
+      "Bihar - 594585"
+    ],
+    "pincode": "594585",
+    "mobile": "9916529974",
+    "aadhaar": "0371 6160 8819",
+    "dob": "01/02/2016",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      132,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      139,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0350",
+  "data": {
+    "name": "Orinder Gulati",
+    "nominee": "C/O: Zaid",
+    "address_lines": [
+      "29/592, Goel Chowk",
+      "Rajasthan - 343889"
+    ],
+    "pincode": "343889",
+    "mobile": "9873310521",
+    "aadhaar": "2629 4206 6154",
+    "dob": "1979",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

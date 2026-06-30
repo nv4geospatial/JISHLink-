@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0445",
+  "data": {
+    "name": "Yuvraj Mannan",
+    "nominee": "W/O: Sachi",
+    "address_lines": [
+      "06/955, Bahri Marg",
+      "Jharkhand - 430726"
+    ],
+    "pincode": "430726",
+    "mobile": "7305140378",
+    "aadhaar": "2115 3550 5143",
+    "dob": "1977",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      133,
+      397,
+      177,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

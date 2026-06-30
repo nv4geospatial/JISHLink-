@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0445",
+  "data": {
+    "name": "Eta Setty",
+    "nominee": "C/O: Akshay",
+    "address_lines": [
+      "34, Butala Path",
+      "Tamil Nadu - 632599"
+    ],
+    "pincode": "632599",
+    "mobile": "8497048982",
+    "aadhaar": "1066 3436 2948",
+    "dob": "30/11/1948",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

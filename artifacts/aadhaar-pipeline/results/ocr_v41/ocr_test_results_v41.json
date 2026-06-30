@@ -1,0 +1,182 @@
+[
+  {
+    "image": "letter_0002.jpg",
+    "format": "letter",
+    "aadhaar_number": "9691 6697 8480",
+    "name": "Onveer Walla",
+    "dob": "1945",
+    "gender": "Female",
+    "address": "50/305,Loyal Marg Kerala",
+    "nominee": "C/O: Jason",
+    "pincode": "195325",
+    "mobile": "7264112119",
+    "quality": {
+      "aadhaar_number": "corrected",
+      "aadhaar_source": "fixed_digit_0_2->9",
+      "name": "ok",
+      "dob": "year_only",
+      "gender": "ok",
+      "address_nominee": "ok",
+      "address_pincode": "before_mobile",
+      "address_mobile": "ok"
+    },
+    "confidence": {
+      "address_block": 0.97,
+      "photo_area": 0.953,
+      "aadhaar_area": 0.926,
+      "nominee": 0.869,
+      "mobile": 0.813,
+      "pincode": 0.71
+    }
+  },
+  {
+    "image": "letter_0009.jpg",
+    "format": "letter",
+    "aadhaar_number": "4909 1699 8543",
+    "name": "Abhimany",
+    "dob": "20/06/1995",
+    "gender": "Female",
+    "address": "34/73,De0 Circle Rajasthan",
+    "nominee": "S/O: Ayushman",
+    "pincode": "346629",
+    "mobile": "9364371717",
+    "quality": {
+      "aadhaar_number": "corrected",
+      "aadhaar_source": "fixed_digit_0_9->4",
+      "name": "short",
+      "dob": "full",
+      "gender": "ok",
+      "address_nominee": "ok",
+      "address_pincode": "before_mobile",
+      "address_mobile": "ok"
+    },
+    "confidence": {
+      "address_block": 0.969,
+      "photo_area": 0.956,
+      "aadhaar_area": 0.923,
+      "nominee": 0.9,
+      "mobile": 0.824,
+      "pincode": 0.693
+    }
+  },
+  {
+    "image": "letter_0011.jpg",
+    "format": "letter",
+    "aadhaar_number": "7118 2449 3534",
+    "name": "Guneet Bhat",
+    "dob": "1959",
+    "gender": "Male",
+    "address": "72/62,Shere Road Moradabad, Nellore Madhya Pradesh",
+    "nominee": "S/O: Saksham",
+    "pincode": "681542",
+    "mobile": "7244193987",
+    "quality": {
+      "aadhaar_number": "corrected",
+      "aadhaar_source": "fixed_digit_0_4->7",
+      "name": "ok",
+      "dob": "year_only",
+      "gender": "ok",
+      "address_nominee": "ok",
+      "address_pincode": "before_mobile",
+      "address_mobile": "ok"
+    },
+    "confidence": {
+      "address_block": 0.969,
+      "photo_area": 0.949,
+      "aadhaar_area": 0.926,
+      "mobile": 0.896,
+      "nominee": 0.888,
+      "pincode": 0.77
+    }
+  },
+  {
+    "image": "pvc_0002.jpg",
+    "format": "pvc",
+    "aadhaar_number": "3809 4047 6044",
+    "name": "Ninarika Mahal",
+    "dob": "19/11/1940",
+    "gender": "Male",
+    "address": "H.No.68,Mutti Chowk Andhra Pradesh",
+    "nominee": "D/O: Yochana",
+    "pincode": "105887",
+    "mobile": "7496068382",
+    "quality": {
+      "aadhaar_number": "corrected",
+      "aadhaar_source": "fixed_digit_0_4->3",
+      "name": "ok",
+      "dob": "full",
+      "gender": "ok",
+      "address_nominee": "ok",
+      "address_pincode": "before_mobile",
+      "address_mobile": "ok"
+    },
+    "confidence": {
+      "photo_area": 0.954,
+      "address_block": 0.952,
+      "aadhaar_area": 0.833,
+      "nominee": 0.75,
+      "mobile": 0.47,
+      "pincode": 0.466
+    }
+  },
+  {
+    "image": "pvc_0009.jpg",
+    "format": "pvc",
+    "aadhaar_number": "6735 9576 4035",
+    "name": "Hemal Manne",
+    "dob": "05/03/1989",
+    "gender": "Male",
+    "address": "80/65,lyer Ganj Kadapa Howrah Karnataka",
+    "nominee": "C/O: Qarin",
+    "pincode": "746564",
+    "mobile": "9567043846",
+    "quality": {
+      "aadhaar_number": "computed_checksum",
+      "aadhaar_source": "paddle_5x_faint",
+      "name": "ok",
+      "dob": "full",
+      "gender": "ok",
+      "address_nominee": "ok",
+      "address_pincode": "before_mobile",
+      "address_mobile": "ok"
+    },
+    "confidence": {
+      "photo_area": 0.95,
+      "address_block": 0.948,
+      "aadhaar_area": 0.825,
+      "nominee": 0.844,
+      "pincode": 0.615,
+      "mobile": 0.613
+    }
+  },
+  {
+    "image": "pvc_0011.jpg",
+    "format": "pvc",
+    "aadhaar_number": "7507 2517 8637",
+    "name": "Brijesh Tandon",
+    "dob": "30/03/1941",
+    "gender": "Male",
+    "address": "56/362,Patil Nagar Rajasthan",
+    "nominee": "D/O: Aadhya",
+    "pincode": "313198",
+    "mobile": "7265504351",
+    "quality": {
+      "aadhaar_number": "corrected",
+      "aadhaar_source": "fixed_digit_0_8->7",
+      "name": "ok",
+      "dob": "full",
+      "gender": "ok",
+      "address_nominee": "ok",
+      "address_pincode": "before_mobile",
+      "address_mobile": "ok"
+    },
+    "confidence": {
+      "photo_area": 0.956,
+      "address_block": 0.955,
+      "aadhaar_area": 0.834,
+      "nominee": 0.68,
+      "pincode": 0.506,
+      "mobile": 0.363
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0375",
+  "data": {
+    "name": "Aradhana Sane",
+    "nominee": "W/O: Lavanya",
+    "address_lines": [
+      "H.No. 04, Gokhale Road",
+      "Bally, Eluru",
+      "Rajasthan - 797385"
+    ],
+    "pincode": "797385",
+    "mobile": "7482283477",
+    "aadhaar": "5107 6209 1843",
+    "dob": "22/12/1973",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

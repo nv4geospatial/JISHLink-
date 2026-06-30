@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0393",
+  "data": {
+    "name": "Zaid Suresh",
+    "nominee": "W/O: Adya",
+    "address_lines": [
+      "77/94, Sengupta Zila",
+      "Odisha - 777051"
+    ],
+    "pincode": "777051",
+    "mobile": "8207029277",
+    "aadhaar": "1890 0346 8616",
+    "dob": "06/02/1970",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      378
+    ],
+    "back_pincode": [
+      115,
+      399,
+      159,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      138,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

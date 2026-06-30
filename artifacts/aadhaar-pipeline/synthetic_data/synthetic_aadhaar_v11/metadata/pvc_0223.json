@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0223",
+  "data": {
+    "name": "Barkha Deep",
+    "nominee": "D/O: Chanchal",
+    "address_lines": [
+      "93/20, Lall Marg",
+      "Delhi, Jabalpur",
+      "Odisha - 714812"
+    ],
+    "pincode": "714812",
+    "mobile": "7353855386",
+    "aadhaar": "2155 1305 5708",
+    "dob": "09/02/1987",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      155,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

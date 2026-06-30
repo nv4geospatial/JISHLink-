@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0488",
+  "data": {
+    "name": "Harinakshi Zachariah",
+    "nominee": "D/O: Vaishnavi",
+    "address_lines": [
+      "18/13, Bera",
+      "Dehradun, Aurangabad",
+      "Jharkhand - 607236"
+    ],
+    "pincode": "607236",
+    "mobile": "8745381960",
+    "aadhaar": "6304 4836 0854",
+    "dob": "31/03/2013",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

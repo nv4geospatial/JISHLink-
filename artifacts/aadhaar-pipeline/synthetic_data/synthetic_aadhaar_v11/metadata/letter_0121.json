@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0121",
+  "data": {
+    "name": "Farhan Pal",
+    "nominee": "C/O: Timothy",
+    "address_lines": [
+      "42/19, Khatri",
+      "Nangloi Jat, Panihati",
+      "Odisha - 186431"
+    ],
+    "pincode": "186431",
+    "mobile": "9263939376",
+    "aadhaar": "4141 8328 5691",
+    "dob": "02/12/1958",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0345",
+  "data": {
+    "name": "Anya Krishnan",
+    "nominee": "C/O: Akshay",
+    "address_lines": [
+      "74/845, Trivedi Ganj",
+      "Chinsurah, Tenali",
+      "Jharkhand - 151887"
+    ],
+    "pincode": "151887",
+    "mobile": "8844732251",
+    "aadhaar": "0392 5199 9452",
+    "dob": "29/05/2012",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      378
+    ],
+    "back_pincode": [
+      133,
+      414,
+      177,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

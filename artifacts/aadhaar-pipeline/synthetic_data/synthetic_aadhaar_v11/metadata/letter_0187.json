@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0187",
+  "data": {
+    "name": "Xavier Shetty",
+    "nominee": "W/O: Xiti",
+    "address_lines": [
+      "850, Agarwal Path",
+      "Saharanpur, Alappuzha",
+      "Andhra Pradesh - 677321"
+    ],
+    "pincode": "677321",
+    "mobile": "9155891270",
+    "aadhaar": "2601 2796 1143",
+    "dob": "04/03/1998",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

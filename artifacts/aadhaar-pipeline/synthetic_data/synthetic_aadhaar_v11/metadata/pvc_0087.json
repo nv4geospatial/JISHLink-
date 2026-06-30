@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0087",
+  "data": {
+    "name": "Megha Sama",
+    "nominee": "S/O: Noah",
+    "address_lines": [
+      "H.No. 678, Datta Chowk",
+      "Nanded, Nangloi Jat",
+      "Bihar - 141291"
+    ],
+    "pincode": "141291",
+    "mobile": "8507345169",
+    "aadhaar": "7209 5799 2707",
+    "dob": "08/03/1965",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      132,
+      376
+    ],
+    "back_pincode": [
+      105,
+      412,
+      149,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

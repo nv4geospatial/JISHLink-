@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0257",
+  "data": {
+    "name": "Raksha Raj",
+    "nominee": "D/O: Amruta",
+    "address_lines": [
+      "42/45, Dhaliwal Nagar",
+      "Uttar Pradesh - 246740"
+    ],
+    "pincode": "246740",
+    "mobile": "9736670305",
+    "aadhaar": "XXXX XXXX 7005",
+    "dob": "09/11/1949",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

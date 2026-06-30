@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0037",
+  "data": {
+    "name": "Tripti Dua",
+    "nominee": "D/O: Hema",
+    "address_lines": [
+      "94/531, Seshadri Road",
+      "Andhra Pradesh - 626690"
+    ],
+    "pincode": "626690",
+    "mobile": "7572775194",
+    "aadhaar": "1870 2621 7459",
+    "dob": "10/01/1959",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

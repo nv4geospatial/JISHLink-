@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0489",
+  "data": {
+    "name": "Ranbir Soni",
+    "nominee": "C/O: Zayan",
+    "address_lines": [
+      "397, Walla Zila",
+      "Jamshedpur, Surat",
+      "Tamil Nadu - 329583"
+    ],
+    "pincode": "329583",
+    "mobile": "7431260784",
+    "aadhaar": "7639 2831 9952",
+    "dob": "12/08/1986",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

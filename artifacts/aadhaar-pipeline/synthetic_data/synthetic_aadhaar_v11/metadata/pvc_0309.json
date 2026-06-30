@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0309",
+  "data": {
+    "name": "Abeer Ramakrishnan",
+    "nominee": "S/O: Aditya",
+    "address_lines": [
+      "H.No. 39, Walia Path",
+      "Kamarhati, Purnia",
+      "Andhra Pradesh - 789978"
+    ],
+    "pincode": "789978",
+    "mobile": "8383113206",
+    "aadhaar": "3385 3247 2505",
+    "dob": "1975",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      378
+    ],
+    "back_pincode": [
+      162,
+      414,
+      206,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

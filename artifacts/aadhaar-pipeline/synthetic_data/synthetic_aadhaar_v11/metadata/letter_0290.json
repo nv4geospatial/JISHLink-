@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0290",
+  "data": {
+    "name": "Diya Sur",
+    "nominee": "S/O: Mason",
+    "address_lines": [
+      "20/347, Sengupta Zila",
+      "Andhra Pradesh - 129514"
+    ],
+    "pincode": "129514",
+    "mobile": "8474603593",
+    "aadhaar": "9056 1655 6503",
+    "dob": "30/01/1997",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

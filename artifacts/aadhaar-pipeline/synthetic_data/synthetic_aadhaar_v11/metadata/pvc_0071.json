@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0071",
+  "data": {
+    "name": "Bakhshi Chad",
+    "nominee": "W/O: Yashica",
+    "address_lines": [
+      "408, Walla Road",
+      "Maharashtra - 405587"
+    ],
+    "pincode": "405587",
+    "mobile": "7733621841",
+    "aadhaar": "8217 3929 5786",
+    "dob": "22/04/1974",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      376
+    ],
+    "back_pincode": [
+      142,
+      397,
+      186,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

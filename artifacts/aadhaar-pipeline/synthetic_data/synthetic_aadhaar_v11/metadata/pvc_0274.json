@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0274",
+  "data": {
+    "name": "Eesha Chatterjee",
+    "nominee": "S/O: Indrajit",
+    "address_lines": [
+      "49/79, Narasimhan Marg",
+      "Haryana - 147510"
+    ],
+    "pincode": "147510",
+    "mobile": "9740880521",
+    "aadhaar": "8761 0814 3561",
+    "dob": "23/08/1981",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      379
+    ],
+    "back_pincode": [
+      120,
+      400,
+      164,
+      412
+    ],
+    "back_mobile": [
+      70,
+      421,
+      138,
+      433
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

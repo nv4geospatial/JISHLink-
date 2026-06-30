@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0047",
+  "data": {
+    "name": "Darika Bobal",
+    "nominee": "C/O: Samarth",
+    "address_lines": [
+      "645, Suresh Circle",
+      "Rajasthan - 265132"
+    ],
+    "pincode": "265132",
+    "mobile": "9262543572",
+    "aadhaar": "2512 0734 6549",
+    "dob": "01/10/1988",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      149,
+      376
+    ],
+    "back_pincode": [
+      130,
+      397,
+      174,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

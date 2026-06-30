@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0019",
+  "data": {
+    "name": "Rachana Rege",
+    "nominee": "C/O: Qarin",
+    "address_lines": [
+      "734, Parmer Zila",
+      "Odisha - 290065"
+    ],
+    "pincode": "290065",
+    "mobile": "7537209194",
+    "aadhaar": "XXXX XXXX 5133",
+    "dob": "02/01/2009",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      134,
+      378
+    ],
+    "back_pincode": [
+      115,
+      399,
+      159,
+      411
+    ],
+    "back_mobile": [
+      70,
+      420,
+      139,
+      432
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0034",
+  "data": {
+    "name": "Advay Mahajan",
+    "nominee": "W/O: Urvi",
+    "address_lines": [
+      "08, Ramakrishnan Zila",
+      "Madhya Pradesh - 776624"
+    ],
+    "pincode": "776624",
+    "mobile": "9367385338",
+    "aadhaar": "5488 4712 7058",
+    "dob": "16/12/1992",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      128,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      209,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

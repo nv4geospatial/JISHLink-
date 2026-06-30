@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0406",
+  "data": {
+    "name": "Jackson Morar",
+    "nominee": "D/O: Suhani",
+    "address_lines": [
+      "39/83, Hayre Road",
+      "West Bengal - 563664"
+    ],
+    "pincode": "563664",
+    "mobile": "7724556746",
+    "aadhaar": "6273 6527 1727",
+    "dob": "16/03/1942",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

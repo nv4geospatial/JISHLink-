@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0104",
+  "data": {
+    "name": "Ekaja Palan",
+    "nominee": "D/O: Mohini",
+    "address_lines": [
+      "H.No. 323, Bal Chowk",
+      "Akola, Danapur",
+      "Tamil Nadu - 415029"
+    ],
+    "pincode": "415029",
+    "mobile": "9315662642",
+    "aadhaar": "7526 5479 3564",
+    "dob": "1967",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

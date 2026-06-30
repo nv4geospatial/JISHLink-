@@ -1,0 +1,11 @@
+{
+  "model": "yolov8n",
+  "epochs": 150,
+  "best_model_drive": "/content/drive/MyDrive/Aadhaar_ML_Pipeline/models/stage2/best.pt",
+  "classes": [
+    "nominee",
+    "pincode",
+    "mobile",
+    "address"
+  ]
+}

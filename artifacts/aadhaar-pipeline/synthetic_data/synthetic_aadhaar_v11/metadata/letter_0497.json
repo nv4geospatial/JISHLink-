@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0497",
+  "data": {
+    "name": "Eesha Oommen",
+    "nominee": "W/O: Varsha",
+    "address_lines": [
+      "50/20, Soni",
+      "Andhra Pradesh - 644609"
+    ],
+    "pincode": "644609",
+    "mobile": "8326148417",
+    "aadhaar": "5228 7056 2271",
+    "dob": "1940",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

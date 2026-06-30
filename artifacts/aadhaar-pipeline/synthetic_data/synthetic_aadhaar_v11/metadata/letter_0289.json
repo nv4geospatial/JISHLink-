@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0289",
+  "data": {
+    "name": "Veer Chaudhry",
+    "nominee": "D/O: Kamya",
+    "address_lines": [
+      "H.No. 267, Varughese Street",
+      "Rajasthan - 615353"
+    ],
+    "pincode": "615353",
+    "mobile": "9517771996",
+    "aadhaar": "XXXX XXXX 7828",
+    "dob": "27/01/1981",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

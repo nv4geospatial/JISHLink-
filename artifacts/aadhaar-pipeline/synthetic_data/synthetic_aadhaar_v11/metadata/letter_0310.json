@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0310",
+  "data": {
+    "name": "Widisha Dube",
+    "nominee": "C/O: Lohit",
+    "address_lines": [
+      "10/22, Jaggi Nagar",
+      "Alappuzha, Bhubaneswar",
+      "Telangana - 553360"
+    ],
+    "pincode": "553360",
+    "mobile": "8835472281",
+    "aadhaar": "9251 5837 7674",
+    "dob": "17/08/1948",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

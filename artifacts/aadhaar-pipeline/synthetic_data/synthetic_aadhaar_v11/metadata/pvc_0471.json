@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0471",
+  "data": {
+    "name": "Yashodhara Mohan",
+    "nominee": "D/O: Suhani",
+    "address_lines": [
+      "22, Buch Nagar",
+      "Andhra Pradesh - 527632"
+    ],
+    "pincode": "527632",
+    "mobile": "7267729318",
+    "aadhaar": "3753 0284 9760",
+    "dob": "1944",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      376
+    ],
+    "back_pincode": [
+      162,
+      397,
+      206,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

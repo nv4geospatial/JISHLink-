@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0105",
+  "data": {
+    "name": "Agastya Bassi",
+    "nominee": "S/O: Dominic",
+    "address_lines": [
+      "H.No. 185, Jain Zila",
+      "Gwalior, Asansol",
+      "Odisha - 155032"
+    ],
+    "pincode": "155032",
+    "mobile": "7613992947",
+    "aadhaar": "0033 2285 5660",
+    "dob": "1951",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      148,
+      376
+    ],
+    "back_pincode": [
+      115,
+      412,
+      159,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0248",
+  "data": {
+    "name": "Zehaan Mahal",
+    "nominee": "D/O: Amruta",
+    "address_lines": [
+      "H.No. 509, Goel Street",
+      "Pallavaram, Bhalswa Jahangir Pur",
+      "Jharkhand - 551712"
+    ],
+    "pincode": "551712",
+    "mobile": "9249858482",
+    "aadhaar": "0370 8782 1160",
+    "dob": "06/09/2006",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      145,
+      376
+    ],
+    "back_pincode": [
+      133,
+      412,
+      177,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+# Core - Python 3.14 compatible (latest versions)
+numpy>=2.0.0
+opencv-python>=4.10.0
+Pillow>=10.4.0
+
+# OCR - CPU only
+paddleocr>=2.9.1
+paddlepaddle>=3.0.0
+
+# ML - CPU only
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.12.1+cpu
+torchvision==0.27.1+cpu
+ultralytics>=8.3.0
+
+# Utils
+matplotlib>=3.9.0
+tqdm>=4.66.0
+requests>=2.32.0
+python-dotenv>=1.0.0
+
+# API
+fastapi>=0.115.0
+uvicorn>=0.32.0
+python-multipart>=0.0.17
+
+# Optional Tesseract fallback
+pytesseract>=0.3.13

@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0419",
+  "data": {
+    "name": "Advaith Mital",
+    "nominee": "S/O: Onveer",
+    "address_lines": [
+      "97/99, Swamy Nagar",
+      "Madhya Pradesh - 631970"
+    ],
+    "pincode": "631970",
+    "mobile": "9405904044",
+    "aadhaar": "7855 0113 7535",
+    "dob": "29/09/2014",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      143,
+      376
+    ],
+    "back_pincode": [
+      164,
+      397,
+      208,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      139,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0266",
+  "data": {
+    "name": "Kritika Pau",
+    "nominee": "S/O: Balvan",
+    "address_lines": [
+      "H.No. 57, Ahuja Chowk",
+      "Gandhinagar, Hazaribagh",
+      "Gujarat - 546376"
+    ],
+    "pincode": "546376",
+    "mobile": "9981854842",
+    "aadhaar": "1773 1806 3254",
+    "dob": "19/08/1978",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

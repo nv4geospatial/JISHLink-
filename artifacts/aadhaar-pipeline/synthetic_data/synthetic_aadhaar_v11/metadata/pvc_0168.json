@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0168",
+  "data": {
+    "name": "Ansh Divan",
+    "nominee": "C/O: Samesh",
+    "address_lines": [
+      "965, Chakraborty Ganj",
+      "Ajmer, Mehsana",
+      "West Bengal - 795331"
+    ],
+    "pincode": "795331",
+    "mobile": "7322029909",
+    "aadhaar": "6533 7746 0406",
+    "dob": "1955",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      147,
+      376
+    ],
+    "back_pincode": [
+      143,
+      412,
+      187,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0214",
+  "data": {
+    "name": "Elijah Deo",
+    "nominee": "D/O: Udyati",
+    "address_lines": [
+      "H.No. 59, Chokshi",
+      "Rewa, Durg",
+      "Gujarat - 435666"
+    ],
+    "pincode": "435666",
+    "mobile": "8905053486",
+    "aadhaar": "0858 0623 5040",
+    "dob": "18/01/2016",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      378
+    ],
+    "back_pincode": [
+      116,
+      414,
+      160,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      138,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

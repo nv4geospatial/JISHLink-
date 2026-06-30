@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0203",
+  "data": {
+    "name": "Alka Kadakia",
+    "nominee": "D/O: Bhavna",
+    "address_lines": [
+      "62, Tailor Marg",
+      "Telangana - 559713"
+    ],
+    "pincode": "559713",
+    "mobile": "7261795387",
+    "aadhaar": "0735 6475 7051",
+    "dob": "05/07/2007",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

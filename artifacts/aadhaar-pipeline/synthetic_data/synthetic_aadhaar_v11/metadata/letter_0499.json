@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0499",
+  "data": {
+    "name": "Abhiram Dash",
+    "nominee": "D/O: Reva",
+    "address_lines": [
+      "53/194, Kaur Ganj",
+      "Andhra Pradesh - 375710"
+    ],
+    "pincode": "375710",
+    "mobile": "9730626895",
+    "aadhaar": "6599 9497 3203",
+    "dob": "25/12/2014",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

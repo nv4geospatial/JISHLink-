@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0444",
+  "data": {
+    "name": "Yashica Rama",
+    "nominee": "C/O: Timothy",
+    "address_lines": [
+      "633, Pandit Path",
+      "Serampore, Solapur",
+      "West Bengal - 490465"
+    ],
+    "pincode": "490465",
+    "mobile": "7554785704",
+    "aadhaar": "4752 8646 1209",
+    "dob": "13/04/1971",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      150,
+      378
+    ],
+    "back_pincode": [
+      143,
+      414,
+      187,
+      426
+    ],
+    "back_mobile": [
+      70,
+      435,
+      139,
+      447
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

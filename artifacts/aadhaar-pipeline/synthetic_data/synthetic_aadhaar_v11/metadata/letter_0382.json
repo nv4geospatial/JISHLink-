@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0382",
+  "data": {
+    "name": "Lohit Suresh",
+    "nominee": "S/O: Aditya",
+    "address_lines": [
+      "H.No. 204, Shan Zila",
+      "Tadipatri, Latur",
+      "Karnataka - 418844"
+    ],
+    "pincode": "418844",
+    "mobile": "9247704952",
+    "aadhaar": "7742 3330 5912",
+    "dob": "12/12/1986",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

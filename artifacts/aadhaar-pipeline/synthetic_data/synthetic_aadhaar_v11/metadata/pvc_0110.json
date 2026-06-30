@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0110",
+  "data": {
+    "name": "Manthan Din",
+    "nominee": "W/O: Falak",
+    "address_lines": [
+      "42/152, Rajan Street",
+      "Haryana - 136692"
+    ],
+    "pincode": "136692",
+    "mobile": "7382099523",
+    "aadhaar": "7310 7201 1379",
+    "dob": "1967",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      120,
+      397,
+      164,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

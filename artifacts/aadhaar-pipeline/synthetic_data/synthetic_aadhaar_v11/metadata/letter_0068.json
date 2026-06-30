@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0068",
+  "data": {
+    "name": "Manbir Agate",
+    "nominee": "D/O: Eta",
+    "address_lines": [
+      "H.No. 539, Babu Path",
+      "Akola, Indore",
+      "Bihar - 132653"
+    ],
+    "pincode": "132653",
+    "mobile": "9938927341",
+    "aadhaar": "7021 3556 9092",
+    "dob": "25/09/1953",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

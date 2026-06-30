@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0207",
+  "data": {
+    "name": "Varsha Iyengar",
+    "nominee": "W/O: Amara",
+    "address_lines": [
+      "H.No. 67, Lanka Chowk",
+      "Jalna, Bhalswa Jahangir Pur",
+      "Telangana - 669097"
+    ],
+    "pincode": "669097",
+    "mobile": "9300388921",
+    "aadhaar": "8557 4982 1827",
+    "dob": "1947",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

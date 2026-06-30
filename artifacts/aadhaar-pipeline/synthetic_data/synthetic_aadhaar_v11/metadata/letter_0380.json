@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0380",
+  "data": {
+    "name": "Jagrati Sur",
+    "nominee": "D/O: Urvashi",
+    "address_lines": [
+      "61, Morar Circle",
+      "Jharkhand - 411242"
+    ],
+    "pincode": "411242",
+    "mobile": "9589394917",
+    "aadhaar": "2942 0954 8149",
+    "dob": "20/06/1978",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

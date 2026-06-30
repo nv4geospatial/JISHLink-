@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0282",
+  "data": {
+    "name": "Ayaan Subramaniam",
+    "nominee": "S/O: Dalbir",
+    "address_lines": [
+      "H.No. 65, Wason Circle",
+      "Jabalpur, Muzaffarnagar",
+      "Kerala - 119719"
+    ],
+    "pincode": "119719",
+    "mobile": "8145652216",
+    "aadhaar": "3108 9071 4014",
+    "dob": "25/03/1941",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

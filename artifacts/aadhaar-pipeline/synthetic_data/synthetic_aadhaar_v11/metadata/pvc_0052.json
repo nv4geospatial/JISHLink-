@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0052",
+  "data": {
+    "name": "Simon Grewal",
+    "nominee": "C/O: Harish",
+    "address_lines": [
+      "91, Buch Street",
+      "South Dumdum, Rampur",
+      "Maharashtra - 795466"
+    ],
+    "pincode": "795466",
+    "mobile": "8919554196",
+    "aadhaar": "XXXX XXXX 1371",
+    "dob": "08/10/1962",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      139,
+      376
+    ],
+    "back_pincode": [
+      142,
+      412,
+      186,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

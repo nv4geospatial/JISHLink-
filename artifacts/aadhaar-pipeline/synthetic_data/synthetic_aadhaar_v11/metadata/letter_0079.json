@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0079",
+  "data": {
+    "name": "Brijesh Sarin",
+    "nominee": "C/O: Aditya",
+    "address_lines": [
+      "66/41, Bail Marg",
+      "Solapur, Ramgarh",
+      "Jharkhand - 254954"
+    ],
+    "pincode": "254954",
+    "mobile": "7714792641",
+    "aadhaar": "1307 5626 3689",
+    "dob": "03/12/2013",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

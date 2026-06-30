@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0088",
+  "data": {
+    "name": "Harrison Tripathi",
+    "nominee": "D/O: Pahal",
+    "address_lines": [
+      "70/653, Mane Chowk",
+      "Maharashtra - 706403"
+    ],
+    "pincode": "706403",
+    "mobile": "8852032540",
+    "aadhaar": "1801 7046 2265",
+    "dob": "03/09/1997",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

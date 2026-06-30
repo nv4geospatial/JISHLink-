@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0043",
+  "data": {
+    "name": "Farhan Sandhu",
+    "nominee": "W/O: Nimrat",
+    "address_lines": [
+      "H.No. 49, Jaggi Chowk",
+      "Sambalpur, Belgaum",
+      "Karnataka - 658224"
+    ],
+    "pincode": "658224",
+    "mobile": "7926703710",
+    "aadhaar": "9592 3234 2108",
+    "dob": "25/02/1961",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      376
+    ],
+    "back_pincode": [
+      130,
+      412,
+      175,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

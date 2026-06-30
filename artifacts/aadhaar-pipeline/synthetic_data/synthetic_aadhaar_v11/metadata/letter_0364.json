@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0364",
+  "data": {
+    "name": "Suhani Upadhyay",
+    "nominee": "D/O: Varenya",
+    "address_lines": [
+      "73/84, Peri Marg",
+      "Kamarhati, Khandwa",
+      "Maharashtra - 364178"
+    ],
+    "pincode": "364178",
+    "mobile": "9847662934",
+    "aadhaar": "6252 5715 0997",
+    "dob": "13/01/1943",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

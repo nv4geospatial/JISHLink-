@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0211",
+  "data": {
+    "name": "Jack Khosla",
+    "nominee": "S/O: Tristan",
+    "address_lines": [
+      "H.No. 79, Sen Ganj",
+      "Mirzapur, Nagercoil",
+      "Andhra Pradesh - 684608"
+    ],
+    "pincode": "684608",
+    "mobile": "9388318451",
+    "aadhaar": "3699 8480 2205",
+    "dob": "02/04/2000",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      141,
+      376
+    ],
+    "back_pincode": [
+      162,
+      412,
+      206,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

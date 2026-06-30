@@ -1,0 +1,15 @@
+{
+  "synthetic_count": 1000,
+  "real_count": 59,
+  "total": 1059,
+  "template_sizes": {
+    "letter": [
+      576,
+      640
+    ],
+    "pvc": [
+      238,
+      248
+    ]
+  }
+}

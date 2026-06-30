@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0475",
+  "data": {
+    "name": "Urvi Om",
+    "nominee": "S/O: Luke",
+    "address_lines": [
+      "H.No. 32, Sama Circle",
+      "West Bengal - 729752"
+    ],
+    "pincode": "729752",
+    "mobile": "7644320464",
+    "aadhaar": "7181 3359 5616",
+    "dob": "27/04/2000",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

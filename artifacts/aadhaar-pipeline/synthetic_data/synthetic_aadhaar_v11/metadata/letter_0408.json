@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0408",
+  "data": {
+    "name": "Indali Morar",
+    "nominee": "D/O: Chameli",
+    "address_lines": [
+      "66/299, Dhawan Zila",
+      "Andhra Pradesh - 757860"
+    ],
+    "pincode": "757860",
+    "mobile": "7950039201",
+    "aadhaar": "1851 3279 7245",
+    "dob": "1956",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

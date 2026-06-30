@@ -1,0 +1,12 @@
+{
+  "model": "yolov8s",
+  "epochs": 100,
+  "best_model": "/content/runs/stage1/train/weights/best.pt",
+  "last_model": "/content/runs/stage1/train/weights/last.pt",
+  "classes": [
+    "address_block",
+    "aadhaar_area",
+    "photo_dob_gender_area",
+    "header"
+  ]
+}

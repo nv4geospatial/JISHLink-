@@ -1,0 +1,54 @@
+{
+  "image_id": "pvc_0094",
+  "data": {
+    "name": "Vyanjana Patla",
+    "nominee": "W/O: Nidra",
+    "address_lines": [
+      "59/895, Majumdar Ganj",
+      "Kerala - 395120"
+    ],
+    "pincode": "395120",
+    "mobile": "7167412709",
+    "aadhaar": "7509 6170 1595",
+    "dob": "15/06/1956",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      136,
+      376
+    ],
+    "back_pincode": [
+      110,
+      397,
+      154,
+      409
+    ],
+    "back_mobile": [
+      70,
+      418,
+      138,
+      430
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

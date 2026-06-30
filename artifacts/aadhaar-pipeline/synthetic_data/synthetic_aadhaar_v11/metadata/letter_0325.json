@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0325",
+  "data": {
+    "name": "Abhiram Bhavsar",
+    "nominee": "D/O: Lopa",
+    "address_lines": [
+      "81, Sundaram Path",
+      "Madhya Pradesh - 467355"
+    ],
+    "pincode": "467355",
+    "mobile": "9715002525",
+    "aadhaar": "XXXX XXXX 3571",
+    "dob": "14/05/2006",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

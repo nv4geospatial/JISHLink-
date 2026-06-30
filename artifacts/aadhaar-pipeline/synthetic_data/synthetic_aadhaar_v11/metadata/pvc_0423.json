@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0423",
+  "data": {
+    "name": "Anvi Rama",
+    "nominee": "D/O: Lajita",
+    "address_lines": [
+      "H.No. 495, Choudhary Marg",
+      "Akola, Durg",
+      "Jharkhand - 706144"
+    ],
+    "pincode": "706144",
+    "mobile": "8848378142",
+    "aadhaar": "2150 1642 6107",
+    "dob": "09/09/1992",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      135,
+      379
+    ],
+    "back_pincode": [
+      133,
+      415,
+      178,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

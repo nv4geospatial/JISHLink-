@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0200",
+  "data": {
+    "name": "Lavanya Rajagopalan",
+    "nominee": "C/O: Tristan",
+    "address_lines": [
+      "68/040, Pall Circle",
+      "Rajahmundry, Nadiad",
+      "Uttar Pradesh - 457920"
+    ],
+    "pincode": "457920",
+    "mobile": "7536187136",
+    "aadhaar": "9582 6418 6965",
+    "dob": "21/09/2011",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      142,
+      376
+    ],
+    "back_pincode": [
+      149,
+      412,
+      193,
+      424
+    ],
+    "back_mobile": [
+      70,
+      433,
+      138,
+      445
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

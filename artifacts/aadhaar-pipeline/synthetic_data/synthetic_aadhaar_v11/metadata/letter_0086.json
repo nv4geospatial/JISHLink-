@@ -1,0 +1,37 @@
+{
+  "image_id": "letter_0086",
+  "data": {
+    "name": "Mason Nath",
+    "nominee": "C/O: Banjeet",
+    "address_lines": [
+      "14/86, Datta Path",
+      "Etawah, Katni",
+      "Karnataka - 260626"
+    ],
+    "pincode": "260626",
+    "mobile": "9501176618",
+    "aadhaar": "XXXX XXXX 8785",
+    "dob": "03/06/1991",
+    "gender": "MALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}

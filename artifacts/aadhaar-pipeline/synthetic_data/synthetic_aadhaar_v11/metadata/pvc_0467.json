@@ -1,0 +1,55 @@
+{
+  "image_id": "pvc_0467",
+  "data": {
+    "name": "Nitesh Nayar",
+    "nominee": "S/O: Fariq",
+    "address_lines": [
+      "H.No. 102, Sangha Circle",
+      "Guntakal, Gwalior",
+      "Rajasthan - 207957"
+    ],
+    "pincode": "207957",
+    "mobile": "8929356891",
+    "aadhaar": "9281 5037 0170",
+    "dob": "07/12/1977",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "front_aadhaar": [
+      76,
+      204,
+      532,
+      220
+    ],
+    "back_address_block": [
+      60,
+      356,
+      584,
+      498
+    ],
+    "back_nominee": [
+      70,
+      364,
+      131,
+      379
+    ],
+    "back_pincode": [
+      130,
+      415,
+      174,
+      427
+    ],
+    "back_mobile": [
+      70,
+      436,
+      138,
+      448
+    ],
+    "back_aadhaar": [
+      91,
+      536,
+      517,
+      574
+    ]
+  }
+}

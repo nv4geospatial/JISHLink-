@@ -1,0 +1,36 @@
+{
+  "image_id": "letter_0155",
+  "data": {
+    "name": "Mitali Nagar",
+    "nominee": "S/O: Madhav",
+    "address_lines": [
+      "H.No. 65, Iyengar Zila",
+      "Jharkhand - 785315"
+    ],
+    "pincode": "785315",
+    "mobile": "9224328383",
+    "aadhaar": "6761 8472 3046",
+    "dob": "02/07/1985",
+    "gender": "FEMALE"
+  },
+  "boxes": {
+    "address_block": [
+      38,
+      384,
+      445,
+      729
+    ],
+    "aadhaar_middle": [
+      38,
+      832,
+      463,
+      883
+    ],
+    "aadhaar_bottom": [
+      57,
+      1190,
+      494,
+      1241
+    ]
+  }
+}
