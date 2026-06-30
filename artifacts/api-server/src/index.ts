@@ -1,7 +1,6 @@
 import app from "./app";
 import { logger } from "./lib/logger";
 import 'dotenv/config';
-import { ocrRouter } from "./routes/ocr";
 
 const rawPort = process.env["PORT"];
 
