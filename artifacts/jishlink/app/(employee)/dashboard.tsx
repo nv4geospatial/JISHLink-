@@ -249,6 +249,18 @@ export default function EmployeeDashboard() {
           </TouchableOpacity>
         )}
 
+        {/* QR Settings button */}
+        <TouchableOpacity
+          onPress={() => router.push("/(employee)/qr-settings")}
+          style={[styles.scannerBtn, { backgroundColor: c.white, borderWidth: 1, borderColor: c.border }]}
+        >
+          <Feather name="grid" size={24} color={c.navy} />
+          <Text style={[styles.scannerBtnText, { color: c.navy, fontFamily: "Poppins_700Bold" }]}>
+            QR Settings
+          </Text>
+          <Feather name="chevron-right" size={20} color={c.navy} />
+        </TouchableOpacity>
+
         {/* Scanner button */}
         <TouchableOpacity
           onPress={() => router.push("/(employee)/scanner")}
